@@ -1,0 +1,813 @@
+{
+  "examInfo": {
+    "title": "二等無人航空機操縦士 学科試験 模擬問題 - 03章 無人航空機に関する規則",
+    "version": "3.0",
+    "baseDocument": "無人航空機の飛行の安全に関する教則（令和7年2月1日 第4版）",
+    "chapter": "03_kisoku",
+    "totalQuestions": 50,
+    "timeLimit": 30,
+    "passingScore": 80
+  },
+  "questions": [
+    {
+      "id": 1,
+      "chapter": "03_kisoku",
+      "question": "航空法において「無人航空機」の定義として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "人が乗ることができないもので、遠隔操縦又は自動操縦により飛行させることができるもの",
+        "重量が100g以上のもので、リモコンで操縦できるもの",
+        "GPSを搭載した自動飛行可能な航空機"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第2条第22項において、無人航空機とは「人が乗ることができないもののうち、遠隔操縦又は自動操縦により飛行させることができるもの」と定義されています。重量100g以上という条件は登録対象の要件であり、定義そのものではありません。",
+      "reference": "教則3章 航空法第2条第22項",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 2,
+      "chapter": "03_kisoku",
+      "question": "無人航空機の飛行において、国土交通大臣の飛行の許可又は承認が必要な空域として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "人口集中地区の上空",
+        "海上の上空",
+        "私有地の上空"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第132条により、人口集中地区の上空での飛行には国土交通大臣の飛行の許可又は承認が必要です。海上や私有地であっても、人口集中地区内では許可が必要となります。",
+      "reference": "教則3章 航空法第132条",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 3,
+      "chapter": "03_kisoku",
+      "question": "空港等の周辺空域での無人航空機の飛行について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "空港から10km以内では一切飛行できない",
+        "管制圏では国土交通大臣の飛行の許可又は承認と管制機関への通報が必要",
+        "小型機しか使用できない空港では制限がない"
+      ],
+      "correctAnswer": 1,
+      "explanation": "（正答）b 空港等の周辺空域では、国土交通大臣の飛行の許可又は承認に加えて、管制機関への事前通報が必要です。空港の規模に関わらず制限があります。",
+      "reference": "教則3章 航空法第132条第1号",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 4,
+      "chapter": "03_kisoku",
+      "question": "無人航空機の飛行高度制限について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "地表又は水面から150m以上の高度での飛行には飛行の許可又は承認が必要",
+        "高度制限は人口集中地区でのみ適用される",
+        "海上では高度制限は適用されない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第132条第2号により、地表又は水面から150m以上の高度で無人航空機を飛行させる場合は、国土交通大臣の飛行の許可又は承認が必要です。この制限は場所を問わず適用されます。",
+      "reference": "教則3章 航空法第132条第2号",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 5,
+      "chapter": "03_kisoku",
+      "question": "夜間飛行を行う際の承認条件として、誤っているものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "機体の姿勢及び方向が正確に視認できる灯火を装備する",
+        "操縦者が夜間飛行の訓練を受けている",
+        "気象条件が良好である"
+      ],
+      "correctAnswer": 2,
+      "explanation": "（正答）c 夜間飛行の承認では、機体への灯火装備と操縦者の夜間飛行訓練が条件となります。気象条件は夜間飛行固有の承認条件ではありません。",
+      "reference": "教則3章 航空法第132条の2第1号",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 6,
+      "chapter": "03_kisoku",
+      "question": "目視外飛行に関する記述として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "補助者がいれば常に可能",
+        "国土交通大臣の飛行の許可又は承認が必要",
+        "GPSが搭載されていれば承認不要"
+      ],
+      "correctAnswer": 1,
+      "explanation": "（正答）b 目視外飛行は航空法第132条の2第2号に定められた飛行方法であり、国土交通大臣の飛行の許可又は承認が必要です。補助者の配置やGPS搭載だけでは承認なしに実施できません。",
+      "reference": "教則3章 航空法第132条の2第2号",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 7,
+      "chapter": "03_kisoku",
+      "question": "人又は物件から30m以内での飛行について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "操縦者や関係者以外の第三者から30m以内での飛行には飛行の許可又は承認が必要",
+        "建物から30m以内では一切飛行できない",
+        "人からの距離のみが規制対象"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第132条の2第3号により、人（操縦者や関係者を除く）又は物件から30m以内での飛行には国土交通大臣の飛行の許可又は承認が必要です。",
+      "reference": "教則3章 航空法第132条の2第3号",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 8,
+      "chapter": "03_kisoku",
+      "question": "催し場所上空での飛行について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "祭礼、縁日、展示会等の催し場所上空での飛行には飛行の許可又は承認が必要",
+        "屋外イベントでのみ承認が必要",
+        "参加者数が100人以下なら承認不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第132条の2第4号により、祭礼、縁日、展示会その他の多数の者の集合する催し場所の上空での飛行には国土交通大臣の飛行の許可又は承認が必要です。",
+      "reference": "教則3章 航空法第132条の2第4号",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 9,
+      "chapter": "03_kisoku",
+      "question": "危険物の輸送について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "毒物、劇物、火薬類等の危険物輸送には飛行の許可又は承認が必要",
+        "少量であれば承認は不要",
+        "密閉容器に入れれば承認不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第132条の2第5号により、爆発物その他人に危害を与え、又は他の物件を損傷するおそれがある物件の輸送には国土交通大臣の飛行の許可又は承認が必要です。",
+      "reference": "教則3章 航空法第132条の2第5号",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 10,
+      "chapter": "03_kisoku",
+      "question": "物件投下について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "無人航空機からの物件投下には飛行の許可又は承認が必要",
+        "重量が軽ければ承認不要",
+        "指定された場所でのみ可能"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第132条の2第6号により、無人航空機から物件を投下することは、国土交通大臣の飛行の許可又は承認が必要な飛行方法です。",
+      "reference": "教則3章 航空法第132条の2第6号",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 11,
+      "chapter": "03_kisoku",
+      "question": "アルコール又は薬物の影響に関する規定について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "飛行前8時間以内のアルコール摂取は禁止",
+        "正常な飛行ができないおそれがある間の飛行は禁止",
+        "薬物については制限がない"
+      ],
+      "correctAnswer": 1,
+      "explanation": "（正答）b 航空法第132条の3により、アルコール又は薬物の影響により正常な飛行ができないおそれがある間における飛行は禁止されています。",
+      "reference": "教則3章 航空法第132条の3",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 12,
+      "chapter": "03_kisoku",
+      "question": "飛行計画の通報について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "すべての無人航空機の飛行で通報が必要",
+        "特定の条件を満たす場合に国土交通大臣への通報が必要",
+        "民間空港周辺でのみ通報が必要"
+      ],
+      "correctAnswer": 1,
+      "explanation": "（正答）b 航空法第132条の4により、国土交通省令で定める場合には、あらかじめ、国土交通大臣にその旨を通報しなければなりません。",
+      "reference": "教則3章 航空法第132条の4",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 13,
+      "chapter": "03_kisoku",
+      "question": "無人航空機の登録について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "重量100g以上の無人航空機は登録が義務",
+        "商用利用の場合のみ登録が必要",
+        "登録の有効期間は5年間"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第132条の16により、重量が100g以上の無人航空機の所有者は、国土交通大臣の登録を受けなければなりません。",
+      "reference": "教則3章 航空法第132条の16",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 14,
+      "chapter": "03_kisoku",
+      "question": "登録記号の表示について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "機体の見やすい場所に耐久性のある方法で表示",
+        "操縦者が携帯していれば機体への表示は不要",
+        "リモートID機能があれば表示不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第132条の18により、登録を受けた無人航空機には、登録記号を見やすい場所に耐久性のある方法で表示しなければなりません。",
+      "reference": "教則3章 航空法第132条の18",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 15,
+      "chapter": "03_kisoku",
+      "question": "リモートID機能について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "100g以上の無人航空機に搭載が義務化",
+        "商用飛行でのみ搭載が必要",
+        "GPS機能があれば搭載不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第132条の19により、登録を受けた無人航空機（特定の場合を除く）には、リモートID機能を搭載しなければなりません。",
+      "reference": "教則3章 航空法第132条の19",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 16,
+      "chapter": "03_kisoku",
+      "question": "無人航空機操縦者技能証明について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "特定飛行を行う場合は無人航空機操縦者技能証明の取得が必要",
+        "趣味の飛行では無人航空機操縦者技能証明は不要",
+        "機体認証を受けていれば無人航空機操縦者技能証明は不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第132条の44により、特定飛行を行う場合には、国土交通大臣の無人航空機操縦者技能証明を受けた者でなければなりません（第三者の立入管理措置を講ずる場合等を除く）。",
+      "reference": "教則3章 航空法第132条の44",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 17,
+      "chapter": "03_kisoku",
+      "question": "機体認証について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "第一種機体認証はカテゴリーIII飛行で必要",
+        "第二種機体認証はすべての飛行で必要",
+        "認証を受けていない機体での飛行は一切禁止"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 第一種機体認証は、カテゴリーIII飛行（第三者上空での特定飛行）を行う場合に必要です。第二種機体認証は第三者の立入管理措置を講じない特定飛行で必要となります。",
+      "reference": "教則3章 機体認証制度",
+      "difficulty": "advanced",
+      "image": null
+    },
+    {
+      "id": 18,
+      "chapter": "03_kisoku",
+      "question": "運航管理要領について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "特定飛行を行う場合は作成・遵守が必要",
+        "無人航空機操縦者技能証明があれば作成不要",
+        "機体認証があれば作成不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第132条の58により、特定飛行を行う場合には、国土交通省令で定めるところにより運航管理要領を定め、これを遵守しなければなりません。",
+      "reference": "教則3章 航空法第132条の58",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 19,
+      "chapter": "03_kisoku",
+      "question": "飛行日誌について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "特定飛行を行った場合は記載・保存が義務",
+        "無人航空機操縦者技能証明保有者のみ記載義務がある",
+        "年間飛行時間が50時間以上の場合のみ必要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第132条の59により、特定飛行を行った場合には、飛行日誌に必要事項を記載し、これを保存しなければなりません。",
+      "reference": "教則3章 航空法第132条の59",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 20,
+      "chapter": "03_kisoku",
+      "question": "事故報告について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "死傷者が生じた場合や航空機に衝突した場合等は国土交通大臣への報告が必要",
+        "機体が破損した場合のみ報告が必要",
+        "第三者に被害を与えた場合のみ報告が必要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第132条の60により、無人航空機による事故が発生した場合には、国土交通大臣に報告しなければなりません。報告対象は死傷者の発生、航空機との衝突等です。",
+      "reference": "教則3章 航空法第132条の60",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 21,
+      "chapter": "03_kisoku",
+      "question": "カテゴリーI飛行について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "特定飛行に該当しない飛行",
+        "人口集中地区での飛行",
+        "目視外飛行"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a カテゴリーI飛行は、航空法上の特定飛行に該当しない飛行であり、飛行の許可又は承認が不要な飛行です。人口集中地区や目視外飛行は特定飛行に該当します。",
+      "reference": "教則3章 無人航空機の飛行形態",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 22,
+      "chapter": "03_kisoku",
+      "question": "カテゴリーII飛行について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "第三者の立入管理措置を講じた特定飛行",
+        "人口集中地区以外での飛行",
+        "目視内飛行のみ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a カテゴリーII飛行は、特定飛行のうち第三者の立入管理措置を講ずる場合等が該当します。",
+      "reference": "教則3章 無人航空機の飛行形態",
+      "difficulty": "advanced",
+      "image": null
+    },
+    {
+      "id": 23,
+      "chapter": "03_kisoku",
+      "question": "カテゴリーIII飛行について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "第三者上空での特定飛行",
+        "150m以上の高度での飛行",
+        "夜間飛行"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a カテゴリーIII飛行は、特定飛行のうち第三者上空を飛行するもので、最も厳格な安全基準が適用されます。",
+      "reference": "教則3章 無人航空機の飛行形態",
+      "difficulty": "advanced",
+      "image": null
+    },
+    {
+      "id": 24,
+      "chapter": "03_kisoku",
+      "question": "第三者の立入管理措置について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "第三者の立ち入りを制限する措置",
+        "機体の整備点検措置",
+        "操縦者の資格確認措置"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 第三者の立入管理措置とは、飛行経路下において第三者の立ち入りを制限する措置であり、カテゴリーII飛行において重要な要件となります。",
+      "reference": "教則3章 第三者の立入管理措置",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 25,
+      "chapter": "03_kisoku",
+      "question": "型式認証について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "同一設計の機体について一括して行う認証",
+        "個別機体ごとに行う認証",
+        "操縦者の技能に関する認証"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 型式認証は、同一の設計の無人航空機について、その型式が安全基準に適合することを認証するもので、同一型式の機体に適用されます。",
+      "reference": "教則3章 型式認証制度",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 26,
+      "chapter": "03_kisoku",
+      "question": "耐空証明について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "個別機体の安全性を証明するもの",
+        "操縦者の技能を証明するもの",
+        "飛行計画を承認するもの"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 耐空証明は、個々の無人航空機が安全基準に適合し、安全に飛行できることを証明するものです。",
+      "reference": "教則3章 耐空証明制度",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 27,
+      "chapter": "03_kisoku",
+      "question": "飛行情報共有システム（FISS）について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "無人航空機の飛行計画を他の運航者と共有するシステム",
+        "気象情報を提供するシステム",
+        "機体の位置情報を管制機関に送信するシステム"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a FISS（Flight Information Sharing System）は、無人航空機の飛行計画を他の運航者と共有し、安全な運航を支援するシステムです。",
+      "reference": "教則3章 飛行情報共有システム",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 28,
+      "chapter": "03_kisoku",
+      "question": "DIPS（ドローン情報基盤システム）について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "飛行の許可又は承認申請や各種手続きを行うオンラインシステム",
+        "無人航空機の販売情報を管理するシステム",
+        "気象情報を提供するシステム"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a DIPS（Drone Information Platform System）は、無人航空機に関する飛行の許可又は承認申請、登録申請等をオンラインで行うことができるシステムです。",
+      "reference": "教則3章 ドローン情報基盤システム",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 29,
+      "chapter": "03_kisoku",
+      "question": "無人航空機の飛行に関する罰則について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "航空法違反には50万円以下の罰金等が科される場合がある",
+        "罰則は行政処分のみで刑事罰はない",
+        "初回違反には罰則は適用されない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法第157条の10等により、無人航空機に関する規定に違反した場合には、50万円以下の罰金等の刑事罰が科される場合があります。",
+      "reference": "教則3章 航空法第157条の10",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 30,
+      "chapter": "03_kisoku",
+      "question": "小型無人機等飛行禁止法について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "重要施設周辺での小型無人機の飛行を禁止する法律",
+        "商用無人航空機の利用を制限する法律",
+        "夜間飛行を禁止する法律"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 小型無人機等飛行禁止法は、国会議事堂、内閣総理大臣官邸その他の重要施設の周辺地域の上空における小型無人機等の飛行を禁止する法律です。",
+      "reference": "教則3章 小型無人機等飛行禁止法",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 31,
+      "chapter": "03_kisoku",
+      "question": "電波法に関する無人航空機の規制について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "技適マークの付いていない無線設備の使用は違法",
+        "趣味利用では電波法の適用はない",
+        "国内で販売されている機体は電波法適合済み"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 電波法により、技術基準適合証明等のマーク（技適マーク）が付されていない無線設備を使用することは違法行為となります。",
+      "reference": "教則3章 電波法",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 32,
+      "chapter": "03_kisoku",
+      "question": "民法における無人航空機飛行について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "他人の土地の上空飛行には土地所有者の同意が必要な場合がある",
+        "公道上空は自由に飛行可能",
+        "民法の適用は商用利用時のみ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 民法第207条により、土地の所有権は法令の制限内において上下に及ぶため、他人の土地上空での飛行には所有者の同意が必要となる場合があります。",
+      "reference": "教則3章 民法",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 33,
+      "chapter": "03_kisoku",
+      "question": "条例による規制について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "地方自治体が独自に無人航空機の飛行を規制する場合がある",
+        "航空法があるため条例による規制はない",
+        "国立公園内では条例は適用されない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 地方自治体が条例により、公園、河川、観光地等での無人航空機の飛行を独自に規制している場合があり、これらの条例も遵守する必要があります。",
+      "reference": "教則3章 地方自治体の条例",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 34,
+      "chapter": "03_kisoku",
+      "question": "道路交通法における規制について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "道路での離着陸には道路使用許可が必要",
+        "道路上空の飛行は一切禁止",
+        "歩道からの離着陸は許可不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 道路において無人航空機の離着陸を行う場合は、道路交通法に基づく道路使用許可が必要となります。",
+      "reference": "教則3章 道路交通法",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 35,
+      "chapter": "03_kisoku",
+      "question": "文化財保護法における規制について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "重要文化財周辺での飛行には文化庁長官の許可が必要な場合がある",
+        "文化財保護法は無人航空機に適用されない",
+        "観光目的なら許可は不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 文化財保護法により、重要文化財や史跡等の周辺での無人航空機飛行について、文化庁長官の許可が必要となる場合があります。",
+      "reference": "教則3章 文化財保護法",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 36,
+      "chapter": "03_kisoku",
+      "question": "自然公園法における規制について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "国立公園内での撮影等には環境大臣の許可が必要な場合がある",
+        "自然公園内では無人航空機の利用は全面禁止",
+        "県立公園では規制はない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 自然公園法により、国立公園内等での無人航空機を使用した撮影等について、環境大臣等の許可が必要となる場合があります。",
+      "reference": "教則3章 自然公園法",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 37,
+      "chapter": "03_kisoku",
+      "question": "港湾法における規制について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "港湾区域での飛行には港湾管理者の許可が必要な場合がある",
+        "漁港では規制はない",
+        "商用港のみ規制がある"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 港湾法により、港湾区域内での無人航空機の飛行について、港湾管理者の許可が必要となる場合があります。",
+      "reference": "教則3章 港湾法",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 38,
+      "chapter": "03_kisoku",
+      "question": "河川法における規制について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "河川区域での離着陸等には河川管理者の許可が必要な場合がある",
+        "河川上空の飛行は自由",
+        "一級河川のみ規制がある"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 河川法により、河川区域内での無人航空機の離着陸等について、河川管理者の許可が必要となる場合があります。",
+      "reference": "教則3章 河川法",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 39,
+      "chapter": "03_kisoku",
+      "question": "海岸法における規制について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "海岸保全区域での飛行には海岸管理者の許可が必要な場合がある",
+        "海岸線から1km以内は飛行禁止",
+        "砂浜では規制はない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 海岸法により、海岸保全区域等での無人航空機の飛行について、海岸管理者の許可が必要となる場合があります。",
+      "reference": "教則3章 海岸法",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 40,
+      "chapter": "03_kisoku",
+      "question": "森林法における規制について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "保安林等での飛行には許可が必要な場合がある",
+        "私有林では規制はない",
+        "国有林のみ規制がある"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 森林法により、保安林等での無人航空機の飛行について、都道府県知事等の許可が必要となる場合があります。",
+      "reference": "教則3章 森林法",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 41,
+      "chapter": "03_kisoku",
+      "question": "個人情報保護法における注意点として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "空撮で特定個人が識別できる映像を取得する場合は個人情報保護法の適用がある",
+        "上空からの撮影は個人情報保護法の対象外",
+        "商用利用でなければ適用されない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 無人航空機による撮影で特定の個人が識別できる映像等を取得する場合、個人情報保護法の適用を受ける可能性があります。",
+      "reference": "教則3章 個人情報保護法",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 42,
+      "chapter": "03_kisoku",
+      "question": "迷惑防止条例における注意点として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "つきまとい行為等に該当する飛行は条例違反となる場合がある",
+        "空撮は迷惑防止条例の対象外",
+        "公共の場所での飛行は制限されない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 無人航空機を使用したつきまとい行為等は、各自治体の迷惑防止条例に違反する場合があります。",
+      "reference": "教則3章 迷惑防止条例",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 43,
+      "chapter": "03_kisoku",
+      "question": "肖像権への配慮について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "特定個人が写り込む可能性がある場合は事前の承諾を得ることが望ましい",
+        "公共の場所では肖像権は適用されない",
+        "商用利用でなければ肖像権侵害にはならない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 無人航空機による撮影において、特定の個人が識別できる形で写り込む場合、肖像権への配慮として事前の承諾を得ることが望ましいとされています。",
+      "reference": "教則3章 肖像権",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 44,
+      "chapter": "03_kisoku",
+      "question": "著作権への配慮について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "建築物等の著作物を撮影する場合は著作権法の適用を受ける場合がある",
+        "空撮では著作権は適用されない",
+        "個人利用なら著作権侵害にはならない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 建築物や美術作品等の著作物を無人航空機で撮影する場合、著作権法の適用を受ける可能性があります。",
+      "reference": "教則3章 著作権法",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 45,
+      "chapter": "03_kisoku",
+      "question": "プライバシー保護について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "住宅地上空での撮影飛行時はプライバシーに十分配慮する必要がある",
+        "高高度からの撮影ではプライバシー侵害にならない",
+        "カメラを搭載していなければ問題ない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 住宅地等での無人航空機による撮影は、住民のプライバシーを侵害する可能性があるため、十分な配慮が必要です。",
+      "reference": "教則3章 プライバシー保護",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 46,
+      "chapter": "03_kisoku",
+      "question": "国際民間航空条約（シカゴ条約）における無人航空機について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "無人航空機も国際民間航空条約の適用を受ける",
+        "有人航空機のみが対象で無人航空機は対象外",
+        "商用無人航空機のみ対象"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 国際民間航空条約（シカゴ条約）は、無人航空機についても適用され、国際的な安全基準や運航ルールの基礎となっています。",
+      "reference": "教則3章 国際民間航空条約",
+      "difficulty": "advanced",
+      "image": null
+    },
+    {
+      "id": 47,
+      "chapter": "03_kisoku",
+      "question": "ICAO（国際民間航空機関）のSARPs（標準及び勧告方式）について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "無人航空機システムに関する国際標準を定めている",
+        "日本の航空法とは無関係",
+        "有人航空機のみを対象としている"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a ICAOは無人航空機システム（UAS）に関するSARPsを策定しており、これが各国の無人航空機規制の基礎となっています。",
+      "reference": "教則3章 ICAO SARPs",
+      "difficulty": "advanced",
+      "image": null
+    },
+    {
+      "id": 48,
+      "chapter": "03_kisoku",
+      "question": "無人航空機の輸出入について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "外国為替及び外国貿易法による規制を受ける場合がある",
+        "無人航空機の輸出入に規制はない",
+        "個人使用目的なら規制されない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 無人航空機の輸出入は、外国為替及び外国貿易法（外為法）による規制を受ける場合があり、特に軍事用途に転用可能な技術については厳格な管理が必要です。",
+      "reference": "教則3章 外国為替及び外国貿易法",
+      "difficulty": "advanced",
+      "image": null
+    },
+    {
+      "id": 49,
+      "chapter": "03_kisoku",
+      "question": "無人航空機の安全基準について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "国土交通省が定める安全基準に適合する必要がある",
+        "製造者が独自に定める基準で十分",
+        "国際基準のみに適合すればよい"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 無人航空機は、国土交通省が定める安全基準に適合する必要があり、機体認証制度等を通じてその適合性が確認されます。",
+      "reference": "教則3章 安全基準",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 50,
+      "chapter": "03_kisoku",
+      "question": "無人航空機に関する今後の制度発展について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "技術の発展とともに法制度も継続的に見直されている",
+        "現在の法制度で完結しており変更はない",
+        "国際標準化のみが進められている"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 無人航空機に関する法制度は、技術の発展や利用形態の多様化に合わせて継続的に見直しが行われており、今後も適切な安全確保と利用促進のバランスを図りながら発展していく予定です。",
+      "reference": "教則3章 制度の発展",
+      "difficulty": "basic",
+      "image": null
+    }
+  ]
+}

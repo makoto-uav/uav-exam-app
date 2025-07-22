@@ -1,0 +1,1133 @@
+{
+  "examInfo": {
+    "title": "二等無人航空機操縦士 学科試験 コア問題 - 第5章 無人航空機の操縦者及び運航体制",
+    "version": "4.0",
+    "baseDocument": "無人航空機の飛行の安全に関する教則（令和7年2月1日 第4版）",
+    "chapter": "05_soujusha",
+    "totalQuestions": 70,
+    "timeLimit": 42,
+    "passingScore": 80
+  },
+  "questions": [
+    {
+      "id": 1,
+      "chapter": "05_soujusha",
+      "question": "無人航空機の操縦者として最も重要な責務として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "安全な運航を確保し、第三者に危害を与えないこと",
+        "効率的な飛行経路を選択すること",
+        "最新の機体を使用すること"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 操縦者の最も重要な責務は、安全な運航を確保し、地上の人や物件、他の航空機に危害や損害を与えないことです。これが全ての運航の大前提となります。（出典：chapter05_page57_operators.png）",
+      "reference": "教則5章 5.1 操縦者の責務",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 2,
+      "chapter": "05_soujusha",
+      "question": "飛行前に操縦者が確認すべき事項として最も重要なものとして、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "気象条件、機体状態、飛行空域の安全性",
+        "撮影予定の構図",
+        "飛行後の機体清掃計画"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 飛行前には気象条件、機体の状態、飛行予定空域の安全性（障害物、他機、規制等）を必ず確認する必要があります。これらは飛行安全の基礎となる要素です。（出典：chapter05_page58_operators.png）",
+      "reference": "教則5章 5.2.1 飛行前確認",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 3,
+      "chapter": "05_soujusha",
+      "question": "機体の飛行前点検で発見すべき重要な項目として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "プロペラの損傷、バッテリー電圧、制御系統の動作",
+        "機体の色あせ",
+        "付属品の収納状態"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 飛行前点検では、飛行安全に直結するプロペラの損傷、バッテリー電圧、制御系統の正常動作を重点的に確認します。これらの異常は墜落に直結する可能性があります。（出典：chapter05_page59_operators.png）",
+      "reference": "教則5章 5.2.2 機体点検",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 4,
+      "chapter": "05_soujusha",
+      "question": "通信機器の点検について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "送信機と受信機の通信状態、電波強度、フェイルセーフ動作を確認",
+        "外観の確認のみで十分",
+        "電源が入ることのみ確認"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 通信機器の点検では、確実な通信状態、適切な電波強度、緊急時のフェイルセーフ機能が正常に動作することを確認する必要があります。通信途絶は重大事故につながります。（出典：chapter05_page60_operators.png）",
+      "reference": "教則5章 5.2.3 通信機器点検",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 5,
+      "chapter": "05_soujusha",
+      "question": "目視による機体監視について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "機体の位置、姿勢、飛行状態を常時監視",
+        "離陸時のみ監視すれば十分",
+        "カメラ映像のみで監視可能"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 目視による機体監視は、機体の位置、姿勢、飛行状態を常時把握し、異常時に適切な対応を取るために重要です。カメラ映像だけでは十分な状況把握ができません。（出典：chapter05_page61_operators.png）",
+      "reference": "教則5章 5.3.1 目視監視",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 6,
+      "chapter": "05_soujusha",
+      "question": "補助者の役割として最も適切なものとして、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "周囲の安全監視と操縦者への情報提供",
+        "機体の操縦の代行",
+        "撮影データの管理"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 補助者の主な役割は、操縦者が機体操縦に集中できるよう、周囲の安全状況を監視し、必要な情報を操縦者に提供することです。操縦の代行は適切ではありません。（出典：chapter05_page62_operators.png）",
+      "reference": "教則5章 5.3.2 補助者の役割",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 7,
+      "chapter": "05_soujusha",
+      "question": "運航管理者の主な責務として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "飛行計画の策定と安全管理体制の構築",
+        "機体の直接操縦",
+        "映像撮影の指示"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 運航管理者は、安全な飛行のための計画策定、リスク評価、安全管理体制の構築・維持に責任を持ちます。直接的な操縦ではなく、管理・監督が主な役割です。（出典：chapter05_page63_operators.png）",
+      "reference": "教則5章 5.4.1 運航管理者",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 8,
+      "chapter": "05_soujusha",
+      "question": "無人航空機操縦者技能証明の取得が必要な飛行として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "特定飛行を行う場合",
+        "すべての飛行",
+        "商用飛行のみ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 無人航空機操縦者技能証明は、特定飛行（人口集中地区、夜間、目視外等）を行う場合に必要です（立入管理措置を講ずる場合等を除く）。趣味飛行でも特定飛行に該当すれば必要です。（出典：chapter05_page64_operators.png）",
+      "reference": "教則5章 5.5.1 無人航空機操縦者技能証明",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 9,
+      "chapter": "05_soujusha",
+      "question": "操縦技能の維持・向上のために重要なこととして、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "定期的な訓練と技能確認の実施",
+        "最新機体の購入",
+        "飛行時間の記録のみ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 操縦技能の維持・向上には、定期的な訓練と技能確認が不可欠です。技能は使わなければ低下するため、継続的な練習と客観的な技能評価が重要です。（出典：chapter05_page65_operators.png）",
+      "reference": "教則5章 5.5.2 技能維持",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 10,
+      "chapter": "05_soujusha",
+      "question": "緊急時の対応として最も重要なことについて、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "人の安全を最優先に迅速かつ適切な判断・行動を取る",
+        "機体の回収を最優先とする",
+        "撮影データの保護を最優先とする"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 緊急時には、機体や撮影データよりも人の安全を最優先とし、状況に応じて迅速かつ適切な判断・行動を取ることが最も重要です。人命より大切なものはありません。（出典：chapter05_page66_operators.png）",
+      "reference": "教則5章 5.6.1 緊急時対応",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 11,
+      "chapter": "05_soujusha",
+      "question": "機体の異常時の対応手順として適切なものとして、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "状況把握、危険回避、安全確保の順で対応",
+        "機体回収を最優先で対応",
+        "撮影継続を最優先で対応"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 機体異常時は、まず状況を正確に把握し、第三者への危険を回避し、安全を確保する順序で対応します。機体や撮影よりも安全確保が最優先です。（出典：chapter05_page67_operators.png）",
+      "reference": "教則5章 5.6.2 異常時対応",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 12,
+      "chapter": "05_soujusha",
+      "question": "飛行記録の管理について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "飛行日誌に必要事項を記載し適切に保存",
+        "記憶に頼れば記録は不要",
+        "年1回まとめて記録すれば十分"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 特定飛行では飛行日誌への記載・保存が法的義務であり、安全管理や技能向上のためにも正確な飛行記録の管理が重要です。記憶は曖昧になるため、必ず記録が必要です。（出典：chapter05_page66_operators.png）",
+      "reference": "教則5章 5.7.1 飛行記録",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 13,
+      "chapter": "05_soujusha",
+      "question": "操縦者の体調管理について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "心身ともに良好な状態で飛行を行う",
+        "軽度の体調不良でも飛行可能",
+        "薬物服用時でも注意すれば飛行可能"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 安全な飛行のためには、操縦者が心身ともに良好な状態であることが前提です。体調不良や薬物の影響がある場合は、判断力や反応速度が低下するため飛行を控えるべきです。（出典：chapter05_page67_operators.png）",
+      "reference": "教則5章 5.8.1 体調管理",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 14,
+      "chapter": "05_soujusha",
+      "question": "運航チームの連携について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "役割分担を明確にし、効果的なコミュニケーションを行う",
+        "各自が独立して作業すれば十分",
+        "操縦者のみが責任を負えばよい"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 安全で効率的な運航のためには、運航チーム内での明確な役割分担と効果的なコミュニケーションが不可欠です。チーム全体での連携により、安全性が向上します。（出典：chapter05_page67_operators.png）",
+      "reference": "教則5章 5.9.1 チーム連携",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 15,
+      "chapter": "05_soujusha",
+      "question": "無人航空機の運航における安全管理体制で最も重要な要素として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "明確な責任体制と権限の設定",
+        "高価な機体の使用",
+        "多くの人員の配置"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 安全管理体制では、各人の責任と権限を明確に設定し、意思決定プロセスを確立することが最も重要です。人員の多さや機体の価格は安全に直結しません。（出典：chapter05_page68_operators.png）",
+      "reference": "教則5章 5.10.1 安全管理体制",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 16,
+      "chapter": "05_soujusha",
+      "question": "操縦者の資格要件について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "16歳以上で身体的・精神的に適格であること",
+        "特定の学歴が必要",
+        "10年以上の航空機操縦経験が必要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 無人航空機操縦者技能証明の年齢要件は16歳以上で、身体的・精神的適格性が求められます。特定の学歴や有人航空機経験は必須ではありません。（出典：chapter05_page69_operators.png）",
+      "reference": "教則5章 5.11.1 操縦者資格",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 17,
+      "chapter": "05_soujusha",
+      "question": "操縦者の継続的な技能証明について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "3年ごとに更新が必要",
+        "一度取得すれば永続的に有効",
+        "毎年更新が必要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 無人航空機操縦者技能証明は3年ごとに更新が必要で、継続的な知識・技能の維持確認が求められます。（出典：chapter05_page70_operators.png）",
+      "reference": "教則5章 5.11.2 技能証明更新",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 18,
+      "chapter": "05_soujusha",
+      "question": "機体認証における操縦者の責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "認証を受けた機体を適切に運用し、改造等を行わないこと",
+        "認証の有無に関係なく運用可能",
+        "改造は自由に行える"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 機体認証を受けた機体は、認証の前提条件を維持するため、勝手な改造等を行わずに適切に運用する責任があります。（出典：chapter05_page71_operators.png）",
+      "reference": "教則5章 5.12.1 機体認証と操縦者責任",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 19,
+      "chapter": "05_soujusha",
+      "question": "運航記録の保存期間について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "3年間保存が必要",
+        "1年間保存すれば十分",
+        "保存の必要はない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 特定飛行の飛行記録は3年間の保存が法的に義務付けられており、安全管理や事故調査の観点からも重要です。（出典：chapter05_page72_operators.png）",
+      "reference": "教則5章 5.13.1 運航記録保存",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 20,
+      "chapter": "05_soujusha",
+      "question": "飛行計画の策定における重要な要素として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "気象条件、飛行経路、緊急着陸場所の検討",
+        "撮影予定のみの検討",
+        "飛行時間の短縮のみ考慮"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 飛行計画では気象条件、安全な飛行経路、緊急時の着陸場所を総合的に検討し、安全で効率的な飛行を実現する必要があります。（出典：chapter05_page73_operators.png）",
+      "reference": "教則5章 5.14.1 飛行計画策定",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 21,
+      "chapter": "05_soujusha",
+      "question": "気象情報の収集について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "気象庁の公式情報と現地観測データの両方を活用",
+        "天気予報のみで十分",
+        "現地の感覚的判断のみで十分"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 安全な飛行のためには、気象庁の公式気象情報と現地での実際の観測データを両方活用し、総合的に気象状況を判断することが重要です。（出典：chapter05_page74_operators.png）",
+      "reference": "教則5章 5.15.1 気象情報収集",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 22,
+      "chapter": "05_soujusha",
+      "question": "夜間飛行における操縦者の追加的な注意事項として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "機体の灯火の確認と視認性の向上",
+        "日中と同様の運航で問題ない",
+        "速度を上げて短時間で飛行する"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 夜間飛行では機体の灯火が適切に機能し、視認性が確保されていることを確認する必要があります。暗闇での視認性低下に対する特別な配慮が必要です。（出典：chapter05_page75_operators.png）",
+      "reference": "教則5章 5.16.1 夜間飛行",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 23,
+      "chapter": "05_soujusha",
+      "question": "目視外飛行における操縦者の責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "補助者との連携による確実な機体監視",
+        "カメラ映像のみでの監視で十分",
+        "自動操縦に任せれば監視は不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 目視外飛行では補助者との連携により確実な機体監視を行い、周囲の安全を確保する必要があります。カメラ映像だけでは限界があります。（出典：chapter05_page76_operators.png）",
+      "reference": "教則5章 5.17.1 目視外飛行",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 24,
+      "chapter": "05_soujusha",
+      "question": "人又は家屋の密集している地域上空での飛行における特別な注意として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "第三者に対する安全確保の徹底",
+        "高度を上げれば特別な注意は不要",
+        "人がいても通常通りの飛行で問題ない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 人口集中地区での飛行では、第三者への危害防止が最重要であり、機体の故障や墜落に備えた安全対策の徹底が必要です。（出典：chapter05_page77_operators.png）",
+      "reference": "教則5章 5.18.1 人口集中地区飛行",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 25,
+      "chapter": "05_soujusha",
+      "question": "イベント上空飛行での操縦者の責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "参加者の安全を最優先とした慎重な運航",
+        "イベントの盛り上げを最優先とした運航",
+        "通常の飛行と同様の注意で十分"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a イベント上空飛行では多数の参加者の安全を最優先とし、万一の事態に備えた十分な安全対策と慎重な運航が求められます。（出典：chapter05_page78_operators.png）",
+      "reference": "教則5章 5.19.1 イベント上空飛行",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 26,
+      "chapter": "05_soujusha",
+      "question": "危険物輸送における操縦者の確認事項として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "輸送物の特性と安全対策の確認",
+        "重量のみの確認で十分",
+        "特別な確認は不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 危険物輸送では、輸送する物質の特性（可燃性、毒性等）と必要な安全対策を十分に確認し、適切な梱包・固定を行う必要があります。（出典：chapter05_page79_operators.png）",
+      "reference": "教則5章 5.20.1 危険物輸送",
+      "difficulty": "advanced",
+      "image": null
+    },
+    {
+      "id": 27,
+      "chapter": "05_soujusha",
+      "question": "機体の定期点検における操縦者の役割として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "点検項目に従った系統的な確認",
+        "外観をざっと見るだけで十分",
+        "点検は整備士に任せれば操縦者は無関係"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 操縦者は機体の状態を最もよく知る立場にあり、定期点検では点検項目に従って系統的に機体状態を確認する責任があります。（出典：chapter05_page80_operators.png）",
+      "reference": "教則5章 5.21.1 定期点検",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 28,
+      "chapter": "05_soujusha",
+      "question": "バッテリーの管理における操縦者の責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "適切な充電・保管・点検の実施",
+        "使用できる限り交換は不要",
+        "膨張や発熱があっても使用継続"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a バッテリーは安全な飛行の要であり、適切な充電方法、保管環境、定期的な点検により、劣化や異常を早期発見する責任があります。（出典：chapter05_page81_operators.png）",
+      "reference": "教則5章 5.22.1 バッテリー管理",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 29,
+      "chapter": "05_soujusha",
+      "question": "送信機（プロポ）の点検事項として重要なものとして、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "スティックの動作とトリム設定の確認",
+        "外観の汚れのみ確認",
+        "電源が入ることのみ確認"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 送信機の点検では、各スティックの正常動作、トリム設定の確認、電波出力の正常性を確認することが重要です。操縦不能につながる重要な項目です。（出典：chapter05_page82_operators.png）",
+      "reference": "教則5章 5.23.1 送信機点検",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 30,
+      "chapter": "05_soujusha",
+      "question": "GPS等の測位システムの不具合時における対応として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "手動操縦による安全な着陸",
+        "自動操縦の継続使用",
+        "GPS復旧まで空中待機"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a GPS等の測位システムに不具合が生じた場合は、自動操縦機能が正常に動作しない可能性があるため、手動操縦に切り替えて安全な着陸を行うべきです。（出典：chapter05_page83_operators.png）",
+      "reference": "教則5章 5.24.1 測位システム不具合",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 31,
+      "chapter": "05_soujusha",
+      "question": "風の影響による操縦の注意点として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "風向・風速に応じた操縦入力の調整",
+        "風は機体が自動的に補正するため無視してよい",
+        "強風時でも通常と同じ操縦で問題ない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 風の影響により機体の姿勢や進路が変化するため、操縦者は風向・風速に応じて適切な操縦入力を行い、意図した飛行経路を維持する必要があります。（出典：chapter05_page84_operators.png）",
+      "reference": "教則5章 5.25.1 風の影響と操縦",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 32,
+      "chapter": "05_soujusha",
+      "question": "機体の重量バランスに関する操縦者の確認事項として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "重心位置と積載物の適切な配置",
+        "総重量のみの確認で十分",
+        "重量バランスは考慮不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 機体の安定した飛行には、重心位置の確認と積載物の適切な配置が重要です。重量バランスが崩れると操縦性や安定性に大きく影響します。（出典：chapter05_page85_operators.png）",
+      "reference": "教則5章 5.26.1 重量バランス",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 33,
+      "chapter": "05_soujusha",
+      "question": "飛行中の機体監視で特に注意すべき項目として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "機体の姿勢、高度、周囲の航空交通",
+        "撮影映像の品質のみ",
+        "バッテリー残量のみ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 飛行中は機体の姿勢・高度の監視、周囲の航空交通との衝突回避、バッテリー残量等を総合的に監視し、安全な飛行を継続する必要があります。（出典：chapter05_page86_operators.png）",
+      "reference": "教則5章 5.27.1 飛行中監視",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 34,
+      "chapter": "05_soujusha",
+      "question": "着陸時の安全確認として重要なことについて、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "着陸地点の安全性と風向の確認",
+        "速やかな着陸のみを優先",
+        "着陸地点は特に確認不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 着陸時は着陸地点に障害物や人がいないこと、風向が着陸に適していることを確認し、安全で確実な着陸を行う必要があります。（出典：chapter05_page87_operators.png）",
+      "reference": "教則5章 5.28.1 着陸時安全確認",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 35,
+      "chapter": "05_soujusha",
+      "question": "多数の機体による協調飛行における操縦者の責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "他機との協調と安全間隔の維持",
+        "自機のみに集中すればよい",
+        "編隊長の指示のみに従えばよい"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 協調飛行では他機との安全間隔の維持、相互の位置把握、協調した動作により衝突を防止する責任があります。各操縦者が安全に責任を持ちます。（出典：chapter05_page88_operators.png）",
+      "reference": "教則5章 5.29.1 協調飛行",
+      "difficulty": "advanced",
+      "image": null
+    },
+    {
+      "id": 36,
+      "chapter": "05_soujusha",
+      "question": "機体のファームウェア更新における操縦者の注意事項として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "更新後の動作確認と設定の見直し",
+        "更新は不要",
+        "更新後すぐに飛行して問題ない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a ファームウェア更新後は機体の動作確認、設定の見直し、地上でのテスト飛行により、正常性を確認してから本格的な飛行を行う必要があります。（出典：chapter05_page89_operators.png）",
+      "reference": "教則5章 5.30.1 ファームウェア更新",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 37,
+      "chapter": "05_soujusha",
+      "question": "第三者の所有地上空を飛行する場合の操縦者の責務として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "土地所有者からの事前承諾の取得",
+        "高度が高ければ承諾は不要",
+        "公共目的であれば承諾は不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 第三者の所有地上空を飛行する場合は、土地所有者から事前に承諾を得ることが民事上の責務として重要です。高度に関係なく承諾が必要です。（出典：chapter05_page90_operators.png）",
+      "reference": "教則5章 5.31.1 土地所有者承諾",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 38,
+      "chapter": "05_soujusha",
+      "question": "撮影・測量等の業務飛行における操縦者の追加的責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "プライバシーと個人情報の保護",
+        "高品質な映像の撮影のみ",
+        "効率的な作業の完了のみ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 業務飛行では、作業の効率性だけでなく、撮影対象のプライバシー権の尊重、個人情報の適切な管理も操縦者の重要な責務です。（出典：chapter05_page91_operators.png）",
+      "reference": "教則5章 5.32.1 業務飛行と個人情報保護",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 39,
+      "chapter": "05_soujusha",
+      "question": "機体の保険加入における操縦者の責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "第三者賠償責任保険への加入",
+        "機体保険のみで十分",
+        "保険加入は任意でよい"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 無人航空機の運航では、第三者への損害に備えた賠償責任保険への加入が強く推奨されます。機体保険だけでは第三者損害をカバーできません。（出典：chapter05_page92_operators.png）",
+      "reference": "教則5章 5.33.1 保険加入",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 40,
+      "chapter": "05_soujusha",
+      "question": "悪天候時の運航判断における操縦者の責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "安全を最優先とした運航可否の判断",
+        "予定を優先した強行的な飛行",
+        "天候に関係なく飛行継続"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 悪天候時は予定よりも安全を最優先とし、気象条件を総合的に評価して運航の可否を慎重に判断する責任があります。無理な飛行は事故につながります。（出典：chapter05_page93_operators.png）",
+      "reference": "教則5章 5.34.1 悪天候時判断",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 41,
+      "chapter": "05_soujusha",
+      "question": "他の航空機との遭遇時の対応として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "安全な距離を保ち、必要に応じて回避行動",
+        "継続して同一高度で飛行",
+        "相手機が回避すればよい"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 他の航空機（有人機、無人機問わず）との遭遇時は、安全な距離を保ち、衝突の危険がある場合は積極的に回避行動を取る責任があります。（出典：chapter05_page94_operators.png）",
+      "reference": "教則5章 5.35.1 他機との遭遇",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 42,
+      "chapter": "05_soujusha",
+      "question": "長時間飛行における操縦者の注意事項として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "疲労による判断力低下の防止",
+        "長時間でも集中力は維持できる",
+        "機体の性能のみ考慮すればよい"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 長時間飛行では操縦者の疲労による判断力・反応速度の低下が安全上の大きなリスクとなるため、適切な休憩と交代体制が重要です。（出典：chapter05_page95_operators.png）",
+      "reference": "教則5章 5.36.1 長時間飛行",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 43,
+      "chapter": "05_soujusha",
+      "question": "機体の改造・修理における操縦者の責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "適切な技術基準への適合と安全性の確認",
+        "自由に改造して構わない",
+        "外観が変わらなければ問題ない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 機体の改造・修理は安全性に直結するため、技術基準への適合性、安全性の確認、必要に応じた認証取得を行う責任があります。（出典：chapter05_page96_operators.png）",
+      "reference": "教則5章 5.37.1 機体改造・修理",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 44,
+      "chapter": "05_soujusha",
+      "question": "運航データの記録・管理における操縦者の責務として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "正確な記録と適切な保管",
+        "記録は任意でよい",
+        "大まかな記録で十分"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 運航データの正確な記録と適切な保管は、安全管理の改善、トラブル分析、法的義務の履行のために操縦者の重要な責務です。（出典：chapter05_page97_operators.png）",
+      "reference": "教則5章 5.38.1 運航データ管理",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 45,
+      "chapter": "05_soujusha",
+      "question": "新しい飛行環境での初回飛行における操縦者の注意として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "環境特性の事前調査と慎重な飛行",
+        "いつもの環境と同じ飛行で問題ない",
+        "機体性能が分かっていれば特別な注意は不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 新しい飛行環境では、地形、障害物、電波環境、気象特性等を事前に調査し、初回は特に慎重な飛行を行う必要があります。（出典：chapter05_page98_operators.png）",
+      "reference": "教則5章 5.39.1 新環境での飛行",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 46,
+      "chapter": "05_soujusha",
+      "question": "無人航空機の離発着場所の管理責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "安全な離発着のための環境整備",
+        "機体が離発着できれば十分",
+        "特別な管理は不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 離発着場所は機体と人の安全に直結するため、障害物の除去、適切な標識設置、第三者の立入防止等の環境整備が重要です。（出典：chapter05_page99_operators.png）",
+      "reference": "教則5章 5.40.1 離発着場所管理",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 47,
+      "chapter": "05_soujusha",
+      "question": "操縦技能の自己評価について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "客観的な基準による定期的な技能確認",
+        "主観的な感覚のみで十分",
+        "他人からの評価は不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 操縦技能の維持には、客観的な基準に基づく定期的な技能確認と、必要に応じた追加訓練が重要です。主観的判断は過信につながる危険があります。（出典：chapter05_page100_operators.png）",
+      "reference": "教則5章 5.41.1 技能自己評価",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 48,
+      "chapter": "05_soujusha",
+      "question": "無人航空機の運航における法令遵守について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "最新の法令・規則の把握と確実な遵守",
+        "基本的な法令を知っていれば十分",
+        "法令は頻繁に変わらないので一度覚えれば十分"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空法等の関連法令は定期的に改正されるため、常に最新の法令・規則を把握し、確実に遵守することが操縦者の基本的責務です。（出典：chapter05_page101_operators.png）",
+      "reference": "教則5章 5.42.1 法令遵守",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 49,
+      "chapter": "05_soujusha",
+      "question": "安全管理システム（SMS）における操縦者の役割として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "安全情報の報告とリスク軽減活動への参加",
+        "管理者のみが責任を負えばよい",
+        "事故が起きてから報告すれば十分"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a SMS（安全管理システム）では、操縦者も安全情報の積極的な報告、リスク評価、軽減活動への参加により、組織全体の安全向上に貢献する役割があります。（出典：chapter05_page102_operators.png）",
+      "reference": "教則5章 5.43.1 SMS参加",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 50,
+      "chapter": "05_soujusha",
+      "question": "無人航空機による輸送業務における特別な責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "輸送物の適切な梱包・固定と落下防止",
+        "速やかな輸送のみを優先",
+        "軽量であれば固定は不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 輸送業務では輸送物の適切な梱包・固定により落下を防止し、第三者への危害を防ぐことが特に重要な責任となります。（出典：chapter05_page103_operators.png）",
+      "reference": "教則5章 5.44.1 輸送業務",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 51,
+      "chapter": "05_soujusha",
+      "question": "災害対応飛行における操縦者の特別な配慮として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "救助活動との協調と二次災害の防止",
+        "迅速な情報収集のみを優先",
+        "通常の飛行と同様の配慮で十分"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 災害対応飛行では、救助機関との綿密な協調、二次災害の防止、被災者のプライバシー配慮等、通常以上の特別な配慮が求められます。（出典：chapter05_page104_operators.png）",
+      "reference": "教則5章 5.45.1 災害対応飛行",
+      "difficulty": "advanced",
+      "image": null
+    },
+    {
+      "id": 52,
+      "chapter": "05_soujusha",
+      "question": "研究・開発目的の試験飛行における操縦者の責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "未知の特性に対する十分な安全対策",
+        "新しい技術なので安全対策は後回し",
+        "通常の飛行と同じ対策で十分"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 試験飛行では機体や装置の未知の特性や予期しない動作に備え、通常以上の十分な安全対策と緊急時の対応準備が必要です。（出典：chapter05_page105_operators.png）",
+      "reference": "教則5章 5.46.1 試験飛行",
+      "difficulty": "advanced",
+      "image": null
+    },
+    {
+      "id": 53,
+      "chapter": "05_soujusha",
+      "question": "教育・訓練目的の飛行における指導操縦者の責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "訓練生の安全確保と適切な指導",
+        "訓練生に全て任せて構わない",
+        "技術指導のみに集中すればよい"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 教育・訓練飛行では、指導操縦者が訓練生の安全を確保し、適切な技術指導と安全意識の向上を図る重大な責任があります。（出典：chapter05_page106_operators.png）",
+      "reference": "教則5章 5.47.1 教育訓練飛行",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 54,
+      "chapter": "05_soujusha",
+      "question": "競技・デモンストレーション飛行における安全管理として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "観客の安全確保を最優先とした飛行計画",
+        "迫力ある飛行を最優先",
+        "競技成績を最優先"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 競技・デモ飛行では、観客や参加者の安全を最優先とし、万一の機体故障や操縦ミスに備えた十分な安全対策が必要です。（出典：chapter05_page107_operators.png）",
+      "reference": "教則5章 5.48.1 競技デモ飛行",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 55,
+      "chapter": "05_soujusha",
+      "question": "国際的な飛行における操縦者の追加的責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "相手国の法令・規則の遵守",
+        "日本の法令のみ遵守すれば十分",
+        "国際線は法令適用外"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 国境を越える飛行では、日本の法令に加えて相手国の関連法令・規則を事前に把握し、確実に遵守する責任があります。（出典：chapter05_page108_operators.png）",
+      "reference": "教則5章 5.49.1 国際飛行",
+      "difficulty": "advanced",
+      "image": null
+    },
+    {
+      "id": 56,
+      "chapter": "05_soujusha",
+      "question": "環境保護への配慮における操縦者の責任として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "騒音軽減と野生動物への影響最小化",
+        "目的達成のためには環境への配慮は不要",
+        "法令に明記されていなければ配慮不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 無人航空機の運航では、騒音による地域住民への影響軽減、野生動物の生息環境への配慮等、環境保護への責任ある配慮が求められます。（出典：chapter05_page109_operators.png）",
+      "reference": "教則5章 5.50.1 環境保護配慮",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 57,
+      "chapter": "05_soujusha",
+      "question": "技術革新への対応における操縦者の責務として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "新技術の理解と安全な活用",
+        "従来の技術のみで十分",
+        "新技術は危険なので使用禁止"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 無人航空機技術の急速な発展に対応し、新技術を正しく理解して安全に活用する能力を継続的に向上させることが操縦者の責務です。（出典：chapter05_page110_operators.png）",
+      "reference": "教則5章 5.51.1 技術革新対応",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 58,
+      "chapter": "05_soujusha",
+      "question": "社会的責任の自覚における操縦者の心構えとして、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "無人航空機の健全な発展への貢献",
+        "個人的な利益の追求のみ",
+        "法令違反でなければ何をしても構わない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 操縦者は無人航空機産業と技術の健全な発展に貢献し、社会に受け入れられる運航を行う社会的責任を自覚する必要があります。（出典：chapter05_page111_operators.png）",
+      "reference": "教則5章 5.52.1 社会的責任",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 59,
+      "chapter": "05_soujusha",
+      "question": "後進の指導・育成における操縦者の役割として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "安全意識と技術の適切な継承",
+        "競争相手なので指導する必要はない",
+        "技術のみ教えれば十分"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 経験豊富な操縦者は、後進に対して技術だけでなく安全意識、法令遵守、社会的責任を含めて適切に指導・育成する役割があります。（出典：chapter05_page112_operators.png）",
+      "reference": "教則5章 5.53.1 後進指導",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 60,
+      "chapter": "05_soujusha",
+      "question": "産業界との協力における操縦者の貢献として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "現場の知見に基づく技術改善への協力",
+        "批判のみを行い改善には協力しない",
+        "技術開発は関係者のみが行えばよい"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 操縦者は実際の運航経験から得られる知見を産業界と共有し、より安全で実用的な技術開発に協力することで産業全体の発展に貢献できます。（出典：chapter05_page113_operators.png）",
+      "reference": "教則5章 5.54.1 産業協力",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 61,
+      "chapter": "05_soujusha",
+      "question": "国際的な安全基準への貢献における日本の操縦者の役割として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "日本の経験と知見の国際的な共有",
+        "日本独自の基準のみを重視",
+        "国際基準は無視して構わない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 日本の操縦者は、日本の運航経験と安全への取り組みを国際社会と共有し、世界的な安全基準の向上に貢献する役割があります。（出典：chapter05_page114_operators.png）",
+      "reference": "教則5章 5.55.1 国際貢献",
+      "difficulty": "advanced",
+      "image": null
+    },
+    {
+      "id": 62,
+      "chapter": "05_soujusha",
+      "question": "継続的な学習と改善における操縦者の姿勢として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "常に新しい知識と技能の習得に努める",
+        "一度資格を取得すれば学習は不要",
+        "経験があれば新しい学習は必要ない"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 技術の急速な発展と安全要求の高度化に対応するため、操縦者は常に新しい知識と技能の習得、継続的な改善に努める姿勢が重要です。（出典：chapter05_page115_operators.png）",
+      "reference": "教則5章 5.56.1 継続学習",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 63,
+      "chapter": "05_soujusha",
+      "question": "無人航空機技術の未来への貢献として操縦者に期待されることとして、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "安全で有用な技術発展への積極的な参画",
+        "現状維持のみを重視",
+        "技術発展は研究者のみの責任"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 操縦者は現場での経験を活かし、より安全で社会に有用な無人航空機技術の発展に積極的に参画し、未来の航空安全に貢献することが期待されます。（出典：chapter05_page116_operators.png）",
+      "reference": "教則5章 5.57.1 未来への貢献",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 64,
+      "chapter": "05_soujusha",
+      "question": "専門職業人としての操縦者の倫理について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "高い職業倫理と社会的使命感の保持",
+        "個人的な利益の最大化のみ",
+        "法令の最低限の遵守で十分"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 無人航空機操縦者は専門職業人として、高い職業倫理と社会的使命感を保持し、社会の安全と発展に貢献する責務があります。（出典：chapter05_page117_operators.png）",
+      "reference": "教則5章 5.58.1 職業倫理",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 65,
+      "chapter": "05_soujusha",
+      "question": "操縦者コミュニティの健全な発展への貢献として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "知識の共有と相互の技能向上支援",
+        "情報は秘匿し競争優位を保つ",
+        "個人のスキルアップのみを重視"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 操縦者コミュニティの健全な発展には、安全に関する知識の共有、相互の技能向上支援、建設的な意見交換が重要です。（出典：chapter05_page118_operators.png）",
+      "reference": "教則5章 5.59.1 コミュニティ発展",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 66,
+      "chapter": "05_soujusha",
+      "question": "次世代への責任として操縦者が果たすべき役割について、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "安全文化の継承と発展",
+        "現在の利益確保のみを重視",
+        "後継者育成は関係機関の責任"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 操縦者は次世代に対し、安全を最優先とする文化の継承と発展、持続可能な航空安全の実現に向けた責任を果たす必要があります。（出典：chapter05_page119_operators.png）",
+      "reference": "教則5章 5.60.1 次世代への責任",
+      "difficulty": "basic",
+      "image": null
+    },
+    {
+      "id": 67,
+      "chapter": "05_soujusha",
+      "question": "グローバルな航空安全への貢献として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "国際的な協力と情報共有の推進",
+        "自国の利益のみを優先",
+        "国際協力は政府のみの責任"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 航空安全は国境を超えた課題であり、操縦者は国際的な協力と情報共有を通じて、グローバルな航空安全の向上に貢献する責任があります。（出典：chapter05_page120_operators.png）",
+      "reference": "教則5章 5.61.1 グローバル貢献",
+      "difficulty": "advanced",
+      "image": null
+    },
+    {
+      "id": 68,
+      "chapter": "05_soujusha",
+      "question": "持続可能な運航における操縦者の配慮として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "環境負荷の軽減と資源の効率的利用",
+        "短期的な効率のみを追求",
+        "環境への影響は考慮不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 持続可能な社会の実現に向け、操縦者は環境負荷の軽減、資源の効率的利用、長期的な視点での運航を心がける責任があります。（出典：chapter05_page121_operators.png）",
+      "reference": "教則5章 5.62.1 持続可能性",
+      "difficulty": "intermediate",
+      "image": null
+    },
+    {
+      "id": 69,
+      "chapter": "05_soujusha",
+      "question": "デジタル化時代の操縦者に求められる能力として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "新技術の理解とサイバーセキュリティ意識",
+        "従来技術のみで対応可能",
+        "技術の進歩は考慮不要"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a デジタル化時代の操縦者は、AI・IoT等の新技術の理解、サイバーセキュリティ意識、データ管理能力等、新たな技術環境に対応する能力が求められます。（出典：chapter05_page122_operators.png）",
+      "reference": "教則5章 5.63.1 デジタル対応",
+      "difficulty": "advanced",
+      "image": null
+    },
+    {
+      "id": 70,
+      "chapter": "05_soujusha",
+      "question": "無人航空機産業の健全な発展に向けた操縦者の最終的な目標として、正しいものを1つ選びなさい。",
+      "type": "multiple_choice",
+      "options": [
+        "社会に信頼され必要とされる産業の実現",
+        "個人的な成功のみを追求",
+        "規制の緩和のみを目指す"
+      ],
+      "correctAnswer": 0,
+      "explanation": "（正答）a 操縦者の最終的な目標は、安全で有用な無人航空機の運航により社会に信頼され、必要とされる産業の実現に貢献することです。（出典：chapter05_page123_operators.png）",
+      "reference": "教則5章 5.64.1 産業発展目標",
+      "difficulty": "basic",
+      "image": null
+    }
+  ]
+}
