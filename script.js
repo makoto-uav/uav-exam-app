@@ -161,6 +161,13 @@ function showUserNameModal() {
 
 // === データベース通信機能 ===
 async function loadMistakes(userId) {
+    // userIdが渡されなかった場合のエラーハンドリング
+    if (!userId) {
+        console.error('❌ loadMistakes: userIdが指定されていません');
+        userMistakes = [];
+        return;
+    }
+    
     try {
         console.log(`📊 ${userId} の苦手問題データを読み込み中...`);
         
