@@ -190,9 +190,24 @@ async function loadMistakes(userId) {
         
     } catch (error) {
         console.error('❌ 苦手問題データ読み込みエラー:', error);
-        userMistakes = [];
         
-        // ローカルアプリのため、エラーがあっても継続（メッセージなし）
+        // LocalStorageからのフォールバック読み込み
+        try {
+            const localData = localStorage.getItem(`userMistakes_${userId}`);
+            if (localData) {
+                userMistakes = JSON.parse(localData);
+                console.log(`📱 LocalStorageから苦手問題を読み込み: ${userMistakes.length}問`);
+            } else {
+                userMistakes = [];
+                console.log('📝 新規ユーザー: 苦手問題データを初期化');
+            }
+        } catch (localError) {
+            console.error('❌ LocalStorage読み込みエラー:', localError);
+            userMistakes = [];
+        }
+        
+        // データ読み込み完了後に苦手克服ボタンの表示を更新
+        setTimeout(() => updateWeaknessButtonCount(), 100);
     }
 }
 
@@ -225,9 +240,20 @@ async function saveMistakes() {
             console.error('❌ 保存応答エラー:', result);
         }
         
+        // LocalStorageにもバックアップ保存
+        localStorage.setItem(`userMistakes_${currentUser}`, JSON.stringify(userMistakes));
+        
     } catch (error) {
         console.error('❌ 苦手問題データ保存エラー:', error);
-        // ローカルアプリのため、エラーがあっても継続（メッセージなし）
+        
+        // 外部保存が失敗してもLocalStorageには保存
+        try {
+            localStorage.setItem(`userMistakes_${currentUser}`, JSON.stringify(userMistakes));
+            console.log(`📱 LocalStorageに苦手問題をバックアップ保存: ${userMistakes.length}問`);
+            updateWeaknessButtonCount(); // 苦手問題数の表示を更新
+        } catch (localError) {
+            console.error('❌ LocalStorageバックアップ保存エラー:', localError);
+        }
     }
 }
 
@@ -812,6 +838,11 @@ function calculateAndDisplayResults() {
     if (userMistakes.length > 0) {
         saveMistakes();
     }
+    
+    // UI更新（試験完了後）
+    setTimeout(() => {
+        updateWeaknessButtonCount(); // 苦手問題数と履歴数を更新
+    }, 100);
 }
 
 function displayResults(correctCount, scorePercentage, isPassed, wrongQuestions, correctQuestions) {
