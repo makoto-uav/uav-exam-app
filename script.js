@@ -12,7 +12,7 @@
  */
 
 // === クラウド連携設定 ===
-const GAS_URL = 'https://script.google.com/macros/s/AKfycby548XePFj_lElTyU0pPJdDPfUfbJxOXRMhd-UJhbs4B_oVA_tPK-NUVfxFqwtvGis5/exec';
+const GAS_URL = 'https://script.google.com/macros/s/AKfycbxJt0qiE2P4y9MLPZ61tyrBHIqiMwIKHZ1B_BeixnkxYPhCJs1xQnJUWivtAbxOPekC/exec';
 let currentUser = null;
 let userMistakes = [];
 
