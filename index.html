@@ -24,20 +24,6 @@
         <main class="flex-1 container mx-auto px-4 py-8">
             <div class="max-w-2xl mx-auto">
                 
-                <!-- アプリ説明 -->
-                <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">このアプリについて</h2>
-                    <p class="text-gray-600 mb-4">
-                        二等無人航空機操縦士の学科試験に向けた対策アプリです。
-                        国土交通省の教則に準拠した問題で学習できます。
-                    </p>
-                    <ul class="text-gray-600 space-y-2">
-                        <li>• 教則に完全準拠した問題</li>
-                        <li>• モックテスト形式での学習</li>
-                        <li>• 詳細な解説付き</li>
-                        <li>• モバイル対応</li>
-                    </ul>
-                </div>
 
                 <!-- 機能メニュー -->
                 <div class="grid gap-4 md:grid-cols-2">
@@ -205,27 +191,46 @@
                     <div id="pass-status" class="mt-4 text-lg font-medium">合格</div>
                 </div>
 
-                <!-- 問題解説タブシステム -->
+                <!-- 結果表とモーダル -->
                 <div class="bg-white rounded-lg shadow-md mb-6">
-                    <!-- タブヘッダー -->
-                    <div class="border-b border-gray-200">
-                        <nav class="flex space-x-8 px-6 pt-4">
-                            <button id="tab-all" class="result-tab pb-4 px-1 border-b-2 border-blue-500 font-medium text-sm text-blue-600">
-                                すべて (<span id="tab-all-count">50</span>)
-                            </button>
-                            <button id="tab-correct" class="result-tab pb-4 px-1 border-b-2 border-transparent font-medium text-sm text-gray-500 hover:text-gray-700">
-                                正解 (<span id="tab-correct-count">40</span>)
-                            </button>
-                            <button id="tab-wrong" class="result-tab pb-4 px-1 border-b-2 border-transparent font-medium text-sm text-gray-500 hover:text-gray-700">
-                                不正解 (<span id="tab-wrong-count">10</span>)
-                            </button>
-                        </nav>
-                    </div>
-                    
-                    <!-- タブコンテンツ -->
                     <div class="p-6">
-                        <div id="questions-container">
-                            <!-- JavaScriptで動的生成（問題の詳細解説） -->
+                        <h3 class="text-lg font-bold text-gray-800 mb-4">問題別結果一覧</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            問題をクリックすると詳細な解説が表示されます。
+                        </p>
+                        
+                        <!-- 結果表 -->
+                        <div class="overflow-x-auto">
+                            <table class="w-full border-collapse border border-gray-300">
+                                <thead>
+                                    <tr class="bg-gray-50">
+                                        <th class="border border-gray-300 px-4 py-2 text-left">問題</th>
+                                        <th class="border border-gray-300 px-4 py-2 text-center">結果</th>
+                                        <th class="border border-gray-300 px-4 py-2 text-left">章</th>
+                                        <th class="border border-gray-300 px-4 py-2 text-left">あなたの回答</th>
+                                        <th class="border border-gray-300 px-4 py-2 text-left">正解</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="results-table-body">
+                                    <!-- JavaScriptで動的生成 -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 問題詳細モーダル -->
+                <div id="question-detail-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+                    <div class="bg-white rounded-lg shadow-lg max-w-4xl w-full mx-4 max-h-[90vh] overflow-y-auto">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-4">
+                                <h2 id="modal-question-title" class="text-xl font-bold text-gray-800">問題 1</h2>
+                                <button id="close-question-modal" class="text-gray-500 hover:text-gray-700 text-2xl">×</button>
+                            </div>
+                            
+                            <div id="modal-question-content">
+                                <!-- JavaScriptで動的生成 -->
+                            </div>
                         </div>
                     </div>
                 </div>

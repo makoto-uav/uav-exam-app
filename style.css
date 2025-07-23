@@ -39,40 +39,79 @@
     transition: transform 0.2s ease;
 }
 
-/* 結果画面タブスタイル */
-.result-tab {
-    transition: all 0.2s ease;
-    cursor: pointer;
+/* 結果表テーブルスタイル */
+.results-table {
+    border-collapse: collapse;
+    width: 100%;
 }
 
-.result-tab.active {
-    border-color: #3b82f6 !important;
-    color: #2563eb !important;
+.results-table th,
+.results-table td {
+    border: 1px solid #d1d5db;
+    padding: 0.75rem 1rem;
+    text-align: left;
 }
 
-.result-tab:hover:not(.active) {
-    color: #374151 !important;
+.results-table th {
+    background-color: #f9fafb;
+    font-weight: 600;
+    color: #374151;
 }
 
-/* 問題結果カード */
-.question-result-card {
-    transition: all 0.2s ease;
-    cursor: pointer;
+.results-table tbody tr {
+    transition: background-color 0.2s ease;
 }
 
-.question-result-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.1);
+.results-table tbody tr:hover {
+    background-color: #f3f4f6;
 }
 
-.question-result-correct {
-    border-left: 4px solid #10b981;
-    background-color: #f0fdf4;
+.results-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
 }
 
-.question-result-wrong {
-    border-left: 4px solid #ef4444;
-    background-color: #fef2f2;
+.results-table tbody tr:nth-child(even):hover {
+    background-color: #f3f4f6;
+}
+
+/* 問題詳細モーダル */
+.modal-backdrop {
+    backdrop-filter: blur(2px);
+}
+
+.modal-content {
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.modal-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* レスポンシブテーブル */
+@media (max-width: 768px) {
+    .results-table {
+        font-size: 0.875rem;
+    }
+    
+    .results-table th,
+    .results-table td {
+        padding: 0.5rem;
+    }
 }
 
 /* 進捗バーアニメーション */
