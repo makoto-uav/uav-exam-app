@@ -297,30 +297,50 @@ async function loadAllQuestions() {
         
         // 4つのコア問題ファイルを並列で非同期読み込み（UTF-8エンコーディング明示）
         const responses = await Promise.all(
-            CORE_DATA_FILES.map(fileName => fetch(fileName, {
-                headers: {
-                    'Accept': 'application/json; charset=utf-8'
+            CORE_DATA_FILES.map(async fileName => {
+                try {
+                    const response = await fetch(fileName, {
+                        headers: {
+                            'Accept': 'application/json; charset=utf-8'
+                        }
+                    });
+                    return { response, fileName, success: response.ok };
+                } catch (error) {
+                    console.warn(`⚠ ファイル読み込み失敗: ${fileName} - ${error.message}`);
+                    return { response: null, fileName, success: false, error: error.message };
                 }
-            }))
+            })
         );
+
+        // 成功したレスポンスのみ処理
+        const successfulResponses = responses.filter(item => item.success);
+        
+        if (successfulResponses.length === 0) {
+            throw new Error('すべての問題データファイルの読み込みに失敗しました。ローカルサーバーが起動しているか確認してください。');
+        }
 
         // レスポンスの検証とJSONパース
         const allDatasets = await Promise.all(
-            responses.map(async (response, index) => {
-                if (!response.ok) {
-                    throw new Error(`ファイル読み込みエラー: ${CORE_DATA_FILES[index]} (${response.status})`);
+            successfulResponses.map(async (item) => {
+                try {
+                    return await item.response.json();
+                } catch (error) {
+                    console.warn(`⚠ JSON解析失敗: ${item.fileName} - ${error.message}`);
+                    return null;
                 }
-                return response.json();
             })
         );
+
+        // 有効なデータセットのみフィルタ
+        const validDatasets = allDatasets.filter(dataset => dataset !== null);
 
         // マスター問題配列への結合
         masterQuestions = [];
         let totalQuestionsLoaded = 0;
 
-        allDatasets.forEach((dataset, index) => {
-            if (dataset.questions && Array.isArray(dataset.questions)) {
-                const fileName = CORE_DATA_FILES[index];
+        validDatasets.forEach((dataset, index) => {
+            if (dataset && dataset.questions && Array.isArray(dataset.questions)) {
+                const fileName = successfulResponses[index].fileName;
                 const chapterInfo = getChapterInfo(fileName);
                 
                 // 各問題にチャプター情報を付与（画像は無視）
@@ -337,25 +357,25 @@ async function loadAllQuestions() {
                 totalQuestionsLoaded += dataset.questions.length;
                 
                 console.log(`✓ ${fileName}: ${dataset.questions.length}問読み込み完了`);
-            } else {
-                console.warn(`⚠ ${CORE_DATA_FILES[index]}: 問題データの形式が不正です`);
             }
         });
 
         // 読み込み結果の検証
         if (masterQuestions.length === 0) {
-            throw new Error('問題データが1問も読み込まれませんでした');
+            throw new Error('問題データが1問も読み込まれませんでした。ローカルサーバー（python -m http.server 8000）が起動しているか確認してください。');
         }
 
         isDataLoaded = true;
         showLoadingProgress('読み込み完了！');
         
-        console.log(`🎉 コア問題データベース読み込み完了: 合計${totalQuestionsLoaded}問`);
+        const loadedFiles = successfulResponses.length;
+        const totalFiles = CORE_DATA_FILES.length;
+        console.log(`🎉 コア問題データベース読み込み完了: ${loadedFiles}/${totalFiles}ファイル, 合計${totalQuestionsLoaded}問`);
         console.log('📊 章別内訳:', getChapterBreakdown());
         
     } catch (error) {
         console.error('❌ 問題データの読み込みに失敗:', error);
-        showLoadingError(error.message);
+        showLoadingError(`データ読み込みエラー: ${error.message}\n\n解決方法:\n1. ローカルサーバーを起動してください: python -m http.server 8000\n2. ブラウザでhttp://localhost:8000にアクセスしてください`);
         isDataLoaded = false;
     }
 }
