@@ -106,7 +106,7 @@
 
         <!-- 試験コンテンツ -->
         <main class="container mx-auto px-4 py-6">
-            <div class="max-w-4xl mx-auto">
+            <div class="max-w-6xl mx-auto">
                 
                 <!-- 進捗表示 -->
                 <div class="bg-white rounded-lg shadow-md p-4 mb-6">
@@ -119,8 +119,34 @@
                     </div>
                 </div>
 
-                <!-- 問題表示エリア -->
-                <div id="question-container" class="bg-white rounded-lg shadow-md p-6 mb-6">
+                <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                    <!-- 回答状況一覧パネル -->
+                    <div class="lg:col-span-1">
+                        <div class="bg-white rounded-lg shadow-md p-4 sticky top-6">
+                            <h3 class="text-lg font-bold text-gray-800 mb-4">回答状況</h3>
+                            <div class="mb-4 text-xs">
+                                <div class="flex items-center mb-1">
+                                    <div class="w-3 h-3 bg-blue-600 rounded mr-2"></div>
+                                    <span>現在の問題</span>
+                                </div>
+                                <div class="flex items-center mb-1">
+                                    <div class="w-3 h-3 bg-green-500 rounded mr-2"></div>
+                                    <span>回答済み</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-3 h-3 bg-gray-300 rounded mr-2"></div>
+                                    <span>未回答</span>
+                                </div>
+                            </div>
+                            <div id="answer-status-grid" class="grid grid-cols-5 gap-2">
+                                <!-- JavaScriptで動的生成 -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 問題表示エリア -->
+                    <div class="lg:col-span-3">
+                        <div id="question-container" class="bg-white rounded-lg shadow-md p-6 mb-6">
                     <div id="question-number" class="text-lg font-bold text-gray-800 mb-4">問題 1</div>
                     <div id="question-text" class="text-gray-800 mb-6 leading-relaxed">
                         問題を読み込み中...
@@ -137,17 +163,21 @@
                     </div>
                 </div>
 
-                <!-- ナビゲーション -->
-                <div class="flex justify-between items-center">
-                    <button id="prev-btn" class="bg-gray-500 text-white px-6 py-2 rounded hover:bg-gray-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
-                        前の問題
-                    </button>
-                    <button id="next-btn" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition-colors">
-                        次の問題
-                    </button>
-                    <button id="submit-exam-btn" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700 transition-colors" style="display: none;">
-                        試験終了
-                    </button>
+                        <!-- ナビゲーション -->
+                        <div class="flex justify-between items-center">
+                            <button id="prev-btn" class="bg-gray-500 text-white px-6 py-2 rounded hover:bg-gray-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                                前の問題
+                            </button>
+                            <div class="flex gap-2">
+                                <button id="next-btn" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition-colors">
+                                    次の問題
+                                </button>
+                                <button id="submit-exam-btn" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors text-sm whitespace-nowrap" style="display: none;">
+                                    試験終了
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>

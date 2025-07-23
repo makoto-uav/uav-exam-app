@@ -24,6 +24,7 @@ let userAnswers = [];
 let examTimer = null;
 let examStartTime = null;
 let isDataLoaded = false;
+let examHistory = []; // 試験履歴記録
 
 // === 定数 ===
 const EXAM_CONFIG = {
@@ -83,6 +84,7 @@ async function initializeUser() {
         currentUser = savedUser;
         console.log(`👤 ユーザー: ${currentUser} でログイン`);
         await loadMistakes(currentUser);
+        await loadExamHistory(currentUser);
     } else {
         // ユーザー名入力モーダルを表示
         await showUserNameModal();
@@ -146,8 +148,11 @@ function showUserNameModal() {
             
             console.log(`👤 新規ユーザー: ${currentUser} を登録`);
             
-            // 苦手問題データを読み込み
-            loadMistakes(currentUser).then(() => {
+            // 苦手問題データと試験履歴を読み込み
+            Promise.all([
+                loadMistakes(currentUser),
+                loadExamHistory(currentUser)
+            ]).then(() => {
                 resolve();
             });
         }
@@ -224,6 +229,43 @@ async function saveMistakes() {
     } catch (error) {
         console.error('❌ 苦手問題データ保存エラー:', error);
         showNotification('データ保存に失敗しました。ネットワーク接続を確認してください。', 'error');
+    }
+}
+
+// === 試験履歴管理機能 ===
+async function loadExamHistory(userId) {
+    try {
+        console.log(`📊 ${userId} の試験履歴を読み込み中...`);
+        
+        const savedHistory = localStorage.getItem(`examHistory_${userId}`);
+        if (savedHistory) {
+            examHistory = JSON.parse(savedHistory);
+            console.log(`✅ 試験履歴読み込み完了: ${examHistory.length}件`);
+        } else {
+            examHistory = [];
+            console.log('📝 新規ユーザー: 試験履歴を初期化');
+        }
+        
+    } catch (error) {
+        console.error('❌ 試験履歴読み込みエラー:', error);
+        examHistory = [];
+    }
+}
+
+function saveExamHistory(examResult) {
+    try {
+        examHistory.unshift(examResult); // 新しい結果を先頭に追加
+        
+        // 履歴は最大20件まで保持
+        if (examHistory.length > 20) {
+            examHistory = examHistory.slice(0, 20);
+        }
+        
+        localStorage.setItem(`examHistory_${currentUser}`, JSON.stringify(examHistory));
+        console.log(`💾 試験履歴保存完了: ${examHistory.length}件`);
+        
+    } catch (error) {
+        console.error('❌ 試験履歴保存エラー:', error);
     }
 }
 
@@ -350,6 +392,7 @@ function startMockExam() {
     examStartTime = Date.now();
     
     showScreen('exam-screen');
+    createAnswerStatusGrid();
     startTimer();
     displayCurrentQuestion();
 }
@@ -448,6 +491,9 @@ function displayCurrentQuestion() {
     
     // ナビゲーションボタンの制御
     updateNavigationButtons();
+    
+    // 回答状況グリッドの更新
+    updateAnswerStatusGrid();
 }
 
 // 画像表示機能を完全に削除（テキストのみ表示）
@@ -505,6 +551,12 @@ function selectAnswer(answerIndex, optionDiv, optionInput) {
     });
     optionDiv.classList.add('option-selected');
     optionInput.checked = true;
+    
+    // 回答状況グリッドの更新
+    updateAnswerStatusGrid();
+    
+    // ナビゲーションボタンの更新（選択肢を選んだ時）
+    updateNavigationButtons();
 }
 
 function updateProgress(progressText, progressBar) {
@@ -523,12 +575,111 @@ function updateNavigationButtons() {
     
     prevBtn.disabled = currentQuestionIndex === 0;
     
+    // 全問題に回答済みかどうかをチェック
+    const allAnswered = checkAllQuestionsAnswered();
+    
     if (currentQuestionIndex === currentExamQuestions.length - 1) {
+        // 最後の問題の場合
         nextBtn.style.display = 'none';
         submitBtn.style.display = 'inline-block';
+        submitBtn.textContent = '試験終了';
+    } else if (allAnswered) {
+        // 全問題に回答済みで、かつ最後の問題ではない場合
+        nextBtn.style.display = 'inline-block';
+        submitBtn.style.display = 'inline-block';
+        submitBtn.textContent = '試験終了';
     } else {
+        // 未回答の問題がある場合
         nextBtn.style.display = 'inline-block';
         submitBtn.style.display = 'none';
+    }
+}
+
+function checkAllQuestionsAnswered() {
+    for (let i = 0; i < currentExamQuestions.length; i++) {
+        if (userAnswers[i] === null || userAnswers[i] === undefined) {
+            return false;
+        }
+    }
+    return true;
+}
+
+// === 回答状況グリッド管理 ===
+function createAnswerStatusGrid() {
+    const grid = document.getElementById('answer-status-grid');
+    if (!grid || !currentExamQuestions.length) return;
+    
+    grid.innerHTML = '';
+    
+    currentExamQuestions.forEach((_, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'answer-status-item cursor-pointer p-2 rounded transition-all duration-200 border-2 border-gray-200 hover:shadow-md';
+        
+        const questionNumber = document.createElement('div');
+        questionNumber.className = 'text-xs font-bold text-center mb-1';
+        questionNumber.textContent = `Q${index + 1}`;
+        
+        const answerChoice = document.createElement('div');
+        answerChoice.className = 'text-lg font-bold text-center min-h-6';
+        answerChoice.id = `answer-choice-${index}`;
+        answerChoice.textContent = '-';
+        
+        questionDiv.appendChild(questionNumber);
+        questionDiv.appendChild(answerChoice);
+        
+        questionDiv.addEventListener('click', () => goToQuestion(index));
+        
+        grid.appendChild(questionDiv);
+    });
+}
+
+function updateAnswerStatusGrid() {
+    const grid = document.getElementById('answer-status-grid');
+    if (!grid) return;
+    
+    const questionItems = grid.children;
+    
+    for (let i = 0; i < questionItems.length; i++) {
+        const questionDiv = questionItems[i];
+        const questionNumber = questionDiv.children[0];
+        const answerChoice = questionDiv.children[1];
+        
+        // スタイルをリセット
+        questionDiv.className = 'answer-status-item cursor-pointer p-2 rounded transition-all duration-200 border-2 hover:shadow-md';
+        questionNumber.className = 'text-xs font-bold text-center mb-1';
+        answerChoice.className = 'text-lg font-bold text-center min-h-6';
+        
+        // 選択肢を表示
+        if (userAnswers[i] !== null && userAnswers[i] !== undefined) {
+            const choiceLabels = ['A', 'B', 'C', 'D', 'E'];
+            answerChoice.textContent = choiceLabels[userAnswers[i]] || '-';
+        } else {
+            answerChoice.textContent = '-';
+        }
+        
+        if (i === currentQuestionIndex) {
+            // 現在の問題
+            questionDiv.classList.add('border-blue-600', 'bg-blue-50');
+            questionNumber.classList.add('text-blue-700');
+            answerChoice.classList.add('text-blue-600');
+        } else if (userAnswers[i] !== null && userAnswers[i] !== undefined) {
+            // 回答済み
+            questionDiv.classList.add('border-green-500', 'bg-green-50');
+            questionNumber.classList.add('text-green-700');
+            answerChoice.classList.add('text-green-600');
+        } else {
+            // 未回答
+            questionDiv.classList.add('border-gray-300', 'bg-gray-50', 'hover:bg-gray-100');
+            questionNumber.classList.add('text-gray-600');
+            answerChoice.classList.add('text-gray-400');
+        }
+    }
+}
+
+function goToQuestion(questionIndex) {
+    if (questionIndex >= 0 && questionIndex < currentExamQuestions.length) {
+        currentQuestionIndex = questionIndex;
+        displayCurrentQuestion();
     }
 }
 
@@ -561,10 +712,25 @@ function finishExam() {
 function calculateAndDisplayResults() {
     let correctCount = 0;
     const wrongQuestions = [];
+    const detailedAnswers = [];
     
     currentExamQuestions.forEach((question, index) => {
         const userAnswer = userAnswers[index];
         const isCorrect = userAnswer === question.correctAnswer;
+        
+        // 詳細な回答記録を作成
+        detailedAnswers.push({
+            questionId: question.id,
+            questionText: question.question,
+            chapterCode: question.chapterCode,
+            chapterName: question.chapterName,
+            options: question.options,
+            userAnswer: userAnswer,
+            correctAnswer: question.correctAnswer,
+            isCorrect: isCorrect,
+            explanation: question.explanation,
+            reference: question.reference
+        });
         
         if (isCorrect) {
             correctCount++;
@@ -589,6 +755,23 @@ function calculateAndDisplayResults() {
     
     const scorePercentage = Math.round((correctCount / currentExamQuestions.length) * 100);
     const isPassed = scorePercentage >= EXAM_CONFIG.PASSING_SCORE_PERCENTAGE;
+    const examDuration = Math.round((Date.now() - examStartTime) / 1000);
+    
+    // 試験結果を履歴に保存
+    const examResult = {
+        id: Date.now(),
+        date: new Date().toISOString(),
+        dateString: new Date().toLocaleString('ja-JP'),
+        totalQuestions: currentExamQuestions.length,
+        correctCount: correctCount,
+        scorePercentage: scorePercentage,
+        isPassed: isPassed,
+        duration: examDuration,
+        answers: detailedAnswers,
+        examType: document.querySelector('#exam-screen header h1')?.textContent || '模擬試験'
+    };
+    
+    saveExamHistory(examResult);
     
     displayResults(correctCount, scorePercentage, isPassed, wrongQuestions);
     
@@ -760,6 +943,12 @@ function resetExamState() {
     if (timerElement) {
         timerElement.classList.remove('timer-warning');
         timerElement.textContent = '';
+    }
+    
+    // 回答状況グリッドをクリア
+    const grid = document.getElementById('answer-status-grid');
+    if (grid) {
+        grid.innerHTML = '';
     }
 }
 
@@ -1224,12 +1413,34 @@ function addWeaknessOvercomeModeButton() {
             </button>
         `;
         
+        // 試験履歴ボタンも追加
+        const historyButton = document.createElement('div');
+        historyButton.className = 'bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow';
+        historyButton.innerHTML = `
+            <h3 class="text-lg font-bold text-gray-800 mb-3">試験履歴</h3>
+            <p class="text-gray-600 mb-4 text-sm">
+                過去の試験結果を確認し、回答を修正できます。
+            </p>
+            <div class="mb-3">
+                <span id="history-count" class="text-sm font-medium text-purple-600">
+                    保存済み: ${examHistory.length}回
+                </span>
+            </div>
+            <button id="show-exam-history-btn" class="w-full bg-purple-600 text-white py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors">
+                履歴を見る
+            </button>
+        `;
+        
         // メニューコンテナに追加
         menuContainer.appendChild(weaknessButton);
+        menuContainer.appendChild(historyButton);
         
         // イベントリスナー追加
         const startWeaknessModeBtn = document.getElementById('start-weakness-mode-btn');
         startWeaknessModeBtn.addEventListener('click', startWeaknessOvercomeMode);
+        
+        const showExamHistoryBtn = document.getElementById('show-exam-history-btn');
+        showExamHistoryBtn.addEventListener('click', showExamHistoryModal);
     }
 }
 
@@ -1237,6 +1448,11 @@ function updateWeaknessButtonCount() {
     const countElement = document.getElementById('weakness-count');
     if (countElement) {
         countElement.textContent = `苦手問題: ${userMistakes.length}問`;
+    }
+    
+    const historyCountElement = document.getElementById('history-count');
+    if (historyCountElement) {
+        historyCountElement.textContent = `保存済み: ${examHistory.length}回`;
     }
 }
 
@@ -1270,6 +1486,7 @@ function startWeaknessOvercomeMode() {
     examStartTime = Date.now();
     
     showScreen('exam-screen');
+    createAnswerStatusGrid();
     startTimer();
     displayCurrentQuestion();
     
@@ -1292,6 +1509,211 @@ function shuffleArray(array) {
     return shuffled;
 }
 
+// === 試験履歴表示機能 ===
+function showExamHistoryModal() {
+    if (examHistory.length === 0) {
+        showNotification('まだ試験履歴がありません。', 'info');
+        return;
+    }
+    
+    const modalHTML = `
+        <div id="history-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+            <div class="bg-white rounded-lg shadow-lg max-w-4xl w-full mx-4 max-h-[80vh] overflow-hidden">
+                <div class="p-6 border-b">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-xl font-bold text-gray-800">試験履歴</h2>
+                        <button id="close-history-modal" class="text-gray-500 hover:text-gray-700 text-2xl">&times;</button>
+                    </div>
+                </div>
+                <div class="p-6 overflow-y-auto max-h-96">
+                    <div id="history-list" class="space-y-4">
+                        <!-- JavaScriptで動的生成 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+    
+    document.body.insertAdjacentHTML('beforeend', modalHTML);
+    
+    // 履歴リストを生成
+    const historyList = document.getElementById('history-list');
+    examHistory.forEach((result, index) => {
+        const resultDiv = document.createElement('div');
+        resultDiv.className = 'bg-gray-50 rounded-lg p-4 border hover:shadow-md transition-shadow cursor-pointer';
+        
+        const passClass = result.isPassed ? 'text-green-600' : 'text-red-600';
+        const passText = result.isPassed ? '合格' : '不合格';
+        
+        resultDiv.innerHTML = `
+            <div class="flex justify-between items-start mb-2">
+                <div>
+                    <div class="font-semibold text-gray-800">${result.examType}</div>
+                    <div class="text-sm text-gray-600">${result.dateString}</div>
+                </div>
+                <div class="text-right">
+                    <div class="text-2xl font-bold ${passClass}">${result.scorePercentage}%</div>
+                    <div class="text-sm ${passClass}">${passText}</div>
+                </div>
+            </div>
+            <div class="text-sm text-gray-600">
+                ${result.correctCount}/${result.totalQuestions}問正解 • 
+                所要時間: ${Math.floor(result.duration / 60)}分${result.duration % 60}秒
+            </div>
+        `;
+        
+        resultDiv.addEventListener('click', () => {
+            showExamDetail(result);
+        });
+        
+        historyList.appendChild(resultDiv);
+    });
+    
+    // モーダル閉じるイベント
+    document.getElementById('close-history-modal').addEventListener('click', () => {
+        document.getElementById('history-modal').remove();
+    });
+}
+
+function showExamDetail(examResult) {
+    // 履歴モーダルを閉じる
+    document.getElementById('history-modal').remove();
+    
+    const modalHTML = `
+        <div id="exam-detail-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+            <div class="bg-white rounded-lg shadow-lg max-w-5xl w-full mx-4 max-h-[90vh] overflow-hidden">
+                <div class="p-6 border-b">
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <h2 class="text-xl font-bold text-gray-800">${examResult.examType} - 詳細結果</h2>
+                            <div class="text-sm text-gray-600 mt-1">${examResult.dateString}</div>
+                        </div>
+                        <div class="flex space-x-3">
+                            <button id="back-to-history" class="bg-gray-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-gray-600 transition-colors">履歴に戻る</button>
+                            <button id="close-exam-detail-modal" class="text-gray-500 hover:text-gray-700 text-2xl">&times;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 overflow-y-auto" style="max-height: calc(90vh - 160px);">
+                    <div id="exam-detail-content">
+                        <!-- JavaScriptで動的生成 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+    
+    document.body.insertAdjacentHTML('beforeend', modalHTML);
+    
+    // 詳細内容を生成
+    const content = document.getElementById('exam-detail-content');
+    
+    // サマリー表示
+    const summaryDiv = document.createElement('div');
+    summaryDiv.className = 'bg-blue-50 rounded-lg p-4 mb-6';
+    const passClass = examResult.isPassed ? 'text-green-600' : 'text-red-600';
+    const passText = examResult.isPassed ? '合格' : '不合格';
+    
+    summaryDiv.innerHTML = `
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+            <div>
+                <div class="text-2xl font-bold ${passClass}">${examResult.scorePercentage}%</div>
+                <div class="text-sm text-gray-600">正答率</div>
+            </div>
+            <div>
+                <div class="text-2xl font-bold text-blue-600">${examResult.correctCount}/${examResult.totalQuestions}</div>
+                <div class="text-sm text-gray-600">正解数</div>
+            </div>
+            <div>
+                <div class="text-2xl font-bold text-purple-600">${Math.floor(examResult.duration / 60)}:${String(examResult.duration % 60).padStart(2, '0')}</div>
+                <div class="text-sm text-gray-600">所要時間</div>
+            </div>
+            <div>
+                <div class="text-2xl font-bold ${passClass}">${passText}</div>
+                <div class="text-sm text-gray-600">結果</div>
+            </div>
+        </div>
+    `;
+    content.appendChild(summaryDiv);
+    
+    // 問題ごとの詳細
+    examResult.answers.forEach((answer, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = `border rounded-lg p-4 mb-4 ${answer.isCorrect ? 'border-green-200 bg-green-50' : 'border-red-200 bg-red-50'}`;
+        
+        const statusIcon = answer.isCorrect ? '✅' : '❌';
+        const statusColor = answer.isCorrect ? 'text-green-600' : 'text-red-600';
+        
+        // 問題番号・章情報・ステータス
+        const headerDiv = document.createElement('div');
+        headerDiv.className = 'flex justify-between items-start mb-3';
+        headerDiv.innerHTML = `
+            <div>
+                <div class="font-bold text-gray-800">問題 ${index + 1}</div>
+                <div class="text-sm text-gray-600">第${answer.chapterCode}章: ${answer.chapterName}</div>
+            </div>
+            <div class="${statusColor} text-2xl">${statusIcon}</div>
+        `;
+        questionDiv.appendChild(headerDiv);
+        
+        // 問題文
+        const questionTextDiv = document.createElement('div');
+        questionTextDiv.className = 'text-gray-700 mb-4 leading-relaxed';
+        questionTextDiv.textContent = cleanText(answer.questionText);
+        questionDiv.appendChild(questionTextDiv);
+        
+        // 回答選択肢
+        const answersDiv = document.createElement('div');
+        answersDiv.className = 'space-y-2 mb-4';
+        answer.options.forEach((option, optionIndex) => {
+            const optionDiv = document.createElement('div');
+            let optionClass = 'p-2 rounded border text-sm';
+            
+            if (optionIndex === answer.correctAnswer) {
+                optionClass += ' bg-green-100 border-green-300 text-green-800';
+            } else if (optionIndex === answer.userAnswer && !answer.isCorrect) {
+                optionClass += ' bg-red-100 border-red-300 text-red-800';
+            } else {
+                optionClass += ' bg-gray-50 border-gray-200 text-gray-700';
+            }
+            
+            optionDiv.className = optionClass;
+            
+            let prefix = '';
+            if (optionIndex === answer.correctAnswer) prefix = '✓ ';
+            else if (optionIndex === answer.userAnswer && !answer.isCorrect) prefix = '✗ ';
+            
+            optionDiv.textContent = prefix + cleanText(option);
+            answersDiv.appendChild(optionDiv);
+        });
+        questionDiv.appendChild(answersDiv);
+        
+        // 解説
+        if (!answer.isCorrect && answer.explanation) {
+            const explanationDiv = document.createElement('div');
+            explanationDiv.className = 'bg-blue-50 border border-blue-200 rounded p-3';
+            explanationDiv.innerHTML = `
+                <div class="font-semibold text-blue-800 mb-1">解説:</div>
+                <div class="text-blue-700 text-sm">${cleanText(answer.explanation)}</div>
+                ${answer.reference ? `<div class="text-blue-600 text-xs mt-2">参考: ${cleanText(answer.reference)}</div>` : ''}
+            `;
+            questionDiv.appendChild(explanationDiv);
+        }
+        
+        content.appendChild(questionDiv);
+    });
+    
+    // イベントリスナー
+    document.getElementById('close-exam-detail-modal').addEventListener('click', () => {
+        document.getElementById('exam-detail-modal').remove();
+    });
+    
+    document.getElementById('back-to-history').addEventListener('click', () => {
+        document.getElementById('exam-detail-modal').remove();
+        showExamHistoryModal();
+    });
+}
+
 // === エクスポート（デバッグ用）===
 window.DEBUG_UAV_APP = {
     masterQuestions,
@@ -1302,7 +1724,11 @@ window.DEBUG_UAV_APP = {
     userMistakes,
     currentUser,
     loadMistakes,
-    saveMistakes
+    saveMistakes,
+    examHistory,
+    loadExamHistory,
+    saveExamHistory,
+    showExamHistoryModal
 };
 
 console.log('🚁 UAV試験対策アプリ初期化完了（クラウド連携対応）');

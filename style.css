@@ -86,6 +86,71 @@
     animation: timerBlink 1s infinite;
 }
 
+/* 回答状況グリッドのスタイリング */
+.answer-status-item {
+    min-width: 60px;
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-status-item:hover {
+    transform: translateY(-1px);
+}
+
+/* 回答状況グリッドのレスポンシブ調整 */
+@media (max-width: 1024px) {
+    .lg\:col-span-1 {
+        order: -1;
+    }
+    
+    .sticky {
+        position: static !important;
+    }
+    
+    #answer-status-grid {
+        grid-template-columns: repeat(10, 1fr);
+        gap: 0.5rem;
+    }
+    
+    .answer-status-item {
+        min-width: 45px;
+        min-height: 45px;
+        padding: 0.25rem;
+    }
+    
+    .answer-status-item .text-xs {
+        font-size: 0.625rem;
+    }
+    
+    .answer-status-item .text-lg {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 640px) {
+    #answer-status-grid {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0.25rem;
+    }
+    
+    .answer-status-item {
+        min-width: 40px;
+        min-height: 40px;
+        padding: 0.125rem;
+    }
+    
+    .answer-status-item .text-xs {
+        font-size: 0.5rem;
+    }
+    
+    .answer-status-item .text-lg {
+        font-size: 0.75rem;
+    }
+}
+
 /* レスポンシブ対応 */
 @media (max-width: 768px) {
     /* モバイルでのボタンサイズ調整 */
