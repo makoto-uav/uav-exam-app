@@ -1140,6 +1140,12 @@ function cleanText(text) {
     cleanedText = cleanedText.replace(/chapter\d+_page\d+_[a-z_]+\.png/gi, '');
     cleanedText = cleanedText.replace(/images\/[^"'\s]*\.(png|jpg|jpeg|gif)/gi, '');
     
+    // 出典情報を除去
+    cleanedText = cleanedText.replace(/（出典：[^）]*）/g, '');
+    cleanedText = cleanedText.replace(/\(出典：[^)]*\)/g, '');
+    cleanedText = cleanedText.replace(/（出典：）/g, '');
+    cleanedText = cleanedText.replace(/\(出典：\)/g, '');
+    
     // 明らかにbase64データっぽい非常に長い英数字文字列のみ除去
     // 日本語文字、記号、通常の英数字は保護
     cleanedText = cleanedText.replace(/\b[A-Za-z0-9+/=]{200,}\b/g, '');
