@@ -712,6 +712,7 @@ function finishExam() {
 function calculateAndDisplayResults() {
     let correctCount = 0;
     const wrongQuestions = [];
+    const correctQuestions = [];
     const detailedAnswers = [];
     
     currentExamQuestions.forEach((question, index) => {
@@ -734,6 +735,18 @@ function calculateAndDisplayResults() {
         
         if (isCorrect) {
             correctCount++;
+            
+            // 正解した問題も記録
+            correctQuestions.push({
+                questionNumber: index + 1,
+                question: question.question,
+                chapterInfo: `第${question.chapterCode}章: ${question.chapterName}`,
+                userAnswer: userAnswer !== null ? question.options[userAnswer] : '未回答',
+                correctAnswer: question.options[question.correctAnswer],
+                explanation: question.explanation,
+                reference: question.reference,
+                isCorrect: true
+            });
         } else {
             // 間違えた問題をuserMistakes配列に追加（重複回避）
             if (question.id && !userMistakes.includes(question.id)) {
@@ -748,7 +761,8 @@ function calculateAndDisplayResults() {
                 userAnswer: userAnswer !== null ? question.options[userAnswer] : '未回答',
                 correctAnswer: question.options[question.correctAnswer],
                 explanation: question.explanation,
-                reference: question.reference
+                reference: question.reference,
+                isCorrect: false
             });
         }
     });
@@ -773,7 +787,7 @@ function calculateAndDisplayResults() {
     
     saveExamHistory(examResult);
     
-    displayResults(correctCount, scorePercentage, isPassed, wrongQuestions);
+    displayResults(correctCount, scorePercentage, isPassed, wrongQuestions, correctQuestions);
     
     // 苦手問題データを保存
     if (userMistakes.length > 0) {
@@ -781,7 +795,7 @@ function calculateAndDisplayResults() {
     }
 }
 
-function displayResults(correctCount, scorePercentage, isPassed, wrongQuestions) {
+function displayResults(correctCount, scorePercentage, isPassed, wrongQuestions, correctQuestions) {
     const scoreDisplay = document.getElementById('score-display');
     const scoreDetail = document.getElementById('score-detail');
     const passStatus = document.getElementById('pass-status');
@@ -800,119 +814,232 @@ function displayResults(correctCount, scorePercentage, isPassed, wrongQuestions)
         passStatus.className = 'mt-4 text-2xl font-bold text-red-600';
     }
     
-    // 間違えた問題の詳細表示
-    displayWrongQuestions(wrongQuestionsContainer, wrongQuestions);
+    // タブの問題数を更新
+    updateTabCounts(correctQuestions.length, wrongQuestions.length);
+    
+    // 問題結果の詳細表示（新しいタブシステム）
+    displayQuestionResults(wrongQuestions, correctQuestions);
     
     console.log(`📊 試験結果 - 正答率: ${scorePercentage}%, 合否: ${isPassed ? '合格' : '不合格'}`);
 }
 
-function displayWrongQuestions(container, wrongQuestions) {
+// グローバル変数として現在の問題結果を保存
+let currentWrongQuestions = [];
+let currentCorrectQuestions = [];
+let currentActiveTab = 'all';
+
+// タブの問題数を更新
+function updateTabCounts(correctCount, wrongCount) {
+    const totalCount = correctCount + wrongCount;
+    
+    const tabAllCount = document.getElementById('tab-all-count');
+    const tabCorrectCount = document.getElementById('tab-correct-count');
+    const tabWrongCount = document.getElementById('tab-wrong-count');
+    
+    if (tabAllCount) tabAllCount.textContent = totalCount;
+    if (tabCorrectCount) tabCorrectCount.textContent = correctCount;
+    if (tabWrongCount) tabWrongCount.textContent = wrongCount;
+}
+
+// 新しい問題結果表示システム
+function displayQuestionResults(wrongQuestions, correctQuestions) {
+    // グローバル変数に保存
+    currentWrongQuestions = wrongQuestions;
+    currentCorrectQuestions = correctQuestions;
+    
+    // タブイベントリスナーを設定
+    setupResultTabs();
+    
+    // デフォルトですべてのタブを表示
+    showTabContent('all');
+}
+
+// タブのイベントリスナーを設定
+function setupResultTabs() {
+    const tabAll = document.getElementById('tab-all');
+    const tabCorrect = document.getElementById('tab-correct');
+    const tabWrong = document.getElementById('tab-wrong');
+    
+    if (tabAll) {
+        tabAll.addEventListener('click', () => {
+            setActiveTab('all');
+            showTabContent('all');
+        });
+    }
+    
+    if (tabCorrect) {
+        tabCorrect.addEventListener('click', () => {
+            setActiveTab('correct');
+            showTabContent('correct');
+        });
+    }
+    
+    if (tabWrong) {
+        tabWrong.addEventListener('click', () => {
+            setActiveTab('wrong');
+            showTabContent('wrong');
+        });
+    }
+}
+
+// アクティブタブを設定
+function setActiveTab(tabName) {
+    currentActiveTab = tabName;
+    
+    // 全タブのアクティブクラスを削除
+    const tabs = document.querySelectorAll('.result-tab');
+    tabs.forEach(tab => {
+        tab.classList.remove('active');
+        tab.classList.add('border-transparent', 'text-gray-500');
+        tab.classList.remove('border-blue-500', 'text-blue-600');
+    });
+    
+    // 選択されたタブをアクティブに
+    const activeTab = document.getElementById(`tab-${tabName}`);
+    if (activeTab) {
+        activeTab.classList.add('active');
+        activeTab.classList.remove('border-transparent', 'text-gray-500');
+        activeTab.classList.add('border-blue-500', 'text-blue-600');
+    }
+}
+
+// タブコンテンツを表示
+function showTabContent(tabName) {
+    const container = document.getElementById('questions-container');
+    if (!container) return;
+    
     container.innerHTML = '';
     
-    if (wrongQuestions.length === 0) {
-        const perfectDiv = document.createElement('div');
-        perfectDiv.className = 'text-center py-8';
-        perfectDiv.innerHTML = `
-            <div class="text-6xl mb-4">🎉</div>
-            <div class="text-xl font-bold text-green-600 mb-2">全問正解！</div>
-            <div class="text-gray-600">素晴らしい成績です。</div>
-        `;
-        container.appendChild(perfectDiv);
+    let questionsToShow = [];
+    
+    if (tabName === 'all') {
+        // 全問題を問題番号順にソート
+        questionsToShow = [...currentCorrectQuestions, ...currentWrongQuestions]
+            .sort((a, b) => a.questionNumber - b.questionNumber);
+    } else if (tabName === 'correct') {
+        questionsToShow = currentCorrectQuestions.sort((a, b) => a.questionNumber - b.questionNumber);
+    } else if (tabName === 'wrong') {
+        questionsToShow = currentWrongQuestions.sort((a, b) => a.questionNumber - b.questionNumber);
+    }
+    
+    if (questionsToShow.length === 0) {
+        const emptyDiv = document.createElement('div');
+        emptyDiv.className = 'text-center py-8 text-gray-500';
+        emptyDiv.textContent = '該当する問題がありません';
+        container.appendChild(emptyDiv);
         return;
     }
     
-    // ヘッダー
-    const headerDiv = document.createElement('div');
-    headerDiv.className = 'mb-6 p-4 bg-red-50 border border-red-200 rounded-lg';
-    headerDiv.innerHTML = `
-        <h3 class="text-lg font-bold text-red-800 mb-2">間違えた問題の解説</h3>
-        <p class="text-red-700">以下の${wrongQuestions.length}問を復習しましょう：</p>
-    `;
-    container.appendChild(headerDiv);
+    // 問題を表示
+    questionsToShow.forEach(question => {
+        const isCorrect = question.isCorrect !== false;
+        renderQuestionCard(container, question, isCorrect);
+    });
+}
+
+// 問題カードをレンダリング
+function renderQuestionCard(container, question, isCorrect) {
+    const questionDiv = document.createElement('div');
+    questionDiv.className = `question-result-card p-6 mb-4 rounded-lg border ${isCorrect ? 'question-result-correct' : 'question-result-wrong'}`;
     
-    // 各問題の詳細を安全な方法で構築
-    wrongQuestions.forEach(wrongQ => {
-        const questionDiv = document.createElement('div');
-        questionDiv.className = 'border-l-4 border-red-500 bg-red-50 p-6 mb-6 rounded-r-lg';
-        
-        // 問題番号・章情報
-        const headerDiv = document.createElement('div');
-        headerDiv.className = 'font-bold text-gray-800 mb-3';
-        headerDiv.textContent = `問題 ${wrongQ.questionNumber} `;
-        const chapterSpan = document.createElement('span');
-        chapterSpan.className = 'text-sm font-normal text-gray-600 ml-2';
-        chapterSpan.textContent = wrongQ.chapterInfo;
-        headerDiv.appendChild(chapterSpan);
-        questionDiv.appendChild(headerDiv);
-        
-        // 問題文
-        const questionTextDiv = document.createElement('div');
-        questionTextDiv.className = 'text-gray-700 mb-4 leading-relaxed';
-        questionTextDiv.textContent = cleanText(wrongQ.question);
-        questionDiv.appendChild(questionTextDiv);
-        
-        // 回答比較
+    // 問題ヘッダー
+    const headerDiv = document.createElement('div');
+    headerDiv.className = 'flex items-start justify-between mb-3';
+    
+    const titleDiv = document.createElement('div');
+    titleDiv.className = 'font-bold text-gray-800';
+    titleDiv.textContent = `問題 ${question.questionNumber}`;
+    
+    const chapterSpan = document.createElement('span');
+    chapterSpan.className = 'text-sm font-normal text-gray-600 ml-2';
+    chapterSpan.textContent = question.chapterInfo;
+    titleDiv.appendChild(chapterSpan);
+    
+    const statusDiv = document.createElement('div');
+    statusDiv.className = `text-2xl ${isCorrect ? 'text-green-600' : 'text-red-600'}`;
+    statusDiv.textContent = isCorrect ? '✓' : '❌';
+    
+    headerDiv.appendChild(titleDiv);
+    headerDiv.appendChild(statusDiv);
+    questionDiv.appendChild(headerDiv);
+    
+    // 問題文
+    const questionTextDiv = document.createElement('div');
+    questionTextDiv.className = 'text-gray-700 mb-4 leading-relaxed';
+    questionTextDiv.textContent = cleanText(question.question);
+    questionDiv.appendChild(questionTextDiv);
+    
+    // 回答情報
+    if (!isCorrect) {
+        // 不正解の場合：あなたの回答と正解を表示
         const answerCompareDiv = document.createElement('div');
-        answerCompareDiv.className = 'bg-white p-4 rounded-lg mb-4';
+        answerCompareDiv.className = 'bg-white p-4 rounded-lg mb-4 border';
         const gridDiv = document.createElement('div');
         gridDiv.className = 'grid grid-cols-1 md:grid-cols-2 gap-4 text-sm';
         
         // あなたの回答
         const userAnswerDiv = document.createElement('div');
-        const userAnswerLabel = document.createElement('strong');
-        userAnswerLabel.className = 'text-red-600';
-        userAnswerLabel.textContent = '❌ あなたの回答:';
+        const userAnswerLabel = document.createElement('div');
+        userAnswerLabel.className = 'font-semibold text-red-600 mb-1';
+        userAnswerLabel.textContent = '❌ あなたの回答';
         userAnswerDiv.appendChild(userAnswerLabel);
-        userAnswerDiv.appendChild(document.createElement('br'));
-        const userAnswerSpan = document.createElement('span');
+        const userAnswerSpan = document.createElement('div');
         userAnswerSpan.className = 'text-red-700';
-        userAnswerSpan.textContent = cleanText(wrongQ.userAnswer);
+        userAnswerSpan.textContent = cleanText(question.userAnswer);
         userAnswerDiv.appendChild(userAnswerSpan);
         gridDiv.appendChild(userAnswerDiv);
         
         // 正解
         const correctAnswerDiv = document.createElement('div');
-        const correctAnswerLabel = document.createElement('strong');
-        correctAnswerLabel.className = 'text-green-600';
-        correctAnswerLabel.textContent = '✓ 正解:';
+        const correctAnswerLabel = document.createElement('div');
+        correctAnswerLabel.className = 'font-semibold text-green-600 mb-1';
+        correctAnswerLabel.textContent = '✓ 正解';
         correctAnswerDiv.appendChild(correctAnswerLabel);
-        correctAnswerDiv.appendChild(document.createElement('br'));
-        const correctAnswerSpan = document.createElement('span');
+        const correctAnswerSpan = document.createElement('div');
         correctAnswerSpan.className = 'text-green-700 font-semibold';
-        correctAnswerSpan.textContent = cleanText(wrongQ.correctAnswer);
+        correctAnswerSpan.textContent = cleanText(question.correctAnswer);
         correctAnswerDiv.appendChild(correctAnswerSpan);
         gridDiv.appendChild(correctAnswerDiv);
         
         answerCompareDiv.appendChild(gridDiv);
         questionDiv.appendChild(answerCompareDiv);
-        
-        // 解説
-        const explanationDiv = document.createElement('div');
-        explanationDiv.className = 'bg-blue-50 p-4 rounded-lg';
-        const explanationInnerDiv = document.createElement('div');
-        explanationInnerDiv.className = 'text-sm';
-        const explanationLabel = document.createElement('strong');
-        explanationLabel.className = 'text-blue-800';
-        explanationLabel.textContent = '💡 解説:';
-        explanationInnerDiv.appendChild(explanationLabel);
-        explanationInnerDiv.appendChild(document.createElement('br'));
-        const explanationSpan = document.createElement('span');
-        explanationSpan.className = 'text-blue-700 leading-relaxed';
-        explanationSpan.textContent = cleanText(wrongQ.explanation);
-        explanationInnerDiv.appendChild(explanationSpan);
-        explanationDiv.appendChild(explanationInnerDiv);
-        
-        // 参考文献
-        if (wrongQ.reference) {
-            const referenceDiv = document.createElement('div');
-            referenceDiv.className = 'text-xs text-blue-600 mt-2';
-            referenceDiv.textContent = `📚 参考: ${cleanText(wrongQ.reference)}`;
-            explanationDiv.appendChild(referenceDiv);
-        }
-        
-        questionDiv.appendChild(explanationDiv);
-        container.appendChild(questionDiv);
-    });
+    } else {
+        // 正解の場合：正解のみ表示
+        const correctAnswerDiv = document.createElement('div');
+        correctAnswerDiv.className = 'bg-white p-4 rounded-lg mb-4 border';
+        const correctAnswerLabel = document.createElement('div');
+        correctAnswerLabel.className = 'font-semibold text-green-600 mb-2';
+        correctAnswerLabel.textContent = '✓ 正解';
+        correctAnswerDiv.appendChild(correctAnswerLabel);
+        const correctAnswerSpan = document.createElement('div');
+        correctAnswerSpan.className = 'text-green-700 font-semibold';
+        correctAnswerSpan.textContent = cleanText(question.correctAnswer);
+        correctAnswerDiv.appendChild(correctAnswerSpan);
+        questionDiv.appendChild(correctAnswerDiv);
+    }
+    
+    // 解説
+    const explanationDiv = document.createElement('div');
+    explanationDiv.className = 'bg-blue-50 p-4 rounded-lg';
+    const explanationLabel = document.createElement('div');
+    explanationLabel.className = 'font-semibold text-blue-800 mb-2';
+    explanationLabel.textContent = '💡 解説';
+    explanationDiv.appendChild(explanationLabel);
+    const explanationSpan = document.createElement('div');
+    explanationSpan.className = 'text-blue-700 leading-relaxed';
+    explanationSpan.textContent = cleanText(question.explanation);
+    explanationDiv.appendChild(explanationSpan);
+    
+    // 参考文献
+    if (question.reference) {
+        const referenceDiv = document.createElement('div');
+        referenceDiv.className = 'text-xs text-blue-600 mt-2';
+        referenceDiv.textContent = `📚 参考: ${cleanText(question.reference)}`;
+        explanationDiv.appendChild(referenceDiv);
+    }
+    
+    questionDiv.appendChild(explanationDiv);
+    container.appendChild(questionDiv);
 }
 
 // === UI制御 ===

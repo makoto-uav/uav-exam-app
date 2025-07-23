@@ -205,10 +205,28 @@
                     <div id="pass-status" class="mt-4 text-lg font-medium">合格</div>
                 </div>
 
-                <!-- 間違えた問題の解説 -->
-                <div class="bg-white rounded-lg shadow-md p-6 mb-6">
-                    <div id="wrong-questions-container">
-                        <!-- JavaScriptで動的生成（間違えた問題の詳細解説） -->
+                <!-- 問題解説タブシステム -->
+                <div class="bg-white rounded-lg shadow-md mb-6">
+                    <!-- タブヘッダー -->
+                    <div class="border-b border-gray-200">
+                        <nav class="flex space-x-8 px-6 pt-4">
+                            <button id="tab-all" class="result-tab pb-4 px-1 border-b-2 border-blue-500 font-medium text-sm text-blue-600">
+                                すべて (<span id="tab-all-count">50</span>)
+                            </button>
+                            <button id="tab-correct" class="result-tab pb-4 px-1 border-b-2 border-transparent font-medium text-sm text-gray-500 hover:text-gray-700">
+                                正解 (<span id="tab-correct-count">40</span>)
+                            </button>
+                            <button id="tab-wrong" class="result-tab pb-4 px-1 border-b-2 border-transparent font-medium text-sm text-gray-500 hover:text-gray-700">
+                                不正解 (<span id="tab-wrong-count">10</span>)
+                            </button>
+                        </nav>
+                    </div>
+                    
+                    <!-- タブコンテンツ -->
+                    <div class="p-6">
+                        <div id="questions-container">
+                            <!-- JavaScriptで動的生成（問題の詳細解説） -->
+                        </div>
                     </div>
                 </div>
 

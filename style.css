@@ -39,6 +39,42 @@
     transition: transform 0.2s ease;
 }
 
+/* 結果画面タブスタイル */
+.result-tab {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.result-tab.active {
+    border-color: #3b82f6 !important;
+    color: #2563eb !important;
+}
+
+.result-tab:hover:not(.active) {
+    color: #374151 !important;
+}
+
+/* 問題結果カード */
+.question-result-card {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.question-result-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.question-result-correct {
+    border-left: 4px solid #10b981;
+    background-color: #f0fdf4;
+}
+
+.question-result-wrong {
+    border-left: 4px solid #ef4444;
+    background-color: #fef2f2;
+}
+
 /* 進捗バーアニメーション */
 .progress-animate {
     transition: width 0.5s ease-in-out;
