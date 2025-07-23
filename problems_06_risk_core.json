@@ -35,8 +35,8 @@
         "機体の価格",
         "操縦者の技量と経験のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 飛行前のリスク評価では、気象条件、飛行環境、機体状態を総合的に評価し、安全な運航が可能かを判断することが最も重要です。単一要素だけでは適切な評価ができません。（出典：chapter06_page69_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 飛行前のリスク評価では、気象条件、飛行環境、機体状態を総合的に評価し、安全な運航が可能かを判断することが最も重要です。単一要素だけでは適切な評価ができません。（出典：chapter06_page69_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.2",
       "difficulty": "basic",
       "image": null
@@ -51,8 +51,8 @@
         "経験豊富な操縦者であれば限界を超えても飛行可能",
         "飛行高度を下げて風の影響を軽減する"
       ],
-      "correctAnswer": 1,
-      "explanation": "（正答）b どれだけ経験豊富な操縦者でも、機体の性能限界を超える条件での飛行は危険であり、事故につながる可能性があります。性能限界は経験で補えるものではありません。（出典：chapter06_page70_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c どれだけ経験豊富な操縦者でも、機体の性能限界を超える条件での飛行は危険であり、事故につながる可能性があります。性能限界は経験で補えるものではありません。（出典：chapter06_page70_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.3.1",
       "difficulty": "intermediate",
       "image": null
@@ -99,8 +99,8 @@
         "機体の損失を最小限に抑える",
         "費用の負担を最小限に抑える"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 緊急時の対応では、何よりも人の安全を最優先に考え、機体や物的損失よりも人命の保護を重視する必要があります。これが緊急時対応の最も重要な原則です。（出典：chapter06_page73_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 緊急時の対応では、何よりも人の安全を最優先に考え、機体や物的損失よりも人命の保護を重視する必要があります。これが緊急時対応の最も重要な原則です。（出典：chapter06_page73_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.4",
       "difficulty": "basic",
       "image": null
@@ -147,8 +147,8 @@
         "予定していた飛行時間",
         "今までの経験"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 気象条件悪化時の判断は、機体の性能限界と十分な安全マージンを考慮して行う必要があります。経験や予定時間だけでは客観性に欠け、危険な判断につながります。（出典：chapter06_page76_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 気象条件悪化時の判断は、機体の性能限界と十分な安全マージンを考慮して行う必要があります。経験や予定時間だけでは客観性に欠け、危険な判断につながります。（出典：chapter06_page76_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.4.3",
       "difficulty": "intermediate",
       "image": null
@@ -195,8 +195,8 @@
         "影響度が高ければ発生確率は関係ない",
         "発生確率が低ければ影響度は関係ない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a リスク評価では、事象の影響度（重大性）と発生確率の両方を掛け合わせてリスクレベルを決定するのが一般的な手法です。どちらか一方だけでは適切な評価ができません。（出典：chapter06_page79_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c リスク評価では、事象の影響度（重大性）と発生確率の両方を掛け合わせてリスクレベルを決定するのが一般的な手法です。どちらか一方だけでは適切な評価ができません。（出典：chapter06_page79_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.9.1",
       "difficulty": "intermediate",
       "image": null
@@ -227,8 +227,8 @@
         "一つの強力な防護策で十分",
         "最も安価な防護策を選択する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 多層防護とは、複数の独立した防護策を組み合わせることで、一つの防護策が失敗しても他の防護策で事故を防ぐという考え方です。安全性向上の基本的な考え方です。（出典：chapter06_page81_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 多層防護とは、複数の独立した防護策を組み合わせることで、一つの防護策が失敗しても他の防護策で事故を防ぐという考え方です。安全性向上の基本的な考え方です。（出典：chapter06_page81_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.11.1",
       "difficulty": "intermediate",
       "image": null
@@ -243,8 +243,8 @@
         "故障が発生しないようにする",
         "故障の修理を容易にする"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a フェイルセーフ設計とは、システムに故障が発生した場合でも、自動的に安全な状態に移行するように設計することです。故障の発生を前提とした安全設計思想です。（出典：chapter06_page82_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c フェイルセーフ設計とは、システムに故障が発生した場合でも、自動的に安全な状態に移行するように設計することです。故障の発生を前提とした安全設計思想です。（出典：chapter06_page82_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.11.2",
       "difficulty": "intermediate",
       "image": null
@@ -275,8 +275,8 @@
         "軽減策により完全に排除されるリスク",
         "対策不要なリスク"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 残存リスクとは、軽減策を実施した後も完全には排除できない、受け入れ可能なレベルまで低減されたリスクのことです。リスクの完全排除は現実的ではありません。（出典：chapter06_page84_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 残存リスクとは、軽減策を実施した後も完全には排除できない、受け入れ可能なレベルまで低減されたリスクのことです。リスクの完全排除は現実的ではありません。（出典：chapter06_page84_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.18.1",
       "difficulty": "intermediate",
       "image": null
@@ -291,8 +291,8 @@
         "発生確率のみが高い事象",
         "影響度のみが高い事象"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a リスクマトリックスでは、発生確率と影響度の両方を考慮してリスクレベルを判定し、両方が高い事象を高リスクとして分類します。（出典：chapter06_page85_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c リスクマトリックスでは、発生確率と影響度の両方を考慮してリスクレベルを判定し、両方が高い事象を高リスクとして分類します。（出典：chapter06_page85_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.19.1",
       "difficulty": "intermediate",
       "image": null
@@ -323,8 +323,8 @@
         "飛行時間の長さのみ",
         "過去の気象データのみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 気象関連リスクでは、条件の変化速度と予測精度を考慮し、飛行中の気象悪化に備えた対策を準備することが重要です。（出典：chapter06_page87_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 気象関連リスクでは、条件の変化速度と予測精度を考慮し、飛行中の気象悪化に備えた対策を準備することが重要です。（出典：chapter06_page87_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.21.1",
       "difficulty": "intermediate",
       "image": null
@@ -339,8 +339,8 @@
         "機体重量の軽減",
         "製造コストの削減"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 冗長性設計は、重要なシステムの単一故障が全体システムの停止につながることを防ぎ、安全性を向上させる目的で実装されます。（出典：chapter06_page88_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 冗長性設計は、重要なシステムの単一故障が全体システムの停止につながることを防ぎ、安全性を向上させる目的で実装されます。（出典：chapter06_page88_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.22.1",
       "difficulty": "intermediate",
       "image": null
@@ -371,8 +371,8 @@
         "インターネット接続の完全遮断",
         "暗号化の使用禁止"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a サイバーセキュリティ対策では、システムの定期的なセキュリティ更新により、既知の脆弱性に対する保護を維持することが重要です。（出典：chapter06_page90_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b サイバーセキュリティ対策では、システムの定期的なセキュリティ更新により、既知の脆弱性に対する保護を維持することが重要です。（出典：chapter06_page90_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.24.1",
       "difficulty": "advanced",
       "image": null
@@ -387,8 +387,8 @@
         "一度設定した対策の固定的運用",
         "環境変化の無視"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 運航環境は常に変化するため、継続的な監視と状況に応じた対策の見直しにより、適切なリスク管理を維持する必要があります。（出典：chapter06_page91_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 運航環境は常に変化するため、継続的な監視と状況に応じた対策の見直しにより、適切なリスク管理を維持する必要があります。（出典：chapter06_page91_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.25.1",
       "difficulty": "intermediate",
       "image": null
@@ -419,8 +419,8 @@
         "個人の責任のみを重視",
         "チーム編成の頻繁な変更"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a チームワークによるリスクを軽減するには、各メンバーの役割を明確にし、効果的なコミュニケーション手順を確立することが重要です。（出典：chapter06_page93_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b チームワークによるリスクを軽減するには、各メンバーの役割を明確にし、効果的なコミュニケーション手順を確立することが重要です。（出典：chapter06_page93_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.27.1",
       "difficulty": "basic",
       "image": null
@@ -435,8 +435,8 @@
         "即座の全面導入",
         "従来技術との併用禁止"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 新技術導入では、段階的な導入と十分な検証期間により、未知のリスクを最小化しながら安全に技術移行を行うことが重要です。（出典：chapter06_page94_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 新技術導入では、段階的な導入と十分な検証期間により、未知のリスクを最小化しながら安全に技術移行を行うことが重要です。（出典：chapter06_page94_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.28.1",
       "difficulty": "intermediate",
       "image": null
@@ -467,8 +467,8 @@
         "確実性が得られるまで一切の行動を取らない",
         "不確実性を無視して計画を実行"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 予防原則では、科学的な不確実性がある場合でも、潜在的なリスクを考慮して安全側の判断を優先することが重要です。（出典：chapter06_page96_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 予防原則では、科学的な不確実性がある場合でも、潜在的なリスクを考慮して安全側の判断を優先することが重要です。（出典：chapter06_page96_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.30.1",
       "difficulty": "advanced",
       "image": null
@@ -483,8 +483,8 @@
         "リスク情報の秘匿による混乱回避",
         "専門家のみによるリスク評価"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a リスクコミュニケーションにより、関係者間でリスク情報を共有し、共通理解を促進することで、より効果的なリスク管理が可能になります。（出典：chapter06_page97_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c リスクコミュニケーションにより、関係者間でリスク情報を共有し、共通理解を促進することで、より効果的なリスク管理が可能になります。（出典：chapter06_page97_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.31.1",
       "difficulty": "basic",
       "image": null
@@ -515,8 +515,8 @@
         "国内基準のみで十分",
         "コスト削減のため"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 国際基準との整合により、グローバルな安全水準を維持し、国際的な相互運用性を確保することで、より高い安全性を実現できます。（出典：chapter06_page99_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 国際基準との整合により、グローバルな安全水準を維持し、国際的な相互運用性を確保することで、より高い安全性を実現できます。（出典：chapter06_page99_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.33.1",
       "difficulty": "intermediate",
       "image": null
@@ -531,8 +531,8 @@
         "一度の計画で完了",
         "評価のみに重点を置く"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a PDCAサイクル（Plan-Do-Check-Act）により、リスク管理策を継続的に計画・実行・評価・改善することで、安全性の継続的向上を図れます。（出典：chapter06_page100_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c PDCAサイクル（Plan-Do-Check-Act）により、リスク管理策を継続的に計画・実行・評価・改善することで、安全性の継続的向上を図れます。（出典：chapter06_page100_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.34.1",
       "difficulty": "intermediate",
       "image": null
@@ -563,8 +563,8 @@
         "現場判断のみに依存",
         "事後報告で十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 異常事態では明確な判断基準に基づく迅速な情報伝達と、適切な権限を持つ者への報告により、的確な対応を可能にします。（出典：chapter06_page102_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 異常事態では明確な判断基準に基づく迅速な情報伝達と、適切な権限を持つ者への報告により、的確な対応を可能にします。（出典：chapter06_page102_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.36.1",
       "difficulty": "intermediate",
       "image": null
@@ -579,8 +579,8 @@
         "想定内事象への対応のみで十分",
         "マニュアルの厳格な遵守のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 想定外事象への対応には、基本原則を踏まえた柔軟な判断力と創造的な問題解決能力により、未知の状況に適応することが重要です。（出典：chapter06_page103_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 想定外事象への対応には、基本原則を踏まえた柔軟な判断力と創造的な問題解決能力により、未知の状況に適応することが重要です。（出典：chapter06_page103_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.37.1",
       "difficulty": "advanced",
       "image": null
@@ -611,8 +611,8 @@
         "気温変化のみ",
         "日照時間のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 季節的変動では気象パターンの変化、野生動物の活動時期、植生の変化等を総合的に考慮し、季節に応じたリスク対策を講じる必要があります。（出典：chapter06_page105_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 季節的変動では気象パターンの変化、野生動物の活動時期、植生の変化等を総合的に考慮し、季節に応じたリスク対策を講じる必要があります。（出典：chapter06_page105_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.39.1",
       "difficulty": "intermediate",
       "image": null
@@ -627,8 +627,8 @@
         "全国一律の対策で十分",
         "過去の経験のみに依存"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 地域特性として地形、気候条件、社会環境の違いを理解し、それぞれの特性に応じたリスク対策を策定することが重要です。（出典：chapter06_page106_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 地域特性として地形、気候条件、社会環境の違いを理解し、それぞれの特性に応じたリスク対策を策定することが重要です。（出典：chapter06_page106_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.40.1",
       "difficulty": "basic",
       "image": null
@@ -659,8 +659,8 @@
         "各機体の独立管理で十分",
         "先導機のみの管理で十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 複数機体運航では、機体間の相互影響、通信の混信、統合的な安全管理が重要で、単独機体運航とは異なるリスク管理が必要です。（出典：chapter06_page108_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 複数機体運航では、機体間の相互影響、通信の混信、統合的な安全管理が重要で、単独機体運航とは異なるリスク管理が必要です。（出典：chapter06_page108_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.42.1",
       "difficulty": "advanced",
       "image": null
@@ -675,8 +675,8 @@
         "燃料消費の増加のみ",
         "機体重量の増加のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 自動化システムへの過度の依存は、操縦者の手動操縦技能低下と状況認識能力の減退を招き、緊急時の対応能力を損なう危険があります。（出典：chapter06_page109_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 自動化システムへの過度の依存は、操縦者の手動操縦技能低下と状況認識能力の減退を招き、緊急時の対応能力を損なう危険があります。（出典：chapter06_page109_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.43.1",
       "difficulty": "advanced",
       "image": null
@@ -707,8 +707,8 @@
         "事前評価の結果のみに依存",
         "定期的な見直しは不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 動的リスクアセスメントは、運航中の状況変化に応じてリアルタイムでリスクを再評価し、必要に応じて対策を修正する手法です。（出典：chapter06_page111_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 動的リスクアセスメントは、運航中の状況変化に応じてリアルタイムでリスクを再評価し、必要に応じて対策を修正する手法です。（出典：chapter06_page111_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.45.1",
       "difficulty": "advanced",
       "image": null
@@ -723,8 +723,8 @@
         "失敗を隠蔽する組織文化",
         "変化を拒む保守的な組織文化"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 学習する組織は、成功・失敗の経験から学び、継続的な改善により安全性向上を図る組織文化を持ちます。オープンな情報共有が重要です。（出典：chapter06_page112_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 学習する組織は、成功・失敗の経験から学び、継続的な改善により安全性向上を図る組織文化を持ちます。オープンな情報共有が重要です。（出典：chapter06_page112_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.46.1",
       "difficulty": "intermediate",
       "image": null
@@ -755,8 +755,8 @@
         "個別要素のみの最適化",
         "単純化による理解促進"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a システム思考により、個別要素の最適化ではなく、要素間の相互関係を理解し、システム全体の最適化を図ることで、より効果的なリスク管理が可能になります。（出典：chapter06_page114_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b システム思考により、個別要素の最適化ではなく、要素間の相互関係を理解し、システム全体の最適化を図ることで、より効果的なリスク管理が可能になります。（出典：chapter06_page114_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.48.1",
       "difficulty": "advanced",
       "image": null
@@ -771,8 +771,8 @@
         "理論的な知識の習得のみ",
         "単純化された訓練のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 緊急時対応能力向上には、実際に起こりうる現実的なシナリオでの実践的訓練により、適切な判断と行動を身につけることが最も効果的です。（出典：chapter06_page115_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 緊急時対応能力向上には、実際に起こりうる現実的なシナリオでの実践的訓練により、適切な判断と行動を身につけることが最も効果的です。（出典：chapter06_page115_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.49.1",
       "difficulty": "basic",
       "image": null
@@ -803,8 +803,8 @@
         "予測可能性のみで十分",
         "制御可能性のみで十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a リスク評価では事象の予測可能性と制御可能性を総合的に考慮し、予測困難で制御不能な事象に対してはより慎重な対策が必要です。（出典：chapter06_page117_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b リスク評価では事象の予測可能性と制御可能性を総合的に考慮し、予測困難で制御不能な事象に対してはより慎重な対策が必要です。（出典：chapter06_page117_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.51.1",
       "difficulty": "advanced",
       "image": null
@@ -819,8 +819,8 @@
         "事故発生率のみ",
         "設備投資額のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 組織のリスク管理成熟度は、継続的改善活動の実践、学習文化の定着、プロアクティブな安全活動等により総合的に評価されます。（出典：chapter06_page118_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 組織のリスク管理成熟度は、継続的改善活動の実践、学習文化の定着、プロアクティブな安全活動等により総合的に評価されます。（出典：chapter06_page118_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.52.1",
       "difficulty": "intermediate",
       "image": null
@@ -851,8 +851,8 @@
         "従来の対策のみで十分",
         "新しいリスクの無視"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 技術進歩や社会変化により生じる新興リスクに対しては、継続的な環境監視と変化に適応する柔軟な対応能力が重要です。（出典：chapter06_page120_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 技術進歩や社会変化により生じる新興リスクに対しては、継続的な環境監視と変化に適応する柔軟な対応能力が重要です。（出典：chapter06_page120_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.54.1",
       "difficulty": "advanced",
       "image": null
@@ -867,8 +867,8 @@
         "技術的対策のみに特化",
         "個別対策の単純な積み上げ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 統合的アプローチにより、技術的対策、人的要因対策、組織的改善を総合的に組み合わせ、相互補完によりリスク管理効果を最大化できます。（出典：chapter06_page121_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 統合的アプローチにより、技術的対策、人的要因対策、組織的改善を総合的に組み合わせ、相互補完によりリスク管理効果を最大化できます。（出典：chapter06_page121_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.55.1",
       "difficulty": "advanced",
       "image": null
@@ -899,8 +899,8 @@
         "事象の完全な予防のみ",
         "固定的な防護対策のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a レジリエンスは、予期しない事象や障害に直面した際の適応能力と迅速な回復能力を指し、完全な予防が困難な状況での安全確保に重要です。（出典：chapter06_page123_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b レジリエンスは、予期しない事象や障害に直面した際の適応能力と迅速な回復能力を指し、完全な予防が困難な状況での安全確保に重要です。（出典：chapter06_page123_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.57.1",
       "difficulty": "advanced",
       "image": null
@@ -915,8 +915,8 @@
         "国内要因のみで十分",
         "地域的要因の無視"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a グローバル化により、国際的な相互依存関係が深まっているため、他地域での事象が連鎖的に影響する可能性を考慮したリスク管理が必要です。（出典：chapter06_page124_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c グローバル化により、国際的な相互依存関係が深まっているため、他地域での事象が連鎖的に影響する可能性を考慮したリスク管理が必要です。（出典：chapter06_page124_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.58.1",
       "difficulty": "advanced",
       "image": null
@@ -947,8 +947,8 @@
         "従来手法のみの継続",
         "技術偏重のアプローチ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 次世代のリスク管理では、AIによる予測的分析、変化への適応的対応、技術・人・組織の統合的アプローチを融合した高度なシステムが求められます。（出典：chapter06_page126_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 次世代のリスク管理では、AIによる予測的分析、変化への適応的対応、技術・人・組織の統合的アプローチを融合した高度なシステムが求められます。（出典：chapter06_page126_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.60.1",
       "difficulty": "advanced",
       "image": null
@@ -963,8 +963,8 @@
         "組織内部の最適化のみ",
         "情報の秘匿による競争優位確保"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 社会的責任を果たすリスク管理では、各ステークホルダーとの協働、透明性の確保、社会全体の安全向上への貢献が重要です。（出典：chapter06_page127_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 社会的責任を果たすリスク管理では、各ステークホルダーとの協働、透明性の確保、社会全体の安全向上への貢献が重要です。（出典：chapter06_page127_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.61.1",
       "difficulty": "intermediate",
       "image": null
@@ -995,8 +995,8 @@
         "リスクの完全回避",
         "安全性の無視"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a イノベーション促進には適切なリスクテイクが必要ですが、安全確保との適切なバランスを保ち、計算されたリスク管理により両立を図ることが重要です。（出典：chapter06_page129_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b イノベーション促進には適切なリスクテイクが必要ですが、安全確保との適切なバランスを保ち、計算されたリスク管理により両立を図ることが重要です。（出典：chapter06_page129_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.63.1",
       "difficulty": "advanced",
       "image": null
@@ -1011,8 +1011,8 @@
         "失敗の隠蔽による問題回避",
         "個人責任の追及のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 組織的学習には、失敗を報告・共有しやすい心理的安全性の確保により、組織全体での学習と改善を促進することが重要です。（出典：chapter06_page130_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 組織的学習には、失敗を報告・共有しやすい心理的安全性の確保により、組織全体での学習と改善を促進することが重要です。（出典：chapter06_page130_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.64.1",
       "difficulty": "intermediate",
       "image": null
@@ -1043,8 +1043,8 @@
         "利害関係者の排除",
         "情報の独占による優位性確保"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a リスク管理の倫理的側面では、公正性、透明性、説明責任を備えた意思決定により、社会的信頼と持続的発展を実現することが重要です。（出典：chapter06_page132_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b リスク管理の倫理的側面では、公正性、透明性、説明責任を備えた意思決定により、社会的信頼と持続的発展を実現することが重要です。（出典：chapter06_page132_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.66.1",
       "difficulty": "basic",
       "image": null
@@ -1059,8 +1059,8 @@
         "現状維持への固執",
         "過去の成功体験への依存"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 未来志向のリスク管理では、技術・社会・環境の変化を予測し、新しい状況に適応する先見性と柔軟性が重要な能力となります。（出典：chapter06_page133_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 未来志向のリスク管理では、技術・社会・環境の変化を予測し、新しい状況に適応する先見性と柔軟性が重要な能力となります。（出典：chapter06_page133_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.67.1",
       "difficulty": "advanced",
       "image": null
@@ -1091,8 +1091,8 @@
         "技術偏重による効率化のみ",
         "従来手法の固守のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a デジタル時代のリスク管理者は、新技術への深い理解と、人間を中心とした設計思想を両立し、技術と人間の調和を図る能力が求められます。（出典：chapter06_page135_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b デジタル時代のリスク管理者は、新技術への深い理解と、人間を中心とした設計思想を両立し、技術と人間の調和を図る能力が求められます。（出典：chapter06_page135_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.69.1",
       "difficulty": "advanced",
       "image": null
@@ -1107,8 +1107,8 @@
         "技術のみによる安全確保",
         "現状レベルの安全性維持のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 次世代航空安全では、急速な技術進歩を社会の要請と調和させ、持続可能で社会に受け入れられる形での安全性向上を実現することが使命です。（出典：chapter06_page136_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 次世代航空安全では、急速な技術進歩を社会の要請と調和させ、持続可能で社会に受け入れられる形での安全性向上を実現することが使命です。（出典：chapter06_page136_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.70.1",
       "difficulty": "advanced",
       "image": null
@@ -1139,8 +1139,8 @@
         "技術的側面のみの最適化",
         "個別要素の独立した改善"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 総合的リスク管理では、人的要因、技術的要因、組織的要因、環境要因を統合的に最適化し、システム全体の安全性と効率性を実現します。（出典：chapter06_page138_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 総合的リスク管理では、人的要因、技術的要因、組織的要因、環境要因を統合的に最適化し、システム全体の安全性と効率性を実現します。（出典：chapter06_page138_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.72.1",
       "difficulty": "advanced",
       "image": null
@@ -1155,8 +1155,8 @@
         "一部専門家のみの責任意識",
         "外部要因への責任転嫁"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 持続可能なリスク管理文化では、組織の全メンバーが安全に対する当事者意識を持ち、主体的にリスク管理活動に参画することが重要です。（出典：chapter06_page139_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 持続可能なリスク管理文化では、組織の全メンバーが安全に対する当事者意識を持ち、主体的にリスク管理活動に参画することが重要です。（出典：chapter06_page139_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.73.1",
       "difficulty": "basic",
       "image": null
@@ -1187,8 +1187,8 @@
         "現状維持への安住",
         "外部圧力のみへの対応"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 継続的改善の原動力は、現状に満足せず常により高い安全水準を目指す向上心と、新しい知識・技術を学習する意欲です。（出典：chapter06_page141_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 継続的改善の原動力は、現状に満足せず常により高い安全水準を目指す向上心と、新しい知識・技術を学習する意欲です。（出典：chapter06_page141_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.75.1",
       "difficulty": "basic",
       "image": null
@@ -1203,8 +1203,8 @@
         "技術的性能のみの評価",
         "経済効率性のみの追求"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 新世代技術では、技術的性能に加えて社会受容性、倫理的配慮、持続可能性等を総合的に評価し、社会と調和した導入を図ることが重要です。（出典：chapter06_page142_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 新世代技術では、技術的性能に加えて社会受容性、倫理的配慮、持続可能性等を総合的に評価し、社会と調和した導入を図ることが重要です。（出典：chapter06_page142_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.76.1",
       "difficulty": "advanced",
       "image": null
@@ -1235,8 +1235,8 @@
         "個人的利益の最大化のみ",
         "組織内利益の最優先"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a リスク管理者は専門職として、個人や組織の利益を超えて公共の利益を最優先とする高い職業倫理を保持する必要があります。（出典：chapter06_page144_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b リスク管理者は専門職として、個人や組織の利益を超えて公共の利益を最優先とする高い職業倫理を保持する必要があります。（出典：chapter06_page144_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.78.1",
       "difficulty": "basic",
       "image": null
@@ -1251,8 +1251,8 @@
         "短期的利益のみを重視した判断",
         "現世代のみの利便性追求"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 未来世代への責任として、持続可能性を考慮し、長期的な視点で環境・社会・経済の調和を図りながら安全を確保する必要があります。（出典：chapter06_page145_risk_management.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 未来世代への責任として、持続可能性を考慮し、長期的な視点で環境・社会・経済の調和を図りながら安全を確保する必要があります。（出典：chapter06_page145_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.79.1",
       "difficulty": "intermediate",
       "image": null
@@ -1283,8 +1283,8 @@
         "規制遵守のための形式的対応",
         "経済活動の効率化のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a リスク管理の本質的価値は、人命の尊重を最優先とし、社会の持続的発展に貢献することです。これがあらゆるリスク管理活動の基盤となる価値観です。（出典：chapter06_page147_risk_management.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b リスク管理の本質的価値は、人命の尊重を最優先とし、社会の持続的発展に貢献することです。これがあらゆるリスク管理活動の基盤となる価値観です。（出典：chapter06_page147_risk_management.png）",
       "reference": "教則6章 運航上のリスク管理 6.81.1",
       "difficulty": "basic",
       "image": null

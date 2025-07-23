@@ -35,8 +35,8 @@
         "撮影予定の構図",
         "飛行後の機体清掃計画"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 飛行前には気象条件、機体の状態、飛行予定空域の安全性（障害物、他機、規制等）を必ず確認する必要があります。これらは飛行安全の基礎となる要素です。（出典：chapter05_page58_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 飛行前には気象条件、機体の状態、飛行予定空域の安全性（障害物、他機、規制等）を必ず確認する必要があります。これらは飛行安全の基礎となる要素です。（出典：chapter05_page58_operators.png）",
       "reference": "教則5章 5.2.1 飛行前確認",
       "difficulty": "basic",
       "image": null
@@ -51,8 +51,8 @@
         "機体の色あせ",
         "付属品の収納状態"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 飛行前点検では、飛行安全に直結するプロペラの損傷、バッテリー電圧、制御系統の正常動作を重点的に確認します。これらの異常は墜落に直結する可能性があります。（出典：chapter05_page59_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 飛行前点検では、飛行安全に直結するプロペラの損傷、バッテリー電圧、制御系統の正常動作を重点的に確認します。これらの異常は墜落に直結する可能性があります。（出典：chapter05_page59_operators.png）",
       "reference": "教則5章 5.2.2 機体点検",
       "difficulty": "basic",
       "image": null
@@ -83,8 +83,8 @@
         "離陸時のみ監視すれば十分",
         "カメラ映像のみで監視可能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 目視による機体監視は、機体の位置、姿勢、飛行状態を常時把握し、異常時に適切な対応を取るために重要です。カメラ映像だけでは十分な状況把握ができません。（出典：chapter05_page61_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 目視による機体監視は、機体の位置、姿勢、飛行状態を常時把握し、異常時に適切な対応を取るために重要です。カメラ映像だけでは十分な状況把握ができません。（出典：chapter05_page61_operators.png）",
       "reference": "教則5章 5.3.1 目視監視",
       "difficulty": "basic",
       "image": null
@@ -99,8 +99,8 @@
         "機体の操縦の代行",
         "撮影データの管理"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 補助者の主な役割は、操縦者が機体操縦に集中できるよう、周囲の安全状況を監視し、必要な情報を操縦者に提供することです。操縦の代行は適切ではありません。（出典：chapter05_page62_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 補助者の主な役割は、操縦者が機体操縦に集中できるよう、周囲の安全状況を監視し、必要な情報を操縦者に提供することです。操縦の代行は適切ではありません。（出典：chapter05_page62_operators.png）",
       "reference": "教則5章 5.3.2 補助者の役割",
       "difficulty": "basic",
       "image": null
@@ -131,8 +131,8 @@
         "すべての飛行",
         "商用飛行のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機操縦者技能証明は、特定飛行（人口集中地区、夜間、目視外等）を行う場合に必要です（立入管理措置を講ずる場合等を除く）。趣味飛行でも特定飛行に該当すれば必要です。（出典：chapter05_page64_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機操縦者技能証明は、特定飛行（人口集中地区、夜間、目視外等）を行う場合に必要です（立入管理措置を講ずる場合等を除く）。趣味飛行でも特定飛行に該当すれば必要です。（出典：chapter05_page64_operators.png）",
       "reference": "教則5章 5.5.1 無人航空機操縦者技能証明",
       "difficulty": "basic",
       "image": null
@@ -147,8 +147,8 @@
         "最新機体の購入",
         "飛行時間の記録のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 操縦技能の維持・向上には、定期的な訓練と技能確認が不可欠です。技能は使わなければ低下するため、継続的な練習と客観的な技能評価が重要です。（出典：chapter05_page65_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 操縦技能の維持・向上には、定期的な訓練と技能確認が不可欠です。技能は使わなければ低下するため、継続的な練習と客観的な技能評価が重要です。（出典：chapter05_page65_operators.png）",
       "reference": "教則5章 5.5.2 技能維持",
       "difficulty": "basic",
       "image": null
@@ -179,8 +179,8 @@
         "機体回収を最優先で対応",
         "撮影継続を最優先で対応"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 機体異常時は、まず状況を正確に把握し、第三者への危険を回避し、安全を確保する順序で対応します。機体や撮影よりも安全確保が最優先です。（出典：chapter05_page67_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 機体異常時は、まず状況を正確に把握し、第三者への危険を回避し、安全を確保する順序で対応します。機体や撮影よりも安全確保が最優先です。（出典：chapter05_page67_operators.png）",
       "reference": "教則5章 5.6.2 異常時対応",
       "difficulty": "intermediate",
       "image": null
@@ -195,8 +195,8 @@
         "記憶に頼れば記録は不要",
         "年1回まとめて記録すれば十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 特定飛行では飛行日誌への記載・保存が法的義務であり、安全管理や技能向上のためにも正確な飛行記録の管理が重要です。記憶は曖昧になるため、必ず記録が必要です。（出典：chapter05_page66_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 特定飛行では飛行日誌への記載・保存が法的義務であり、安全管理や技能向上のためにも正確な飛行記録の管理が重要です。記憶は曖昧になるため、必ず記録が必要です。（出典：chapter05_page66_operators.png）",
       "reference": "教則5章 5.7.1 飛行記録",
       "difficulty": "basic",
       "image": null
@@ -227,8 +227,8 @@
         "各自が独立して作業すれば十分",
         "操縦者のみが責任を負えばよい"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 安全で効率的な運航のためには、運航チーム内での明確な役割分担と効果的なコミュニケーションが不可欠です。チーム全体での連携により、安全性が向上します。（出典：chapter05_page67_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 安全で効率的な運航のためには、運航チーム内での明確な役割分担と効果的なコミュニケーションが不可欠です。チーム全体での連携により、安全性が向上します。（出典：chapter05_page67_operators.png）",
       "reference": "教則5章 5.9.1 チーム連携",
       "difficulty": "intermediate",
       "image": null
@@ -243,8 +243,8 @@
         "高価な機体の使用",
         "多くの人員の配置"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 安全管理体制では、各人の責任と権限を明確に設定し、意思決定プロセスを確立することが最も重要です。人員の多さや機体の価格は安全に直結しません。（出典：chapter05_page68_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 安全管理体制では、各人の責任と権限を明確に設定し、意思決定プロセスを確立することが最も重要です。人員の多さや機体の価格は安全に直結しません。（出典：chapter05_page68_operators.png）",
       "reference": "教則5章 5.10.1 安全管理体制",
       "difficulty": "intermediate",
       "image": null
@@ -275,8 +275,8 @@
         "一度取得すれば永続的に有効",
         "毎年更新が必要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機操縦者技能証明は3年ごとに更新が必要で、継続的な知識・技能の維持確認が求められます。（出典：chapter05_page70_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機操縦者技能証明は3年ごとに更新が必要で、継続的な知識・技能の維持確認が求められます。（出典：chapter05_page70_operators.png）",
       "reference": "教則5章 5.11.2 技能証明更新",
       "difficulty": "basic",
       "image": null
@@ -291,8 +291,8 @@
         "認証の有無に関係なく運用可能",
         "改造は自由に行える"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 機体認証を受けた機体は、認証の前提条件を維持するため、勝手な改造等を行わずに適切に運用する責任があります。（出典：chapter05_page71_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 機体認証を受けた機体は、認証の前提条件を維持するため、勝手な改造等を行わずに適切に運用する責任があります。（出典：chapter05_page71_operators.png）",
       "reference": "教則5章 5.12.1 機体認証と操縦者責任",
       "difficulty": "intermediate",
       "image": null
@@ -323,8 +323,8 @@
         "撮影予定のみの検討",
         "飛行時間の短縮のみ考慮"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 飛行計画では気象条件、安全な飛行経路、緊急時の着陸場所を総合的に検討し、安全で効率的な飛行を実現する必要があります。（出典：chapter05_page73_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 飛行計画では気象条件、安全な飛行経路、緊急時の着陸場所を総合的に検討し、安全で効率的な飛行を実現する必要があります。（出典：chapter05_page73_operators.png）",
       "reference": "教則5章 5.14.1 飛行計画策定",
       "difficulty": "intermediate",
       "image": null
@@ -339,8 +339,8 @@
         "天気予報のみで十分",
         "現地の感覚的判断のみで十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 安全な飛行のためには、気象庁の公式気象情報と現地での実際の観測データを両方活用し、総合的に気象状況を判断することが重要です。（出典：chapter05_page74_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 安全な飛行のためには、気象庁の公式気象情報と現地での実際の観測データを両方活用し、総合的に気象状況を判断することが重要です。（出典：chapter05_page74_operators.png）",
       "reference": "教則5章 5.15.1 気象情報収集",
       "difficulty": "basic",
       "image": null
@@ -371,8 +371,8 @@
         "カメラ映像のみでの監視で十分",
         "自動操縦に任せれば監視は不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 目視外飛行では補助者との連携により確実な機体監視を行い、周囲の安全を確保する必要があります。カメラ映像だけでは限界があります。（出典：chapter05_page76_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 目視外飛行では補助者との連携により確実な機体監視を行い、周囲の安全を確保する必要があります。カメラ映像だけでは限界があります。（出典：chapter05_page76_operators.png）",
       "reference": "教則5章 5.17.1 目視外飛行",
       "difficulty": "intermediate",
       "image": null
@@ -387,8 +387,8 @@
         "高度を上げれば特別な注意は不要",
         "人がいても通常通りの飛行で問題ない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 人口集中地区での飛行では、第三者への危害防止が最重要であり、機体の故障や墜落に備えた安全対策の徹底が必要です。（出典：chapter05_page77_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 人口集中地区での飛行では、第三者への危害防止が最重要であり、機体の故障や墜落に備えた安全対策の徹底が必要です。（出典：chapter05_page77_operators.png）",
       "reference": "教則5章 5.18.1 人口集中地区飛行",
       "difficulty": "intermediate",
       "image": null
@@ -419,8 +419,8 @@
         "重量のみの確認で十分",
         "特別な確認は不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 危険物輸送では、輸送する物質の特性（可燃性、毒性等）と必要な安全対策を十分に確認し、適切な梱包・固定を行う必要があります。（出典：chapter05_page79_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 危険物輸送では、輸送する物質の特性（可燃性、毒性等）と必要な安全対策を十分に確認し、適切な梱包・固定を行う必要があります。（出典：chapter05_page79_operators.png）",
       "reference": "教則5章 5.20.1 危険物輸送",
       "difficulty": "advanced",
       "image": null
@@ -435,8 +435,8 @@
         "外観をざっと見るだけで十分",
         "点検は整備士に任せれば操縦者は無関係"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 操縦者は機体の状態を最もよく知る立場にあり、定期点検では点検項目に従って系統的に機体状態を確認する責任があります。（出典：chapter05_page80_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 操縦者は機体の状態を最もよく知る立場にあり、定期点検では点検項目に従って系統的に機体状態を確認する責任があります。（出典：chapter05_page80_operators.png）",
       "reference": "教則5章 5.21.1 定期点検",
       "difficulty": "basic",
       "image": null
@@ -467,8 +467,8 @@
         "外観の汚れのみ確認",
         "電源が入ることのみ確認"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 送信機の点検では、各スティックの正常動作、トリム設定の確認、電波出力の正常性を確認することが重要です。操縦不能につながる重要な項目です。（出典：chapter05_page82_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 送信機の点検では、各スティックの正常動作、トリム設定の確認、電波出力の正常性を確認することが重要です。操縦不能につながる重要な項目です。（出典：chapter05_page82_operators.png）",
       "reference": "教則5章 5.23.1 送信機点検",
       "difficulty": "basic",
       "image": null
@@ -483,8 +483,8 @@
         "自動操縦の継続使用",
         "GPS復旧まで空中待機"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a GPS等の測位システムに不具合が生じた場合は、自動操縦機能が正常に動作しない可能性があるため、手動操縦に切り替えて安全な着陸を行うべきです。（出典：chapter05_page83_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c GPS等の測位システムに不具合が生じた場合は、自動操縦機能が正常に動作しない可能性があるため、手動操縦に切り替えて安全な着陸を行うべきです。（出典：chapter05_page83_operators.png）",
       "reference": "教則5章 5.24.1 測位システム不具合",
       "difficulty": "intermediate",
       "image": null
@@ -515,8 +515,8 @@
         "総重量のみの確認で十分",
         "重量バランスは考慮不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 機体の安定した飛行には、重心位置の確認と積載物の適切な配置が重要です。重量バランスが崩れると操縦性や安定性に大きく影響します。（出典：chapter05_page85_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 機体の安定した飛行には、重心位置の確認と積載物の適切な配置が重要です。重量バランスが崩れると操縦性や安定性に大きく影響します。（出典：chapter05_page85_operators.png）",
       "reference": "教則5章 5.26.1 重量バランス",
       "difficulty": "intermediate",
       "image": null
@@ -531,8 +531,8 @@
         "撮影映像の品質のみ",
         "バッテリー残量のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 飛行中は機体の姿勢・高度の監視、周囲の航空交通との衝突回避、バッテリー残量等を総合的に監視し、安全な飛行を継続する必要があります。（出典：chapter05_page86_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 飛行中は機体の姿勢・高度の監視、周囲の航空交通との衝突回避、バッテリー残量等を総合的に監視し、安全な飛行を継続する必要があります。（出典：chapter05_page86_operators.png）",
       "reference": "教則5章 5.27.1 飛行中監視",
       "difficulty": "basic",
       "image": null
@@ -563,8 +563,8 @@
         "自機のみに集中すればよい",
         "編隊長の指示のみに従えばよい"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 協調飛行では他機との安全間隔の維持、相互の位置把握、協調した動作により衝突を防止する責任があります。各操縦者が安全に責任を持ちます。（出典：chapter05_page88_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 協調飛行では他機との安全間隔の維持、相互の位置把握、協調した動作により衝突を防止する責任があります。各操縦者が安全に責任を持ちます。（出典：chapter05_page88_operators.png）",
       "reference": "教則5章 5.29.1 協調飛行",
       "difficulty": "advanced",
       "image": null
@@ -579,8 +579,8 @@
         "更新は不要",
         "更新後すぐに飛行して問題ない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ファームウェア更新後は機体の動作確認、設定の見直し、地上でのテスト飛行により、正常性を確認してから本格的な飛行を行う必要があります。（出典：chapter05_page89_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c ファームウェア更新後は機体の動作確認、設定の見直し、地上でのテスト飛行により、正常性を確認してから本格的な飛行を行う必要があります。（出典：chapter05_page89_operators.png）",
       "reference": "教則5章 5.30.1 ファームウェア更新",
       "difficulty": "intermediate",
       "image": null
@@ -611,8 +611,8 @@
         "高品質な映像の撮影のみ",
         "効率的な作業の完了のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 業務飛行では、作業の効率性だけでなく、撮影対象のプライバシー権の尊重、個人情報の適切な管理も操縦者の重要な責務です。（出典：chapter05_page91_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 業務飛行では、作業の効率性だけでなく、撮影対象のプライバシー権の尊重、個人情報の適切な管理も操縦者の重要な責務です。（出典：chapter05_page91_operators.png）",
       "reference": "教則5章 5.32.1 業務飛行と個人情報保護",
       "difficulty": "intermediate",
       "image": null
@@ -627,8 +627,8 @@
         "機体保険のみで十分",
         "保険加入は任意でよい"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の運航では、第三者への損害に備えた賠償責任保険への加入が強く推奨されます。機体保険だけでは第三者損害をカバーできません。（出典：chapter05_page92_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機の運航では、第三者への損害に備えた賠償責任保険への加入が強く推奨されます。機体保険だけでは第三者損害をカバーできません。（出典：chapter05_page92_operators.png）",
       "reference": "教則5章 5.33.1 保険加入",
       "difficulty": "basic",
       "image": null
@@ -659,8 +659,8 @@
         "継続して同一高度で飛行",
         "相手機が回避すればよい"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 他の航空機（有人機、無人機問わず）との遭遇時は、安全な距離を保ち、衝突の危険がある場合は積極的に回避行動を取る責任があります。（出典：chapter05_page94_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 他の航空機（有人機、無人機問わず）との遭遇時は、安全な距離を保ち、衝突の危険がある場合は積極的に回避行動を取る責任があります。（出典：chapter05_page94_operators.png）",
       "reference": "教則5章 5.35.1 他機との遭遇",
       "difficulty": "intermediate",
       "image": null
@@ -675,8 +675,8 @@
         "長時間でも集中力は維持できる",
         "機体の性能のみ考慮すればよい"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 長時間飛行では操縦者の疲労による判断力・反応速度の低下が安全上の大きなリスクとなるため、適切な休憩と交代体制が重要です。（出典：chapter05_page95_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 長時間飛行では操縦者の疲労による判断力・反応速度の低下が安全上の大きなリスクとなるため、適切な休憩と交代体制が重要です。（出典：chapter05_page95_operators.png）",
       "reference": "教則5章 5.36.1 長時間飛行",
       "difficulty": "basic",
       "image": null
@@ -707,8 +707,8 @@
         "記録は任意でよい",
         "大まかな記録で十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 運航データの正確な記録と適切な保管は、安全管理の改善、トラブル分析、法的義務の履行のために操縦者の重要な責務です。（出典：chapter05_page97_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 運航データの正確な記録と適切な保管は、安全管理の改善、トラブル分析、法的義務の履行のために操縦者の重要な責務です。（出典：chapter05_page97_operators.png）",
       "reference": "教則5章 5.38.1 運航データ管理",
       "difficulty": "basic",
       "image": null
@@ -723,8 +723,8 @@
         "いつもの環境と同じ飛行で問題ない",
         "機体性能が分かっていれば特別な注意は不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 新しい飛行環境では、地形、障害物、電波環境、気象特性等を事前に調査し、初回は特に慎重な飛行を行う必要があります。（出典：chapter05_page98_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 新しい飛行環境では、地形、障害物、電波環境、気象特性等を事前に調査し、初回は特に慎重な飛行を行う必要があります。（出典：chapter05_page98_operators.png）",
       "reference": "教則5章 5.39.1 新環境での飛行",
       "difficulty": "basic",
       "image": null
@@ -755,8 +755,8 @@
         "主観的な感覚のみで十分",
         "他人からの評価は不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 操縦技能の維持には、客観的な基準に基づく定期的な技能確認と、必要に応じた追加訓練が重要です。主観的判断は過信につながる危険があります。（出典：chapter05_page100_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 操縦技能の維持には、客観的な基準に基づく定期的な技能確認と、必要に応じた追加訓練が重要です。主観的判断は過信につながる危険があります。（出典：chapter05_page100_operators.png）",
       "reference": "教則5章 5.41.1 技能自己評価",
       "difficulty": "intermediate",
       "image": null
@@ -771,8 +771,8 @@
         "基本的な法令を知っていれば十分",
         "法令は頻繁に変わらないので一度覚えれば十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法等の関連法令は定期的に改正されるため、常に最新の法令・規則を把握し、確実に遵守することが操縦者の基本的責務です。（出典：chapter05_page101_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 航空法等の関連法令は定期的に改正されるため、常に最新の法令・規則を把握し、確実に遵守することが操縦者の基本的責務です。（出典：chapter05_page101_operators.png）",
       "reference": "教則5章 5.42.1 法令遵守",
       "difficulty": "basic",
       "image": null
@@ -803,8 +803,8 @@
         "速やかな輸送のみを優先",
         "軽量であれば固定は不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 輸送業務では輸送物の適切な梱包・固定により落下を防止し、第三者への危害を防ぐことが特に重要な責任となります。（出典：chapter05_page103_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 輸送業務では輸送物の適切な梱包・固定により落下を防止し、第三者への危害を防ぐことが特に重要な責任となります。（出典：chapter05_page103_operators.png）",
       "reference": "教則5章 5.44.1 輸送業務",
       "difficulty": "intermediate",
       "image": null
@@ -819,8 +819,8 @@
         "迅速な情報収集のみを優先",
         "通常の飛行と同様の配慮で十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 災害対応飛行では、救助機関との綿密な協調、二次災害の防止、被災者のプライバシー配慮等、通常以上の特別な配慮が求められます。（出典：chapter05_page104_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 災害対応飛行では、救助機関との綿密な協調、二次災害の防止、被災者のプライバシー配慮等、通常以上の特別な配慮が求められます。（出典：chapter05_page104_operators.png）",
       "reference": "教則5章 5.45.1 災害対応飛行",
       "difficulty": "advanced",
       "image": null
@@ -851,8 +851,8 @@
         "訓練生に全て任せて構わない",
         "技術指導のみに集中すればよい"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 教育・訓練飛行では、指導操縦者が訓練生の安全を確保し、適切な技術指導と安全意識の向上を図る重大な責任があります。（出典：chapter05_page106_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 教育・訓練飛行では、指導操縦者が訓練生の安全を確保し、適切な技術指導と安全意識の向上を図る重大な責任があります。（出典：chapter05_page106_operators.png）",
       "reference": "教則5章 5.47.1 教育訓練飛行",
       "difficulty": "intermediate",
       "image": null
@@ -867,8 +867,8 @@
         "迫力ある飛行を最優先",
         "競技成績を最優先"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 競技・デモ飛行では、観客や参加者の安全を最優先とし、万一の機体故障や操縦ミスに備えた十分な安全対策が必要です。（出典：chapter05_page107_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 競技・デモ飛行では、観客や参加者の安全を最優先とし、万一の機体故障や操縦ミスに備えた十分な安全対策が必要です。（出典：chapter05_page107_operators.png）",
       "reference": "教則5章 5.48.1 競技デモ飛行",
       "difficulty": "intermediate",
       "image": null
@@ -899,8 +899,8 @@
         "目的達成のためには環境への配慮は不要",
         "法令に明記されていなければ配慮不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の運航では、騒音による地域住民への影響軽減、野生動物の生息環境への配慮等、環境保護への責任ある配慮が求められます。（出典：chapter05_page109_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機の運航では、騒音による地域住民への影響軽減、野生動物の生息環境への配慮等、環境保護への責任ある配慮が求められます。（出典：chapter05_page109_operators.png）",
       "reference": "教則5章 5.50.1 環境保護配慮",
       "difficulty": "basic",
       "image": null
@@ -915,8 +915,8 @@
         "従来の技術のみで十分",
         "新技術は危険なので使用禁止"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機技術の急速な発展に対応し、新技術を正しく理解して安全に活用する能力を継続的に向上させることが操縦者の責務です。（出典：chapter05_page110_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機技術の急速な発展に対応し、新技術を正しく理解して安全に活用する能力を継続的に向上させることが操縦者の責務です。（出典：chapter05_page110_operators.png）",
       "reference": "教則5章 5.51.1 技術革新対応",
       "difficulty": "intermediate",
       "image": null
@@ -947,8 +947,8 @@
         "競争相手なので指導する必要はない",
         "技術のみ教えれば十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 経験豊富な操縦者は、後進に対して技術だけでなく安全意識、法令遵守、社会的責任を含めて適切に指導・育成する役割があります。（出典：chapter05_page112_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 経験豊富な操縦者は、後進に対して技術だけでなく安全意識、法令遵守、社会的責任を含めて適切に指導・育成する役割があります。（出典：chapter05_page112_operators.png）",
       "reference": "教則5章 5.53.1 後進指導",
       "difficulty": "intermediate",
       "image": null
@@ -963,8 +963,8 @@
         "批判のみを行い改善には協力しない",
         "技術開発は関係者のみが行えばよい"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 操縦者は実際の運航経験から得られる知見を産業界と共有し、より安全で実用的な技術開発に協力することで産業全体の発展に貢献できます。（出典：chapter05_page113_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 操縦者は実際の運航経験から得られる知見を産業界と共有し、より安全で実用的な技術開発に協力することで産業全体の発展に貢献できます。（出典：chapter05_page113_operators.png）",
       "reference": "教則5章 5.54.1 産業協力",
       "difficulty": "intermediate",
       "image": null
@@ -995,8 +995,8 @@
         "一度資格を取得すれば学習は不要",
         "経験があれば新しい学習は必要ない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 技術の急速な発展と安全要求の高度化に対応するため、操縦者は常に新しい知識と技能の習得、継続的な改善に努める姿勢が重要です。（出典：chapter05_page115_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 技術の急速な発展と安全要求の高度化に対応するため、操縦者は常に新しい知識と技能の習得、継続的な改善に努める姿勢が重要です。（出典：chapter05_page115_operators.png）",
       "reference": "教則5章 5.56.1 継続学習",
       "difficulty": "basic",
       "image": null
@@ -1011,8 +1011,8 @@
         "現状維持のみを重視",
         "技術発展は研究者のみの責任"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 操縦者は現場での経験を活かし、より安全で社会に有用な無人航空機技術の発展に積極的に参画し、未来の航空安全に貢献することが期待されます。（出典：chapter05_page116_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 操縦者は現場での経験を活かし、より安全で社会に有用な無人航空機技術の発展に積極的に参画し、未来の航空安全に貢献することが期待されます。（出典：chapter05_page116_operators.png）",
       "reference": "教則5章 5.57.1 未来への貢献",
       "difficulty": "intermediate",
       "image": null
@@ -1043,8 +1043,8 @@
         "情報は秘匿し競争優位を保つ",
         "個人のスキルアップのみを重視"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 操縦者コミュニティの健全な発展には、安全に関する知識の共有、相互の技能向上支援、建設的な意見交換が重要です。（出典：chapter05_page118_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 操縦者コミュニティの健全な発展には、安全に関する知識の共有、相互の技能向上支援、建設的な意見交換が重要です。（出典：chapter05_page118_operators.png）",
       "reference": "教則5章 5.59.1 コミュニティ発展",
       "difficulty": "intermediate",
       "image": null
@@ -1059,8 +1059,8 @@
         "現在の利益確保のみを重視",
         "後継者育成は関係機関の責任"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 操縦者は次世代に対し、安全を最優先とする文化の継承と発展、持続可能な航空安全の実現に向けた責任を果たす必要があります。（出典：chapter05_page119_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 操縦者は次世代に対し、安全を最優先とする文化の継承と発展、持続可能な航空安全の実現に向けた責任を果たす必要があります。（出典：chapter05_page119_operators.png）",
       "reference": "教則5章 5.60.1 次世代への責任",
       "difficulty": "basic",
       "image": null
@@ -1091,8 +1091,8 @@
         "短期的な効率のみを追求",
         "環境への影響は考慮不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 持続可能な社会の実現に向け、操縦者は環境負荷の軽減、資源の効率的利用、長期的な視点での運航を心がける責任があります。（出典：chapter05_page121_operators.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 持続可能な社会の実現に向け、操縦者は環境負荷の軽減、資源の効率的利用、長期的な視点での運航を心がける責任があります。（出典：chapter05_page121_operators.png）",
       "reference": "教則5章 5.62.1 持続可能性",
       "difficulty": "intermediate",
       "image": null
@@ -1107,8 +1107,8 @@
         "従来技術のみで対応可能",
         "技術の進歩は考慮不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a デジタル化時代の操縦者は、AI・IoT等の新技術の理解、サイバーセキュリティ意識、データ管理能力等、新たな技術環境に対応する能力が求められます。（出典：chapter05_page122_operators.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c デジタル化時代の操縦者は、AI・IoT等の新技術の理解、サイバーセキュリティ意識、データ管理能力等、新たな技術環境に対応する能力が求められます。（出典：chapter05_page122_operators.png）",
       "reference": "教則5章 5.63.1 デジタル対応",
       "difficulty": "advanced",
       "image": null

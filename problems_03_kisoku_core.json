@@ -35,8 +35,8 @@
         "海上の上空",
         "私有地の上空"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法第132条により、人口集中地区の上空での飛行には国土交通大臣の飛行の許可又は承認が必要です。海上や私有地であっても、人口集中地区内では許可が必要となります。（出典：chapter03_page14_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 航空法第132条により、人口集中地区の上空での飛行には国土交通大臣の飛行の許可又は承認が必要です。海上や私有地であっても、人口集中地区内では許可が必要となります。（出典：chapter03_page14_regulations.png）",
       "reference": "教則3章 航空法第132条",
       "difficulty": "basic",
       "image": null
@@ -51,8 +51,8 @@
         "高度制限は人口集中地区でのみ適用される",
         "海上では高度制限は適用されない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法第132条第2号により、地表又は水面から150m以上の高度で無人航空機を飛行させる場合は、国土交通大臣の飛行の許可又は承認が必要です。この制限は場所を問わず適用されます。（出典：chapter03_page15_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 航空法第132条第2号により、地表又は水面から150m以上の高度で無人航空機を飛行させる場合は、国土交通大臣の飛行の許可又は承認が必要です。この制限は場所を問わず適用されます。（出典：chapter03_page15_regulations.png）",
       "reference": "教則3章 航空法第132条第2号",
       "difficulty": "basic",
       "image": null
@@ -99,8 +99,8 @@
         "建物から30m以内では一切飛行できない",
         "車両から30m以内でも承認は不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法第132条の2第3号により、人（操縦者や関係者を除く）又は物件から30m以内での飛行には国土交通大臣の飛行の許可又は承認が必要です。第三者の安全確保が目的です。（出典：chapter03_page18_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 航空法第132条の2第3号により、人（操縦者や関係者を除く）又は物件から30m以内での飛行には国土交通大臣の飛行の許可又は承認が必要です。第三者の安全確保が目的です。（出典：chapter03_page18_regulations.png）",
       "reference": "教則3章 航空法第132条の2第3号",
       "difficulty": "intermediate",
       "image": null
@@ -131,8 +131,8 @@
         "少量であれば承認は不要",
         "密閉容器に入れれば承認不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法第132条の2第5号により、爆発物その他人に危害を与え、又は他の物件を損傷するおそれがある物件の輸送には国土交通大臣の飛行の許可又は承認が必要です。量や容器に関わらず承認が必要です。（出典：chapter03_page20_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 航空法第132条の2第5号により、爆発物その他人に危害を与え、又は他の物件を損傷するおそれがある物件の輸送には国土交通大臣の飛行の許可又は承認が必要です。量や容器に関わらず承認が必要です。（出典：chapter03_page20_regulations.png）",
       "reference": "教則3章 航空法第132条の2第5号",
       "difficulty": "basic",
       "image": null
@@ -147,8 +147,8 @@
         "重量が軽ければ承認不要",
         "農薬散布は物件投下に含まれない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法第132条の2第6号により、無人航空機から物件を投下することは、国土交通大臣の飛行の許可又は承認が必要な飛行方法です。農薬散布も物件投下に該当します。（出典：chapter03_page21_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 航空法第132条の2第6号により、無人航空機から物件を投下することは、国土交通大臣の飛行の許可又は承認が必要な飛行方法です。農薬散布も物件投下に該当します。（出典：chapter03_page21_regulations.png）",
       "reference": "教則3章 航空法第132条の2第6号",
       "difficulty": "basic",
       "image": null
@@ -179,8 +179,8 @@
         "商用利用の場合のみ登録が必要",
         "趣味利用では登録は任意"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法第132条の16により、重量が100g以上の無人航空機の所有者は、国土交通大臣の登録を受けなければなりません。利用目的に関わらず登録が義務付けられています。（出典：chapter03_page23_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 航空法第132条の16により、重量が100g以上の無人航空機の所有者は、国土交通大臣の登録を受けなければなりません。利用目的に関わらず登録が義務付けられています。（出典：chapter03_page23_regulations.png）",
       "reference": "教則3章 航空法第132条の16",
       "difficulty": "basic",
       "image": null
@@ -195,8 +195,8 @@
         "操縦者が携帯していれば機体への表示は不要",
         "リモートID機能があれば表示不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法第132条の18により、登録を受けた無人航空機には、登録記号を見やすい場所に耐久性のある方法で表示しなければなりません。物理的な表示が必須です。（出典：chapter03_page24_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 航空法第132条の18により、登録を受けた無人航空機には、登録記号を見やすい場所に耐久性のある方法で表示しなければなりません。物理的な表示が必須です。（出典：chapter03_page24_regulations.png）",
       "reference": "教則3章 航空法第132条の18",
       "difficulty": "basic",
       "image": null
@@ -227,8 +227,8 @@
         "趣味の飛行では無人航空機操縦者技能証明は不要",
         "機体認証を受けていれば無人航空機操縦者技能証明は不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法第132条の44により、特定飛行を行う場合には、国土交通大臣の無人航空機操縦者技能証明を受けた者でなければなりません（第三者の立入管理措置を講ずる場合等を除く）。（出典：chapter03_page26_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 航空法第132条の44により、特定飛行を行う場合には、国土交通大臣の無人航空機操縦者技能証明を受けた者でなければなりません（第三者の立入管理措置を講ずる場合等を除く）。（出典：chapter03_page26_regulations.png）",
       "reference": "教則3章 航空法第132条の44",
       "difficulty": "basic",
       "image": null
@@ -243,8 +243,8 @@
         "第二種機体認証はすべての飛行で必要",
         "認証を受けていない機体での飛行は一切禁止"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 第一種機体認証は、カテゴリーIII飛行（第三者上空での特定飛行）を行う場合に必要です。第二種機体認証は第三者の立入管理措置を講じない特定飛行で必要となります。（出典：chapter03_page27_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 第一種機体認証は、カテゴリーIII飛行（第三者上空での特定飛行）を行う場合に必要です。第二種機体認証は第三者の立入管理措置を講じない特定飛行で必要となります。（出典：chapter03_page27_regulations.png）",
       "reference": "教則3章 機体認証制度",
       "difficulty": "advanced",
       "image": null
@@ -275,8 +275,8 @@
         "無人航空機操縦者技能証明保有者のみ記載義務がある",
         "年間飛行時間が50時間以上の場合のみ必要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法第132条の59により、特定飛行を行った場合には、飛行日誌に必要事項を記載し、これを保存しなければなりません。飛行記録の管理は安全確保に重要です。（出典：chapter03_page29_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 航空法第132条の59により、特定飛行を行った場合には、飛行日誌に必要事項を記載し、これを保存しなければなりません。飛行記録の管理は安全確保に重要です。（出典：chapter03_page29_regulations.png）",
       "reference": "教則3章 航空法第132条の59",
       "difficulty": "basic",
       "image": null
@@ -291,8 +291,8 @@
         "機体が破損した場合のみ報告が必要",
         "保険会社への連絡で十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法第132条の60により、無人航空機による事故が発生した場合には、国土交通大臣に報告しなければなりません。報告対象は死傷者の発生、航空機との衝突等です。（出典：chapter03_page30_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 航空法第132条の60により、無人航空機による事故が発生した場合には、国土交通大臣に報告しなければなりません。報告対象は死傷者の発生、航空機との衝突等です。（出典：chapter03_page30_regulations.png）",
       "reference": "教則3章 航空法第132条の60",
       "difficulty": "intermediate",
       "image": null
@@ -323,8 +323,8 @@
         "人口集中地区以外での飛行",
         "150m未満の高度での飛行"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a カテゴリーII飛行は、特定飛行のうち第三者の立入管理措置を講ずる場合等が該当します。第三者への危険を管理した飛行形態です。（出典：chapter03_page32_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b カテゴリーII飛行は、特定飛行のうち第三者の立入管理措置を講ずる場合等が該当します。第三者への危険を管理した飛行形態です。（出典：chapter03_page32_regulations.png）",
       "reference": "教則3章 無人航空機の飛行形態",
       "difficulty": "advanced",
       "image": null
@@ -339,8 +339,8 @@
         "150m以上の高度での飛行",
         "夜間飛行"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a カテゴリーIII飛行は、特定飛行のうち第三者上空を飛行するもので、最も厳格な安全基準が適用されます。レベル4飛行とも呼ばれます。（出典：chapter03_page33_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c カテゴリーIII飛行は、特定飛行のうち第三者上空を飛行するもので、最も厳格な安全基準が適用されます。レベル4飛行とも呼ばれます。（出典：chapter03_page33_regulations.png）",
       "reference": "教則3章 無人航空機の飛行形態",
       "difficulty": "advanced",
       "image": null
@@ -371,8 +371,8 @@
         "無人航空機の販売情報を管理するシステム",
         "操縦者の訓練記録を管理するシステム"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a DIPS（Drone Information Platform System）は、無人航空機に関する飛行の許可又は承認申請、登録申請等をオンラインで行うことができるシステムです。（出典：chapter03_page35_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b DIPS（Drone Information Platform System）は、無人航空機に関する飛行の許可又は承認申請、登録申請等をオンラインで行うことができるシステムです。（出典：chapter03_page35_regulations.png）",
       "reference": "教則3章 ドローン情報基盤システム",
       "difficulty": "basic",
       "image": null
@@ -387,8 +387,8 @@
         "罰則は行政処分のみで刑事罰はない",
         "初回違反には罰則は適用されない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法第157条の10等により、無人航空機に関する規定に違反した場合には、50万円以下の罰金等の刑事罰が科される場合があります。悪質な違反には厳罰が適用されます。（出典：chapter03_page36_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 航空法第157条の10等により、無人航空機に関する規定に違反した場合には、50万円以下の罰金等の刑事罰が科される場合があります。悪質な違反には厳罰が適用されます。（出典：chapter03_page36_regulations.png）",
       "reference": "教則3章 航空法第157条の10",
       "difficulty": "basic",
       "image": null
@@ -419,8 +419,8 @@
         "趣味利用では電波法の適用はない",
         "出力が微弱であれば技適は不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 電波法により、技術基準適合証明等のマーク（技適マーク）が付されていない無線設備を使用することは違法行為となります。無人航空機の制御用無線機器も電波法の適用を受けます。（出典：chapter03_page38_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 電波法により、技術基準適合証明等のマーク（技適マーク）が付されていない無線設備を使用することは違法行為となります。無人航空機の制御用無線機器も電波法の適用を受けます。（出典：chapter03_page38_regulations.png）",
       "reference": "教則3章 電波法",
       "difficulty": "intermediate",
       "image": null
@@ -435,8 +435,8 @@
         "公道上空は自由に飛行可能",
         "航空法があるため民法は適用されない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 民法第207条により、土地の所有権は法令の制限内において上下に及ぶため、他人の土地上空での飛行には所有者の同意が必要となる場合があります。航空法と民法は別個に適用されます。（出典：chapter03_page38_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 民法第207条により、土地の所有権は法令の制限内において上下に及ぶため、他人の土地上空での飛行には所有者の同意が必要となる場合があります。航空法と民法は別個に適用されます。（出典：chapter03_page38_regulations.png）",
       "reference": "教則3章 民法",
       "difficulty": "intermediate",
       "image": null
@@ -467,8 +467,8 @@
         "道路上空の飛行は一切禁止",
         "歩道からの離着陸は許可不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 道路において無人航空機の離着陸を行う場合は、道路交通法に基づく道路使用許可が必要となります。道路管理者と警察署長の許可が必要です。（出典：chapter03_page38_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 道路において無人航空機の離着陸を行う場合は、道路交通法に基づく道路使用許可が必要となります。道路管理者と警察署長の許可が必要です。（出典：chapter03_page38_regulations.png）",
       "reference": "教則3章 道路交通法",
       "difficulty": "intermediate",
       "image": null
@@ -483,8 +483,8 @@
         "すべての無人航空機の飛行で通報が必要",
         "夜間飛行時のみ通報が必要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法第132条の4により、国土交通省令で定める場合には、あらかじめ、国土交通大臣にその旨を通報しなければなりません。具体的には研究開発目的の飛行等が対象となります。（出典：chapter03_page30_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 航空法第132条の4により、国土交通省令で定める場合には、あらかじめ、国土交通大臣にその旨を通報しなければなりません。具体的には研究開発目的の飛行等が対象となります。（出典：chapter03_page30_regulations.png）",
       "reference": "教則3章 航空法第132条の4",
       "difficulty": "intermediate",
       "image": null
@@ -515,8 +515,8 @@
         "操縦者の技能を証明するもの",
         "飛行計画を承認するもの"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 耐空証明は、個々の無人航空機が安全基準に適合し、安全に飛行できることを証明するものです。機体認証とは異なり、個別機体ごとに発行されます。（出典：chapter03_page34_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 耐空証明は、個々の無人航空機が安全基準に適合し、安全に飛行できることを証明するものです。機体認証とは異なり、個別機体ごとに発行されます。（出典：chapter03_page34_regulations.png）",
       "reference": "教則3章 耐空証明制度",
       "difficulty": "intermediate",
       "image": null
@@ -531,8 +531,8 @@
         "気象情報を提供するシステム",
         "操縦者の技能を管理するシステム"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a FISS（Flight Information Sharing System）は、無人航空機の飛行計画を他の運航者と共有し、安全な運航を支援するシステムです。飛行計画の重複や干渉を防ぎます。（出典：chapter03_page35_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c FISS（Flight Information Sharing System）は、無人航空機の飛行計画を他の運航者と共有し、安全な運航を支援するシステムです。飛行計画の重複や干渉を防ぎます。（出典：chapter03_page35_regulations.png）",
       "reference": "教則3章 飛行情報共有システム",
       "difficulty": "intermediate",
       "image": null
@@ -563,8 +563,8 @@
         "公共の場所では肖像権は適用されない",
         "遠距離からの撮影では肖像権は問題ない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機による撮影において、特定の個人が識別できる形で写り込む場合、肖像権への配慮として事前の承諾を得ることが望ましいとされています。トラブル防止のため重要です。（出典：chapter03_page38_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機による撮影において、特定の個人が識別できる形で写り込む場合、肖像権への配慮として事前の承諾を得ることが望ましいとされています。トラブル防止のため重要です。（出典：chapter03_page38_regulations.png）",
       "reference": "教則3章 肖像権",
       "difficulty": "basic",
       "image": null
@@ -579,8 +579,8 @@
         "有人航空機のみが対象で無人航空機は対象外",
         "商用無人航空機のみ対象"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 国際民間航空条約（シカゴ条約）は、無人航空機についても適用され、国際的な安全基準や運航ルールの基礎となっています。国際的な枠組みの中で規制されています。（出典：chapter03_page38_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 国際民間航空条約（シカゴ条約）は、無人航空機についても適用され、国際的な安全基準や運航ルールの基礎となっています。国際的な枠組みの中で規制されています。（出典：chapter03_page38_regulations.png）",
       "reference": "教則3章 国際民間航空条約",
       "difficulty": "advanced",
       "image": null
@@ -611,8 +611,8 @@
         "登録後の変更手続きは不要",
         "年1回まとめて変更すれば十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の所有者や使用者が変更された場合、登録情報の変更手続きが必要です。正確な登録情報の維持は、機体の適切な管理と法的責任の明確化のために重要です。（出典：chapter03_page23_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機の所有者や使用者が変更された場合、登録情報の変更手続きが必要です。正確な登録情報の維持は、機体の適切な管理と法的責任の明確化のために重要です。（出典：chapter03_page23_regulations.png）",
       "reference": "教則3章 登録制度",
       "difficulty": "basic",
       "image": null
@@ -627,8 +627,8 @@
         "すべての飛行でリモートID機能は必須",
         "趣味利用では免除される"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 十分な強度を有する紐等により係留して行う飛行など、特定の条件下ではリモートID機能の搭載が免除される場合があります。ただし、この場合も他の安全要件は適用されます。（出典：chapter03_page25_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 十分な強度を有する紐等により係留して行う飛行など、特定の条件下ではリモートID機能の搭載が免除される場合があります。ただし、この場合も他の安全要件は適用されます。（出典：chapter03_page25_regulations.png）",
       "reference": "教則3章 リモートID機能",
       "difficulty": "advanced",
       "image": null
@@ -659,8 +659,8 @@
         "すべて3年間",
         "永久有効"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 機体認証の有効期間は、第一種機体認証が3年間、第二種機体認証が1年間です。定期的な更新により機体の安全性を継続的に確認しています。（出典：chapter03_page27_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 機体認証の有効期間は、第一種機体認証が3年間、第二種機体認証が1年間です。定期的な更新により機体の安全性を継続的に確認しています。（出典：chapter03_page27_regulations.png）",
       "reference": "教則3章 機体認証制度",
       "difficulty": "intermediate",
       "image": null
@@ -675,8 +675,8 @@
         "1年間",
         "永久保存"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 飛行日誌は3年間保存することが義務付けられています。この期間は事故調査や法的手続きに必要な期間として設定されており、適切な記録管理が求められます。（出典：chapter03_page29_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 飛行日誌は3年間保存することが義務付けられています。この期間は事故調査や法的手続きに必要な期間として設定されており、適切な記録管理が求められます。（出典：chapter03_page29_regulations.png）",
       "reference": "教則3章 飛行日誌",
       "difficulty": "basic",
       "image": null
@@ -707,8 +707,8 @@
         "軽微な機体の損傷",
         "予定飛行時間の短縮"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 重大インシデントには、航空機との接触又は接触するおそれがあったと認められるもの、制御不能な状態に陥ったもの等が含まれます。これらは事故に至る可能性が高い事象です。（出典：chapter03_page30_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 重大インシデントには、航空機との接触又は接触するおそれがあったと認められるもの、制御不能な状態に陥ったもの等が含まれます。これらは事故に至る可能性が高い事象です。（出典：chapter03_page30_regulations.png）",
       "reference": "教則3章 重大インシデント",
       "difficulty": "intermediate",
       "image": null
@@ -723,8 +723,8 @@
         "文化財保護法は無人航空機に適用されない",
         "観光目的なら許可は不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 文化財保護法により、重要文化財や史跡等の周辺での無人航空機飛行について、文化庁長官の許可が必要となる場合があります。文化財の保護と安全確保が目的です。（出典：chapter03_page38_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 文化財保護法により、重要文化財や史跡等の周辺での無人航空機飛行について、文化庁長官の許可が必要となる場合があります。文化財の保護と安全確保が目的です。（出典：chapter03_page38_regulations.png）",
       "reference": "教則3章 文化財保護法",
       "difficulty": "intermediate",
       "image": null
@@ -755,8 +755,8 @@
         "漁港では規制はない",
         "商用港のみ規制がある"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 港湾法により、港湾区域内での無人航空機の飛行について、港湾管理者の許可が必要となる場合があります。港湾施設の安全確保と船舶航行の安全が目的です。（出典：chapter03_page38_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 港湾法により、港湾区域内での無人航空機の飛行について、港湾管理者の許可が必要となる場合があります。港湾施設の安全確保と船舶航行の安全が目的です。（出典：chapter03_page38_regulations.png）",
       "reference": "教則3章 港湾法",
       "difficulty": "intermediate",
       "image": null
@@ -771,8 +771,8 @@
         "河川上空の飛行は自由",
         "一級河川のみ規制がある"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 河川法により、河川区域内での無人航空機の離着陸等について、河川管理者の許可が必要となる場合があります。河川管理と利用者の安全確保が目的です。（出典：chapter03_page38_regulations.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 河川法により、河川区域内での無人航空機の離着陸等について、河川管理者の許可が必要となる場合があります。河川管理と利用者の安全確保が目的です。（出典：chapter03_page38_regulations.png）",
       "reference": "教則3章 河川法",
       "difficulty": "intermediate",
       "image": null
@@ -803,8 +803,8 @@
         "現在の法制度で完結しており変更はない",
         "規制緩和のみが検討されている"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機に関する法制度は、技術の発展や利用形態の多様化に合わせて継続的に見直しが行われており、今後も適切な安全確保と利用促進のバランスを図りながら発展していく予定です。（出典：chapter03_page38_regulations.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機に関する法制度は、技術の発展や利用形態の多様化に合わせて継続的に見直しが行われており、今後も適切な安全確保と利用促進のバランスを図りながら発展していく予定です。（出典：chapter03_page38_regulations.png）",
       "reference": "教則3章 制度の発展",
       "difficulty": "basic",
       "image": null
@@ -819,8 +819,8 @@
         "人口集中地区の上空",
         "地表又は水面から150m以上の高度"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法第132条第1号は、空港等の進入表面、転移表面、水平表面又は延長進入表面の上空の空域での飛行について定めています。有人航空機の安全な離着陸を確保するための規制です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 航空法第132条第1号は、空港等の進入表面、転移表面、水平表面又は延長進入表面の上空の空域での飛行について定めています。有人航空機の安全な離着陸を確保するための規制です。",
       "reference": "教則3章 航空法第132条第1号",
       "difficulty": "intermediate",
       "image": null
@@ -851,8 +851,8 @@
         "滑走路の両側に平行な表面",
         "空港を中心とした円形の表面"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 進入表面は、滑走路の各端から外方に向かって上方に傾斜する表面で、航空機の離着陸時の安全な経路を確保するために設定されています。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 進入表面は、滑走路の各端から外方に向かって上方に傾斜する表面で、航空機の離着陸時の安全な経路を確保するために設定されています。",
       "reference": "教則3章 進入表面",
       "difficulty": "intermediate",
       "image": null
@@ -867,8 +867,8 @@
         "滑走路の延長線上の表面",
         "空港の中央部分の水平な表面"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 転移表面は、滑走路の両側から外方に向かって上方に傾斜する表面で、航空機が滑走路に接近する際の側方からの安全を確保するために設定されています。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 転移表面は、滑走路の両側から外方に向かって上方に傾斜する表面で、航空機が滑走路に接近する際の側方からの安全を確保するために設定されています。",
       "reference": "教則3章 転移表面",
       "difficulty": "intermediate",
       "image": null
@@ -899,8 +899,8 @@
         "滑走路の側面に設定される表面",
         "空港の外周に設定される表面"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 延長進入表面は、進入表面の外側に連続して設定される表面で、より遠距離からの航空機の安全な進入を確保するために設定されています。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 延長進入表面は、進入表面の外側に連続して設定される表面で、より遠距離からの航空機の安全な進入を確保するために設定されています。",
       "reference": "教則3章 延長進入表面",
       "difficulty": "intermediate",
       "image": null
@@ -915,8 +915,8 @@
         "市街地化区域",
         "人口10万人以上の都市部"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 人口集中地区（DID：Densely Inhabited District）は、国勢調査による人口密度が4,000人/km²以上の基本単位区等が市区町村の境域内で互いに隣接して、人口が5,000人以上となる地区です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 人口集中地区（DID：Densely Inhabited District）は、国勢調査による人口密度が4,000人/km²以上の基本単位区等が市区町村の境域内で互いに隣接して、人口が5,000人以上となる地区です。",
       "reference": "教則3章 人口集中地区",
       "difficulty": "basic",
       "image": null
@@ -947,8 +947,8 @@
         "午後8時から午前6時まで",
         "午後10時から午前5時まで"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 夜間とは日没から日出までの時間をいいます。具体的な時刻は季節や地域により異なるため、天文学的な日没・日出時刻を基準とします。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 夜間とは日没から日出までの時間をいいます。具体的な時刻は季節や地域により異なるため、天文学的な日没・日出時刻を基準とします。",
       "reference": "教則3章 夜間飛行",
       "difficulty": "basic",
       "image": null
@@ -963,8 +963,8 @@
         "任意の色で構わない",
         "赤色の灯火のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 夜間飛行では、機体の姿勢及び方向が正確に視認できる灯火が必要で、一般的には機首方向を示す白色の灯火の装備が求められます。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 夜間飛行では、機体の姿勢及び方向が正確に視認できる灯火が必要で、一般的には機首方向を示す白色の灯火の装備が求められます。",
       "reference": "教則3章 夜間飛行の灯火",
       "difficulty": "intermediate",
       "image": null
@@ -995,8 +995,8 @@
         "未成年者のみ",
         "不特定多数の者"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 第三者とは、無人航空機の飛行に直接関与しない操縦者及びその関係者以外の者を指します。年齢や人数に関係なく、飛行に関係のない全ての人が該当します。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 第三者とは、無人航空機の飛行に直接関与しない操縦者及びその関係者以外の者を指します。年齢や人数に関係なく、飛行に関係のない全ての人が該当します。",
       "reference": "教則3章 第三者",
       "difficulty": "basic",
       "image": null
@@ -1011,8 +1011,8 @@
         "人工物のみ",
         "建物のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 物件とは、建物、車両、船舶、電線路その他の工作物を指します。自然物は含まれませんが、人工的な構造物全般が対象となります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 物件とは、建物、車両、船舶、電線路その他の工作物を指します。自然物は含まれませんが、人工的な構造物全般が対象となります。",
       "reference": "教則3章 物件の定義",
       "difficulty": "basic",
       "image": null
@@ -1043,8 +1043,8 @@
         "商業施設のみ",
         "屋外イベントのみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 催し場所とは、祭礼、縁日、展示会、競技会、集会、コンサート等の多数の者の集合する場所を指し、屋内外を問わず様々なイベント会場が含まれます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 催し場所とは、祭礼、縁日、展示会、競技会、集会、コンサート等の多数の者の集合する場所を指し、屋内外を問わず様々なイベント会場が含まれます。",
       "reference": "教則3章 催し場所",
       "difficulty": "basic",
       "image": null
@@ -1059,8 +1059,8 @@
         "医薬品のみ",
         "化学物質全般"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 危険物には、毒物、劇物、火薬類、高圧ガス等、人に危害を与え、又は他の物件を損傷するおそれがある物件が含まれます。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 危険物には、毒物、劇物、火薬類、高圧ガス等、人に危害を与え、又は他の物件を損傷するおそれがある物件が含まれます。",
       "reference": "教則3章 危険物",
       "difficulty": "basic",
       "image": null
@@ -1091,8 +1091,8 @@
         "血中アルコール濃度の数値",
         "摂取からの経過時間"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a アルコール又は薬物の影響については、具体的な濃度や時間ではなく、正常な飛行ができないおそれがあるかどうかで判断されます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b アルコール又は薬物の影響については、具体的な濃度や時間ではなく、正常な飛行ができないおそれがあるかどうかで判断されます。",
       "reference": "教則3章 アルコール・薬物",
       "difficulty": "intermediate",
       "image": null
@@ -1107,8 +1107,8 @@
         "機体本体の重量のみ",
         "最大離陸重量"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 登録対象となる重量100g以上には、機体本体の重量とバッテリーの重量を含みます。ただし、取り外し可能なカメラや追加装備品は含まれません。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 登録対象となる重量100g以上には、機体本体の重量とバッテリーの重量を含みます。ただし、取り外し可能なカメラや追加装備品は含まれません。",
       "reference": "教則3章 登録制度",
       "difficulty": "basic",
       "image": null
@@ -1139,8 +1139,8 @@
         "操縦者の個人情報",
         "飛行計画の詳細"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a リモートID機能は、機体の識別情報（登録記号等）、位置情報、時刻情報等を電波により発信します。操縦者の個人情報は含まれません。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b リモートID機能は、機体の識別情報（登録記号等）、位置情報、時刻情報等を電波により発信します。操縦者の個人情報は含まれません。",
       "reference": "教則3章 リモートID機能",
       "difficulty": "intermediate",
       "image": null
@@ -1155,8 +1155,8 @@
         "一等は商用、二等は趣味用",
         "一等は大型機、二等は小型機用"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 一等無人航空機操縦者技能証明はカテゴリーIII飛行（第三者上空飛行）が可能で、二等は基本的にカテゴリーII飛行（立入管理下での特定飛行）までが対象となります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 一等無人航空機操縦者技能証明はカテゴリーIII飛行（第三者上空飛行）が可能で、二等は基本的にカテゴリーII飛行（立入管理下での特定飛行）までが対象となります。",
       "reference": "教則3章 操縦者技能証明",
       "difficulty": "intermediate",
       "image": null
@@ -1187,8 +1187,8 @@
         "機体の製造履歴のみ",
         "操縦者の経歴のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 運航管理要領には、飛行経路、高度、速度、緊急時の措置、安全確保体制等、安全な運航に必要な事項を記載する必要があります。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 運航管理要領には、飛行経路、高度、速度、緊急時の措置、安全確保体制等、安全な運航に必要な事項を記載する必要があります。",
       "reference": "教則3章 運航管理要領",
       "difficulty": "intermediate",
       "image": null
@@ -1203,8 +1203,8 @@
         "機体の購入価格",
         "気象予報の詳細"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 飛行日誌には、飛行年月日、飛行時間、飛行経路、操縦者名、異常の有無等、飛行に関する基本的な情報を記載する必要があります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 飛行日誌には、飛行年月日、飛行時間、飛行経路、操縦者名、異常の有無等、飛行に関する基本的な情報を記載する必要があります。",
       "reference": "教則3章 飛行日誌",
       "difficulty": "basic",
       "image": null
@@ -1235,8 +1235,8 @@
         "機体の購入手続きのみ",
         "保険加入手続きのみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a DIPSでは、飛行許可・承認申請、機体登録申請、技能証明申請、事故報告等、無人航空機に関する各種行政手続きをオンラインで行うことができます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b DIPSでは、飛行許可・承認申請、機体登録申請、技能証明申請、事故報告等、無人航空機に関する各種行政手続きをオンラインで行うことができます。",
       "reference": "教則3章 DIPS",
       "difficulty": "basic",
       "image": null
@@ -1251,8 +1251,8 @@
         "一般的な商業施設",
         "公立学校全般"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 小型無人機等飛行禁止法は、国会議事堂、内閣総理大臣官邸、最高裁判所、皇居、原子力事業所等の重要施設及びその周辺での飛行を禁止しています。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 小型無人機等飛行禁止法は、国会議事堂、内閣総理大臣官邸、最高裁判所、皇居、原子力事業所等の重要施設及びその周辺での飛行を禁止しています。",
       "reference": "教則3章 小型無人機等飛行禁止法",
       "difficulty": "intermediate",
       "image": null
@@ -1283,8 +1283,8 @@
         "地表のみに及ぶ",
         "上空は含まれない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 民法第207条により、土地の所有権は法令の制限内において上下に及ぶため、他人の土地上空での飛行には所有者の同意が必要となる場合があります。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 民法第207条により、土地の所有権は法令の制限内において上下に及ぶため、他人の土地上空での飛行には所有者の同意が必要となる場合があります。",
       "reference": "教則3章 民法",
       "difficulty": "intermediate",
       "image": null
@@ -1299,8 +1299,8 @@
         "機体の登録義務",
         "操縦者の免許制度"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 多くの地方自治体では、条例により公園、河川、観光地、学校周辺等での無人航空機の飛行を禁止または制限しています。事前に確認が必要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 多くの地方自治体では、条例により公園、河川、観光地、学校周辺等での無人航空機の飛行を禁止または制限しています。事前に確認が必要です。",
       "reference": "教則3章 地方自治体条例",
       "difficulty": "basic",
       "image": null
@@ -1331,8 +1331,8 @@
         "すべての商用飛行",
         "趣味の飛行"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法第132条の4により、研究開発を目的とする飛行など国土交通省令で定める場合には、あらかじめ国土交通大臣への通報が必要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 航空法第132条の4により、研究開発を目的とする飛行など国土交通省令で定める場合には、あらかじめ国土交通大臣への通報が必要です。",
       "reference": "教則3章 飛行計画通報",
       "difficulty": "advanced",
       "image": null
@@ -1347,8 +1347,8 @@
         "機体の改造",
         "操縦者の追加訓練"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 第三者の立入管理措置には、看板や標識の設置、監視員の配置、飛行区域の明示、物理的な柵の設置等があります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 第三者の立入管理措置には、看板や標識の設置、監視員の配置、飛行区域の明示、物理的な柵の設置等があります。",
       "reference": "教則3章 立入管理措置",
       "difficulty": "intermediate",
       "image": null
@@ -1379,8 +1379,8 @@
         "気象情報を取得する",
         "機体の整備記録を管理する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a FISSは、無人航空機の飛行計画を他の運航者と共有することで、同一空域での飛行計画の重複や干渉を防ぎ、安全な運航を支援します。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b FISSは、無人航空機の飛行計画を他の運航者と共有することで、同一空域での飛行計画の重複や干渉を防ぎ、安全な運航を支援します。",
       "reference": "教則3章 FISS",
       "difficulty": "intermediate",
       "image": null
@@ -1395,8 +1395,8 @@
         "風景のみを撮影する場合",
         "建物のみを撮影する場合"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機による撮影で特定の個人が識別できる映像等を取得する場合、個人情報の取得・利用となり、個人情報保護法の適用を受ける場合があります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機による撮影で特定の個人が識別できる映像等を取得する場合、個人情報の取得・利用となり、個人情報保護法の適用を受ける場合があります。",
       "reference": "教則3章 個人情報保護法",
       "difficulty": "intermediate",
       "image": null
@@ -1427,8 +1427,8 @@
         "無人航空機は条約の対象外",
         "国際線のみ条約が適用される"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 国際民間航空条約（シカゴ条約）において、無人航空機も航空機として位置づけられ、国際的な安全基準や運航ルールの基礎となっています。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 国際民間航空条約（シカゴ条約）において、無人航空機も航空機として位置づけられ、国際的な安全基準や運航ルールの基礎となっています。",
       "reference": "教則3章 シカゴ条約",
       "difficulty": "advanced",
       "image": null
@@ -1443,8 +1443,8 @@
         "機体の色を変更した場合",
         "バッテリーを交換した場合"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 機体登録後に所有者の住所や氏名、使用者等の登録事項に変更があった場合は、変更登録の手続きが必要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 機体登録後に所有者の住所や氏名、使用者等の登録事項に変更があった場合は、変更登録の手続きが必要です。",
       "reference": "教則3章 変更登録",
       "difficulty": "basic",
       "image": null
@@ -1475,8 +1475,8 @@
         "限定は一切ない",
         "重量別にのみ限定される"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機操縦者技能証明には、回転翼航空機（マルチローター等）、飛行機等の種類別に限定が付され、それぞれの特性に応じた技能が必要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機操縦者技能証明には、回転翼航空機（マルチローター等）、飛行機等の種類別に限定が付され、それぞれの特性に応じた技能が必要です。",
       "reference": "教則3章 技能証明の限定",
       "difficulty": "intermediate",
       "image": null
@@ -1491,8 +1491,8 @@
         "製造段階のみ確認すれば十分",
         "設計段階のみ確認すれば十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 機体認証では、設計・製造・整備の各段階において、それぞれに定められた安全基準への適合が継続的に確認される必要があります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 機体認証では、設計・製造・整備の各段階において、それぞれに定められた安全基準への適合が継続的に確認される必要があります。",
       "reference": "教則3章 機体認証制度",
       "difficulty": "advanced",
       "image": null
@@ -1523,8 +1523,8 @@
         "発生から1週間以内",
         "月次でまとめて報告"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 重大インシデントも事故と同様に、発生を知った時から24時間以内に国土交通大臣への報告が必要です。迅速な報告が安全向上に重要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 重大インシデントも事故と同様に、発生を知った時から24時間以内に国土交通大臣への報告が必要です。迅速な報告が安全向上に重要です。",
       "reference": "教則3章 重大インシデント報告",
       "difficulty": "intermediate",
       "image": null
@@ -1539,8 +1539,8 @@
         "初回違反には罰則は適用されない",
         "行政指導のみで刑事罰はない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航空法違反については、違反の程度や悪質性により50万円以下の罰金や懲役等の刑事罰が科される場合があり、厳格な法的責任が問われます。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 航空法違反については、違反の程度や悪質性により50万円以下の罰金や懲役等の刑事罰が科される場合があり、厳格な法的責任が問われます。",
       "reference": "教則3章 罰則",
       "difficulty": "basic",
       "image": null
@@ -1571,8 +1571,8 @@
         "国立公園内は全面飛行禁止",
         "撮影を伴わなければ制限はない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 自然公園法により、国立公園等の特別保護地区、特別地域等での無人航空機の利用について、環境大臣等の許可が必要な場合があります。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 自然公園法により、国立公園等の特別保護地区、特別地域等での無人航空機の利用について、環境大臣等の許可が必要な場合があります。",
       "reference": "教則3章 自然公園法",
       "difficulty": "intermediate",
       "image": null
@@ -1587,8 +1587,8 @@
         "海上保安のためのみ",
         "漁業権の保護のためのみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 港湾法による制限は、港湾施設の安全確保と船舶の安全な航行を確保することが主な目的で、港湾区域内での飛行には港湾管理者の許可が必要な場合があります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 港湾法による制限は、港湾施設の安全確保と船舶の安全な航行を確保することが主な目的で、港湾区域内での飛行には港湾管理者の許可が必要な場合があります。",
       "reference": "教則3章 港湾法",
       "difficulty": "intermediate",
       "image": null
@@ -1619,8 +1619,8 @@
         "無人航空機の輸出入に規制はない",
         "個人利用目的なら規制対象外"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 外為法により、軍事用途に転用可能な技術や製品については輸出許可が必要となり、無人航空機もその対象になる場合があります。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 外為法により、軍事用途に転用可能な技術や製品については輸出許可が必要となり、無人航空機もその対象になる場合があります。",
       "reference": "教則3章 外国為替及び外国貿易法",
       "difficulty": "advanced",
       "image": null
@@ -1635,8 +1635,8 @@
         "特別な航空機として分類",
         "有人航空機と同一の取り扱い"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ICAOでは、無人航空機をリモートパイロット航空機システム（RPAS: Remotely Piloted Aircraft Systems）として位置づけ、国際的な基準やルールの統一化を図っています。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c ICAOでは、無人航空機をリモートパイロット航空機システム（RPAS: Remotely Piloted Aircraft Systems）として位置づけ、国際的な基準やルールの統一化を図っています。",
       "reference": "教則3章 ICAO",
       "difficulty": "advanced",
       "image": null
@@ -1667,8 +1667,8 @@
         "シールで貼付するだけで十分",
         "文字の大きさに制限はない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 登録記号は、文字の高さ3mm以上で、耐久性のある方法（印刷、刻印、ラベル貼付等）で機体の見やすい場所に表示する必要があります。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 登録記号は、文字の高さ3mm以上で、耐久性のある方法（印刷、刻印、ラベル貼付等）で機体の見やすい場所に表示する必要があります。",
       "reference": "教則3章 登録記号表示",
       "difficulty": "intermediate",
       "image": null
@@ -1683,8 +1683,8 @@
         "一等技能証明保有者が操縦する機体",
         "特定飛行を行わない機体"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 重量100g未満の無人航空機は登録対象外であり、リモートID機能の搭載義務もありません。ただし、他の飛行ルールは適用されます。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 重量100g未満の無人航空機は登録対象外であり、リモートID機能の搭載義務もありません。ただし、他の飛行ルールは適用されます。",
       "reference": "教則3章 リモートID機能搭載義務",
       "difficulty": "basic",
       "image": null
@@ -1715,8 +1715,8 @@
         "書面での更新申請のみ",
         "機体の再登録のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 機体認証の更新には、定期点検および継続証明監査の受検が必要で、機体の安全性が継続的に確認されます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 機体認証の更新には、定期点検および継続証明監査の受検が必要で、機体の安全性が継続的に確認されます。",
       "reference": "教則3章 機体認証更新",
       "difficulty": "intermediate",
       "image": null
@@ -1731,8 +1731,8 @@
         "航空法を遵守していれば他の法令は関係ない",
         "一度確認した情報は永久に有効"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 飛行禁止区域は航空法以外にも様々な法令や条例により設定されており、飛行前には関係機関や自治体への事前確認が重要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 飛行禁止区域は航空法以外にも様々な法令や条例により設定されており、飛行前には関係機関や自治体への事前確認が重要です。",
       "reference": "教則3章 飛行禁止区域の確認",
       "difficulty": "basic",
       "image": null
@@ -1763,8 +1763,8 @@
         "技術進歩のみで安全性が確保できる",
         "法制度のみで安全性が確保できる"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の安全性向上のためには、技術の進歩と法制度の整備を両輪で進めることが重要で、相互に補完しあって総合的な安全性が確保されます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機の安全性向上のためには、技術の進歩と法制度の整備を両輪で進めることが重要で、相互に補完しあって総合的な安全性が確保されます。",
       "reference": "教則3章 安全性向上",
       "difficulty": "basic",
       "image": null
@@ -1779,8 +1779,8 @@
         "事業用でも一般でも同じ扱い",
         "事業用の方が制限が緩い"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 事業用で無人航空機を使用する場合、特定飛行の種類や利用目的によっては、一般的な飛行よりも安全管理体制や技能要件が圧縮される場合があります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 事業用で無人航空機を使用する場合、特定飛行の種類や利用目的によっては、一般的な飛行よりも安全管理体制や技能要件が圧縮される場合があります。",
       "reference": "教則3章 事業用操縦士",
       "difficulty": "advanced",
       "image": null
@@ -1811,8 +1811,8 @@
         "最も厳しい安全管理体制が必要",
         "特別な安全管理体制は不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a カテゴリーII飛行は、第三者の立入管理措置を講じることで安全性を確保する飛行形態で、適切な管理措置が主な要件となります。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b カテゴリーII飛行は、第三者の立入管理措置を講じることで安全性を確保する飛行形態で、適切な管理措置が主な要件となります。",
       "reference": "教則3章 カテゴリーII飛行",
       "difficulty": "intermediate",
       "image": null
@@ -1827,8 +1827,8 @@
         "カテゴリーII飛行と同じ管理体制",
         "特別な安全管理体制は不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a カテゴリーIII飛行（第三者上空飛行）は、最もリスクが高い飛行形態であり、一等技能証明、第一種機体認証等、最も厳格な安全管理体制が必要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c カテゴリーIII飛行（第三者上空飛行）は、最もリスクが高い飛行形態であり、一等技能証明、第一種機体認証等、最も厳格な安全管理体制が必要です。",
       "reference": "教則3章 カテゴリーIII飛行",
       "difficulty": "advanced",
       "image": null
@@ -1859,8 +1859,8 @@
         "耐空証明は型式、機体認証は個別機体",
         "どちらも同じ制度"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 耐空証明は個別機体ごとの安全性を証明するもので、機体認証は型式或いは個別機体について型式証明に基づいて行われる認証です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 耐空証明は個別機体ごとの安全性を証明するもので、機体認証は型式或いは個別機体について型式証明に基づいて行われる認証です。",
       "reference": "教則3章 耐空証明と機体認証",
       "difficulty": "advanced",
       "image": null
@@ -1875,8 +1875,8 @@
         "一人での飛行のみ",
         "屋内での飛行"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a FISSの利用は、同一空域で複数の運航者が飛行する場合や、他の飛行計画との干渉を防ぎたい場合に特に推奨され、安全な運航のために有効です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c FISSの利用は、同一空域で複数の運航者が飛行する場合や、他の飛行計画との干渉を防ぎたい場合に特に推奨され、安全な運航のために有効です。",
       "reference": "教則3章 FISSの利用推奨",
       "difficulty": "basic",
       "image": null
@@ -1907,8 +1907,8 @@
         "無人航空機の運輸に特別な規制はない",
         "商用輸送のみ規制がある"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機に使用されるリチウム電池は、航空輸送や陸上輸送において危険物として扱われる場合があり、特別な規制や手続きが必要な場合があります。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機に使用されるリチウム電池は、航空輸送や陸上輸送において危険物として扱われる場合があり、特別な規制や手続きが必要な場合があります。",
       "reference": "教則3章 機体の運輸",
       "difficulty": "intermediate",
       "image": null
@@ -1923,8 +1923,8 @@
         "法的義務であり必ず加入が必要",
         "保険加入は不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の保険加入は法的義務ではありませんが、万一の事故時に第三者への損害賀償に備えて、保険加入を検討することが推奨されます。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機の保険加入は法的義務ではありませんが、万一の事故時に第三者への損害賀償に備えて、保険加入を検討することが推奨されます。",
       "reference": "教則3章 保険",
       "difficulty": "basic",
       "image": null
@@ -1955,8 +1955,8 @@
         "都道府県知事",
         "市町村長"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 特定飛行の飛行許可・承認の申請先は、原則として国土交通大臣です。ただし、一定の条件下で空港事務所長に委任される場合があります。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 特定飛行の飛行許可・承認の申請先は、原則として国土交通大臣です。ただし、一定の条件下で空港事務所長に委任される場合があります。",
       "reference": "教則3章 飛行許可・承認申請",
       "difficulty": "basic",
       "image": null
@@ -1971,8 +1971,8 @@
         "すべてで６種類",
         "すべてで３種類"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 特定飛行は、空域の飛行（人口集中地区、空港等進入表面等、150m以上の３種類）と飛行方法（夜間、目視外、３０ｍ以内、催し場所、危険物輸送、物件投下の６種類）に大別されます。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 特定飛行は、空域の飛行（人口集中地区、空港等進入表面等、150m以上の３種類）と飛行方法（夜間、目視外、３０ｍ以内、催し場所、危険物輸送、物件投下の６種類）に大別されます。",
       "reference": "教則3章 特定飛行の種類",
       "difficulty": "intermediate",
       "image": null
@@ -2003,8 +2003,8 @@
         "いかなる変更でも事後報告で可",
         "変更手続きは不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 飛行許可・承認を受けた後、軽微な変更以外は事前に変更承認が必要です。軽微な変更に該当する場合のみ事後報告で許されます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 飛行許可・承認を受けた後、軽微な変更以外は事前に変更承認が必要です。軽微な変更に該当する場合のみ事後報告で許されます。",
       "reference": "教則3章 飛行許可・承認の変更",
       "difficulty": "intermediate",
       "image": null
@@ -2019,8 +2019,8 @@
         "いかなる場所でも自由に飛行可能",
         "屋内でのみ飛行可能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 特定飛行に該当しない飛行（カテゴリーI飛行）の条件は、人口集中地区以外で、日中、目視内、高度150m未満、第三者から30m以上離隔、催し場所以外での飛行です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 特定飛行に該当しない飛行（カテゴリーI飛行）の条件は、人口集中地区以外で、日中、目視内、高度150m未満、第三者から30m以上離隔、催し場所以外での飛行です。",
       "reference": "教則3章 カテゴリーI飛行条件",
       "difficulty": "basic",
       "image": null
@@ -2051,8 +2051,8 @@
         "一時的に使用しない場合",
         "修理中の場合"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の登録を終了する必要があるのは、機体を廃棄する場合や永久的に輸出する場合等です。一時的な使用停止や修理では終了手続きは不要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機の登録を終了する必要があるのは、機体を廃棄する場合や永久的に輸出する場合等です。一時的な使用停止や修理では終了手続きは不要です。",
       "reference": "教則3章 登録の終了",
       "difficulty": "intermediate",
       "image": null
@@ -2067,8 +2067,8 @@
         "故障していても飛行を継続してよい",
         "修理後に飛行を再開する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a リモートID機能の故障が確認された場合は、速やかに飛行を中止し、安全な場所に着陸させる必要があります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c リモートID機能の故障が確認された場合は、速やかに飛行を中止し、安全な場所に着陸させる必要があります。",
       "reference": "教則3章 リモートID故障時対応",
       "difficulty": "intermediate",
       "image": null
@@ -2099,8 +2099,8 @@
         "型式証明があれば機体認証は不要",
         "両方とも同じ制度"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 型式証明を取得した機体は、設計が安全基準に適合することが確認されているため、機体認証の取得が容易になります。ただし機体認証は別途必要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 型式証明を取得した機体は、設計が安全基準に適合することが確認されているため、機体認証の取得が容易になります。ただし機体認証は別途必要です。",
       "reference": "教則3章 型式証明と機体認証の関係",
       "difficulty": "advanced",
       "image": null
@@ -2115,8 +2115,8 @@
         "機体の故障のみを想定した手順",
         "気象悪化のみを想定した手順"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 運航管理要領には、機体の制御不能、緊急着陸、人命救助等、様々な緊急事態を想定した対応手順を定める必要があります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 運航管理要領には、機体の制御不能、緊急着陸、人命救助等、様々な緊急事態を想定した対応手順を定める必要があります。",
       "reference": "教則3章 緊急時の手順",
       "difficulty": "intermediate",
       "image": null
@@ -2147,8 +2147,8 @@
         "対象施設の変更は一切ない",
         "毎年自動的に対象施設が拡大される"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 小型無人機等飛行禁止法では、重要な国際会議や大規模イベントの開催時に、一時的に対象施設や飛行禁止区域が拡大される場合があります。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 小型無人機等飛行禁止法では、重要な国際会議や大規模イベントの開催時に、一時的に対象施設や飛行禁止区域が拡大される場合があります。",
       "reference": "教則3章 小型無人機等飛行禁止法の対象拡大",
       "difficulty": "intermediate",
       "image": null
@@ -2163,8 +2163,8 @@
         "無人航空機の電波法違反に罰則はない",
         "注意のみで罰則はない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 電波法違反については、技適マークのない無線機器の使用等に対して、１年以下の懲役又は100万円以下の罰金等の重い罰則が科される場合があります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 電波法違反については、技適マークのない無線機器の使用等に対して、１年以下の懲役又は100万円以下の罰金等の重い罰則が科される場合があります。",
       "reference": "教則3章 電波法の罰則",
       "difficulty": "intermediate",
       "image": null
@@ -2195,8 +2195,8 @@
         "現在の法制度で安全性は十分確保されている",
         "技術進歩のみで安全性は向上する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の安全性向上に向けては、技術の進歩（AI、センサー技術等）と法制度の適切な発展が相互に作用し、より安全で効率的な運航が可能になることが期待されます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機の安全性向上に向けては、技術の進歩（AI、センサー技術等）と法制度の適切な発展が相互に作用し、より安全で効率的な運航が可能になることが期待されます。",
       "reference": "教則3章 安全性向上の展望",
       "difficulty": "basic",
       "image": null
@@ -2211,8 +2211,8 @@
         "法令遵守のみで十分",
         "技術的対策のみで十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 総合的な安全管理体制には、法令遵守、技術的安全対策、運用管理、教育訓練のすべてが統合されたアプローチが必要で、単一の要素では十分な安全性が確保できません。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 総合的な安全管理体制には、法令遵守、技術的安全対策、運用管理、教育訓練のすべてが統合されたアプローチが必要で、単一の要素では十分な安全性が確保できません。",
       "reference": "教則3章 総合的安全管理",
       "difficulty": "intermediate",
       "image": null
@@ -2243,8 +2243,8 @@
         "法的義務さえ守れば他に配慮は不要",
         "技術的に優れていれば安全"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の利用者は、常に安全を第一に考え、法令遵守はもちろん、地域社会や第三者への配慮を欠かさず、社会との調和を図りながら責任を持って利用することが求められます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機の利用者は、常に安全を第一に考え、法令遵守はもちろん、地域社会や第三者への配慮を欠かさず、社会との調和を図りながら責任を持って利用することが求められます。",
       "reference": "教則3章 利用者の責任",
       "difficulty": "basic",
       "image": null
@@ -2259,8 +2259,8 @@
         "すべての無人航空機に適用除外はない",
         "商用以外の無人航空機"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 重量100g未満の無人航空機は航空法の登録対象外ですが、飛行禁止区域や飛行方法に関するルールは一部適用されます。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 重量100g未満の無人航空機は航空法の登録対象外ですが、飛行禁止区域や飛行方法に関するルールは一部適用されます。",
       "reference": "教則3章 適用除外",
       "difficulty": "basic",
       "image": null
@@ -2291,8 +2291,8 @@
         "事故発生後の対応手順のみ",
         "機体の技術的性能のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a SMS（安全管理システム）は、事故やインシデントの分析、リスクアセスメント、改善措置の実施等を通じて、継続的な安全性向上を図る系統的なアプローチです。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b SMS（安全管理システム）は、事故やインシデントの分析、リスクアセスメント、改善措置の実施等を通じて、継続的な安全性向上を図る系統的なアプローチです。",
       "reference": "教則3章 SMS",
       "difficulty": "advanced",
       "image": null
@@ -2307,8 +2307,8 @@
         "機体の操作手順のみを理解していれば十分",
         "法令を暗記していること"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 状況認識（Situational Awareness）とは、飛行中に周囲の状況や機体の状態、気象条件、他の航空機の動向等を常に把握し、潜在的なリスクを早期に発見して適切な判断を行う能力です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 状況認識（Situational Awareness）とは、飛行中に周囲の状況や機体の状態、気象条件、他の航空機の動向等を常に把握し、潜在的なリスクを早期に発見して適切な判断を行う能力です。",
       "reference": "教則3章 状況認識",
       "difficulty": "intermediate",
       "image": null
@@ -2339,8 +2339,8 @@
         "無人航空機にサイバーセキュリティの脆弱性はない",
         "技術的対策のみで十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機はネットワークや無線通信を利用しているため、サイバー攻撃のターゲットになりうる可能性があります。通信の暗号化、認証システム、不正アクセス防止等の対策が重要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機はネットワークや無線通信を利用しているため、サイバー攻撃のターゲットになりうる可能性があります。通信の暗号化、認証システム、不正アクセス防止等の対策が重要です。",
       "reference": "教則3章 サイバーセキュリティ",
       "difficulty": "advanced",
       "image": null
@@ -2355,8 +2355,8 @@
         "各国で異なる基準を維持する方針",
         "標準化の取り組みは行われていない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の国際的な利用拡大に伴い、ICAOを中心として国際的な安全基準や運航ルールの統一化が進められており、各国はこれらの基準に沿った法制度整備を進めています。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機の国際的な利用拡大に伴い、ICAOを中心として国際的な安全基準や運航ルールの統一化が進められており、各国はこれらの基準に沿った法制度整備を進めています。",
       "reference": "教則3章 国際的標準化",
       "difficulty": "advanced",
       "image": null
@@ -2387,8 +2387,8 @@
         "環境配慮は一切不要",
         "技術的性能のみを重視すれば十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の将来的な普及に向けては、電池や機体のリサイクル、飛行時の騒音抑制、野生生物や生態系への影響最小化等、環境への配慮と持続可能な利用が重要な課題となっています。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機の将来的な普及に向けては、電池や機体のリサイクル、飛行時の騒音抑制、野生生物や生態系への影響最小化等、環境への配慮と持続可能な利用が重要な課題となっています。",
       "reference": "教則3章 可持続性と環境配慮",
       "difficulty": "intermediate",
       "image": null
@@ -2403,8 +2403,8 @@
         "趣味の道具としての地位にとどまる",
         "特定分野での利用に限定される"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機は、物流配送、救急医療、災害対応、インフラ点検等、社会の重要なインフラとして位置づけられるようになっており、安全で的確な運用のための法整備が求められています。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機は、物流配送、救急医療、災害対応、インフラ点検等、社会の重要なインフラとして位置づけられるようになっており、安全で的確な運用のための法整備が求められています。",
       "reference": "教則3章 社会インフラとしての位置づけ",
       "difficulty": "intermediate",
       "image": null
@@ -2435,8 +2435,8 @@
         "事故後の原因分析のみ",
         "機体の技術的性能の測定のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a リスクアセスメントは、飛行前に潜在的なリスクを系統的に識別・分析・評価し、その程度や影響を把握して適切な安全対策を実施するプロセスであり、事前の安全管理に不可欠です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b リスクアセスメントは、飛行前に潜在的なリスクを系統的に識別・分析・評価し、その程度や影響を把握して適切な安全対策を実施するプロセスであり、事前の安全管理に不可欠です。",
       "reference": "教則3章 リスクアセスメント",
       "difficulty": "intermediate",
       "image": null
@@ -2451,8 +2451,8 @@
         "機体のみを指す用語",
         "操縦システムのみを指す用語"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a UAS（Unmanned Aircraft Systems）は、無人航空機を単体としてではなく、機体、地上の操縦システム、通信システム、操縦者、整備システム等を統合したシステム全体として經える考え方です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c UAS（Unmanned Aircraft Systems）は、無人航空機を単体としてではなく、機体、地上の操縦システム、通信システム、操縦者、整備システム等を統合したシステム全体として經える考え方です。",
       "reference": "教則3章 UASの考え方",
       "difficulty": "intermediate",
       "image": null
@@ -2483,8 +2483,8 @@
         "法令遵守のみで十分",
         "技術的性能のみを重視すること"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機事業のコンプライアンス管理には、法令遵守はもちろん、社会的責任、環境配慮、個人情報保護、サイバーセキュリティ等、倫理的配慮を含めた総合的な管理体制が必要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機事業のコンプライアンス管理には、法令遵守はもちろん、社会的責任、環境配慮、個人情報保護、サイバーセキュリティ等、倫理的配慮を含めた総合的な管理体制が必要です。",
       "reference": "教則3章 コンプライアンス管理",
       "difficulty": "advanced",
       "image": null
@@ -2499,8 +2499,8 @@
         "発見されなければ報告しなくてよい",
         "一定期間経過後に報告すれば十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 機体の破納や遰失が発生した場合は、第三者への危害や悪用の防止のため、直ちに警察や関係機関へ報告し、必要に応じて事故報告も行う必要があります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 機体の破納や遰失が発生した場合は、第三者への危害や悪用の防止のため、直ちに警察や関係機関へ報告し、必要に応じて事故報告も行う必要があります。",
       "reference": "教則3章 破納・遰失時対応",
       "difficulty": "basic",
       "image": null
@@ -2531,8 +2531,8 @@
         "AIの判断による事故は一切の責任が無い",
         "AIメーカーのみが責任を負う"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a AI技術を活用した無人航空機であっても、現在の法制度下では、AIの判断や操作による事故であっても、最終的な責任は操縦者や機体所有者にあるとされています。将来の法整備が注目されます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b AI技術を活用した無人航空機であっても、現在の法制度下では、AIの判断や操作による事故であっても、最終的な責任は操縦者や機体所有者にあるとされています。将来の法整備が注目されます。",
       "reference": "教則3章 AI活用と法的責任",
       "difficulty": "advanced",
       "image": null
@@ -2547,8 +2547,8 @@
         "各国が独自の基準を維持することが最適",
         "国際的な調和は不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機産業のグローバル展開のためには、各国の産業競争力向上と安全性確保、技術革新の促進を両立させるために、ICAO等を通じた国際的な法制度調和と基準統一化が重要な課題となっています。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機産業のグローバル展開のためには、各国の産業競争力向上と安全性確保、技術革新の促進を両立させるために、ICAO等を通じた国際的な法制度調和と基準統一化が重要な課題となっています。",
       "reference": "教則3章 国際的法制度調和",
       "difficulty": "advanced",
       "image": null
@@ -2579,8 +2579,8 @@
         "申請書類の保存義務はない",
         "国が保存するため申請者の保存は不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 飛行許可・承認を申請した者は、申請書類の写しを一定期間保存することが義務付けられており、検査や確認の際に必要になる場合があります。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 飛行許可・承認を申請した者は、申請書類の写しを一定期間保存することが義務付けられており、検査や確認の際に必要になる場合があります。",
       "reference": "教則3章 申請書類の保存",
       "difficulty": "intermediate",
       "image": null
@@ -2595,8 +2595,8 @@
         "無人航空機の飛行に気象は影響しない",
         "機体が小型なら気象は関係ない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の安全な運航には、飛行前の気象情報確認が不可欠です。風速、降水量、視界等の気象条件を把握し、安全な飛行が可能か判断することが重要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機の安全な運航には、飛行前の気象情報確認が不可欠です。風速、降水量、視界等の気象条件を把握し、安全な飛行が可能か判断することが重要です。",
       "reference": "教則3章 気象情報の重要性",
       "difficulty": "basic",
       "image": null
@@ -2627,8 +2627,8 @@
         "訓練目的ならばすべての飛行が許可不要",
         "指導員がいれば任意の場所で飛行可能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の操縦訓練であっても、特定飛行に該当する場合は、通常の飛行と同じく飛行許可・承認が必要です。訓練目的であっても安全基準は同じです。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機の操縦訓練であっても、特定飛行に該当する場合は、通常の飛行と同じく飛行許可・承認が必要です。訓練目的であっても安全基準は同じです。",
       "reference": "教則3章 操縦訓練の注意点",
       "difficulty": "basic",
       "image": null
@@ -2643,8 +2643,8 @@
         "デモンストレーションならば特別な許可は不要",
         "少人数の観客ならば制限はない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機のデモンストレーション飛行であっても、特定飛行に該当する場合は通常の許可・承認が必要であり、加えて観客の安全管理や緊急時の対応策など、追加的な安全対策が重要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機のデモンストレーション飛行であっても、特定飛行に該当する場合は通常の許可・承認が必要であり、加えて観客の安全管理や緊急時の対応策など、追加的な安全対策が重要です。",
       "reference": "教則3章 デモンストレーション飛行",
       "difficulty": "intermediate",
       "image": null
@@ -2675,8 +2675,8 @@
         "竺争地域での飛行は一切禁止",
         "緊急事態でも通常と同じ手続きが必要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 人命救助、災害対応、竺争地域での人道支援等、特別な状況での無人航空機利用については、国際法や人道法の観点から特別な手続きや配慮がなされる場合があります。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 人命救助、災害対応、竺争地域での人道支援等、特別な状況での無人航空機利用については、国際法や人道法の観点から特別な手続きや配慮がなされる場合があります。",
       "reference": "教則3章 緊急事態時の利用",
       "difficulty": "advanced",
       "image": null
@@ -2691,8 +2691,8 @@
         "最終使用者のみがすべての責任を負う",
         "製造者のみが責任を負う"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機のサプライチェーン管理においては、製造者、販売者、使用者の各段階で適切な責任分担と品質管理が必要であり、サプライチェーン全体での安全性確保が求められます。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機のサプライチェーン管理においては、製造者、販売者、使用者の各段階で適切な責任分担と品質管理が必要であり、サプライチェーン全体での安全性確保が求められます。",
       "reference": "教則3章 サプライチェーン管理",
       "difficulty": "advanced",
       "image": null
@@ -2723,8 +2723,8 @@
         "技術革新のみで産業発展は可能",
         "規制緩和のみで産業発展は可能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機産業の持続可能な発展のためには、技術革新、専門人材の育成、社会の理解と受容、国際的な連携と協力のバランスのとれた発展が不可欠であり、総合的な取り組みが必要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機産業の持続可能な発展のためには、技術革新、専門人材の育成、社会の理解と受容、国際的な連携と協力のバランスのとれた発展が不可欠であり、総合的な取り組みが必要です。",
       "reference": "教則3章 持続可能な発展",
       "difficulty": "basic",
       "image": null
@@ -2739,8 +2739,8 @@
         "スマートシティでは法的制限はない",
         "現行法のみで対応可能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a スマートシティにおける無人航空機の本格活用のためには、都市部の複雑な空域での安全な運航を可能にする既存の航空交通システムとの統合、UTM（Unmanned Traffic Management）システムの構築、新たな法整備が必要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c スマートシティにおける無人航空機の本格活用のためには、都市部の複雑な空域での安全な運航を可能にする既存の航空交通システムとの統合、UTM（Unmanned Traffic Management）システムの構築、新たな法整備が必要です。",
       "reference": "教則3章 スマートシティ活用",
       "difficulty": "advanced",
       "image": null
@@ -2771,8 +2771,8 @@
         "農業用途であれば航空法のみを遵守していれば十分",
         "農業用途では特別な法的制限はない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機を農業用途で利用する場合、航空法に加えて、農薬の使用や散布に関する農薬取締法、環境への影響に関する環境法、食品の安全性に関する食品衛生法等、関連する様々な法令への配慮が必要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機を農業用途で利用する場合、航空法に加えて、農薬の使用や散布に関する農薬取締法、環境への影響に関する環境法、食品の安全性に関する食品衛生法等、関連する様々な法令への配慮が必要です。",
       "reference": "教則3章 農業用途での利用",
       "difficulty": "advanced",
       "image": null
@@ -2787,8 +2787,8 @@
         "インフラ点検では航空法のみを遵守していれば十分",
         "公共インフラの点検に特別な法的制限はない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機をインフラ点検に利用する場合、航空法に加えて、点検対象インフラに応じて道路法、河川法、港湾法、鉄道事業法、電気事業法等、それぞれの施設管理法令への配慮や許可取得が必要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機をインフラ点検に利用する場合、航空法に加えて、点検対象インフラに応じて道路法、河川法、港湾法、鉄道事業法、電気事業法等、それぞれの施設管理法令への配慮や許可取得が必要です。",
       "reference": "教則3章 インフラ点検での利用",
       "difficulty": "advanced",
       "image": null
@@ -2819,8 +2819,8 @@
         "警備・監視では特別な法的制限はない",
         "航空法のみを遵守していれば十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機を警備・監視に利用する場合、航空法に加えて、個人情報保護法、警備業法、探偵業法、肖像権、プライバシー権等、警備業務の特性上特に重要な専門法令への配慮が必要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機を警備・監視に利用する場合、航空法に加えて、個人情報保護法、警備業法、探偵業法、肖像権、プライバシー権等、警備業務の特性上特に重要な専門法令への配慮が必要です。",
       "reference": "教則3章 警備・監視での利用",
       "difficulty": "advanced",
       "image": null
@@ -2835,8 +2835,8 @@
         "エンターテイメントでは特別な法的制限はない",
         "航空法のみを遵守していれば十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機をエンターテイメントに利用する場合、航空法に加えて、イベント開催に関する興行法、撮影や音楽に関する著作権法、騒音に関する地方条例、特殊効果に関する火薬取締法等、様々な法令への配慮が必要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機をエンターテイメントに利用する場合、航空法に加えて、イベント開催に関する興行法、撮影や音楽に関する著作権法、騒音に関する地方条例、特殊効果に関する火薬取締法等、様々な法令への配慮が必要です。",
       "reference": "教則3章 エンターテイメントでの利用",
       "difficulty": "advanced",
       "image": null
@@ -2867,8 +2867,8 @@
         "現在の法制度で永続的に対応可能",
         "法制度の変更は一切不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の法制度は、AI技術の発展、新しい利用分野の出現、国際的な標準化の進展、社会ニーズの変化等に応じて、安全性を確保しながら柔軟かつ適切に発展していく必要があります。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機の法制度は、AI技術の発展、新しい利用分野の出現、国際的な標準化の進展、社会ニーズの変化等に応じて、安全性を確保しながら柔軟かつ適切に発展していく必要があります。",
       "reference": "教則3章 法制度の展望",
       "difficulty": "basic",
       "image": null
@@ -2883,8 +2883,8 @@
         "安全性のみを重視すべき",
         "利便性のみを重視すべき"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機に関する法制度の総括としては、安全性と利便性の両立、技術革新と社会受容の調和、国内外の連携と協力が重要な柱となっており、これらのバランスを取った総合的なアプローチが求められています。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機に関する法制度の総括としては、安全性と利便性の両立、技術革新と社会受容の調和、国内外の連携と協力が重要な柱となっており、これらのバランスを取った総合的なアプローチが求められています。",
       "reference": "教則3章 法制度の総括",
       "difficulty": "basic",
       "image": null
@@ -2915,8 +2915,8 @@
         "森林での利用に特別な法的制限はない",
         "航空法のみを遵守していれば十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機を森林管理に利用する場合、航空法に加えて、森林の所有権や使用権に関する森林法、国立公園等での利用に関する自然公園法、稀少野生生物保護に関する種の保存法、鳥獣保護管理法等、森林環境保護に関する様々な法令への配慮が必要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機を森林管理に利用する場合、航空法に加えて、森林の所有権や使用権に関する森林法、国立公園等での利用に関する自然公園法、稀少野生生物保護に関する種の保存法、鳥獣保護管理法等、森林環境保護に関する様々な法令への配慮が必要です。",
       "reference": "教則3章 森林管理での利用",
       "difficulty": "advanced",
       "image": null
@@ -2931,8 +2931,8 @@
         "海上では航空法のみを遵守していれば十分",
         "海洋調査に特別な法的制限はない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機を海洋調査に利用する場合、航空法に加えて、海上交通の安全に関する海上交通安全法、漁業権や漁場利用に関する漁業法、港湾区域での利用に関する港湾法、海洋汚染防止法等、海洋関連の様々な法令への配慮が必要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機を海洋調査に利用する場合、航空法に加えて、海上交通の安全に関する海上交通安全法、漁業権や漁場利用に関する漁業法、港湾区域での利用に関する港湾法、海洋汚染防止法等、海洋関連の様々な法令への配慮が必要です。",
       "reference": "教則3章 海洋調査での利用",
       "difficulty": "advanced",
       "image": null
@@ -2963,8 +2963,8 @@
         "学術研究であればすべての法的制限が除外される",
         "大学や研究機関での使用に特別な手続きは不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機を学術研究に利用する場合であっても、特定飛行を行う場合は航空法に基づく手続きが必要であり、加えて研究内容に応じて個人情報保護法、環境法、動物愛護法等、関連する様々な法令への配慮が必要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機を学術研究に利用する場合であっても、特定飛行を行う場合は航空法に基づく手続きが必要であり、加えて研究内容に応じて個人情報保護法、環境法、動物愛護法等、関連する様々な法令への配慮が必要です。",
       "reference": "教則3章 学術研究での利用",
       "difficulty": "intermediate",
       "image": null
@@ -2979,8 +2979,8 @@
         "人道支援ではすべての法的制限が除外される",
         "国内法のみを遵守していれば十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機を国際人道支援に利用する場合、各国の国内法に加えて、武力紛争時の人道的取り扱いに関する国際人道法、ジュネーブ条約等の国際条約、国連決議等、国際法との連携や人道的配慮が特に重要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機を国際人道支援に利用する場合、各国の国内法に加えて、武力紛争時の人道的取り扱いに関する国際人道法、ジュネーブ条約等の国際条約、国連決議等、国際法との連携や人道的配慮が特に重要です。",
       "reference": "教則3章 国際人道支援での利用",
       "difficulty": "advanced",
       "image": null
@@ -3011,8 +3011,8 @@
         "教育目的であればすべての法的制限が除外される",
         "学校での利用に特別な手続きは不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機を教育・訓練に利用する場合であっても、特定飛行を行う場合は航空法に基づく手続きが必要であり、加えて学校教育に関する学校教育法、未成年者の安全配慮、個人情報保護等、教育现場の特性に応じた様々な法令への配慮が必要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機を教育・訓練に利用する場合であっても、特定飛行を行う場合は航空法に基づく手続きが必要であり、加えて学校教育に関する学校教育法、未成年者の安全配慮、個人情報保護等、教育现場の特性に応じた様々な法令への配慮が必要です。",
       "reference": "教則3章 教育・訓練での利用",
       "difficulty": "intermediate",
       "image": null
@@ -3027,8 +3027,8 @@
         "技術革新の障害とならないよう法制度は最小限にすべき",
         "安全性のみを重視し、技術革新は二の次でよい"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の科学技術振興において法制度は、技術革新やイノベーションを促進しつつ、安全性の確保と社会的責任の履行を両立させるバランスのとれた枠組みを提供することが重要であり、このバランスが持続可能な発展につながります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機の科学技術振興において法制度は、技術革新やイノベーションを促進しつつ、安全性の確保と社会的責任の履行を両立させるバランスのとれた枠組みを提供することが重要であり、このバランスが持続可能な発展につながります。",
       "reference": "教則3章 科学技術振興と法制度",
       "difficulty": "advanced",
       "image": null
@@ -3059,8 +3059,8 @@
         "WHO（世界保健機関）が無人航空機の安全基準を策定",
         "IMF（国際通貨基金）が無人航空機の経済政策を管轄"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ICAO（国際民間航空機関）は、無人航空機を含む航空機の国際的な安全基準や勧告方式（SARPs）の策定を行っており、各国の法制度整備の基礎となっています。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b ICAO（国際民間航空機関）は、無人航空機を含む航空機の国際的な安全基準や勧告方式（SARPs）の策定を行っており、各国の法制度整備の基礎となっています。",
       "reference": "教則3章 国際機関の役割",
       "difficulty": "intermediate",
       "image": null
@@ -3075,8 +3075,8 @@
         "操縦者の技能レベルを証明する制度",
         "飛行計画の妥当性を証明する制度"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 技術基準適合証明（型式証明）は、無人航空機の機体設計・製造が国が定める安全基準に適合していることを証明する制度で、機体の安全性を担保する重要な制度です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 技術基準適合証明（型式証明）は、無人航空機の機体設計・製造が国が定める安全基準に適合していることを証明する制度で、機体の安全性を担保する重要な制度です。",
       "reference": "教則3章 技術基準適合証明",
       "difficulty": "intermediate",
       "image": null
@@ -3107,8 +3107,8 @@
         "責任は製造者のみが負う",
         "責任は国が全て負う"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の運航管理において、運航者（事業を行う者またはその委託を受けた者）は飛行の安全確保に関する包括的な責任を負い、適切な運航管理体制の構築と維持が法的に求められます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機の運航管理において、運航者（事業を行う者またはその委託を受けた者）は飛行の安全確保に関する包括的な責任を負い、適切な運航管理体制の構築と維持が法的に求められます。",
       "reference": "教則3章 運航管理責任",
       "difficulty": "advanced",
       "image": null
@@ -3123,8 +3123,8 @@
         "記録の保持義務はない",
         "年1回まとめて報告すればよい"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の運航者は、飛行ごとに飛行記録を作成し、法令で定められた期間（通常3年間）保存することが義務付けられており、事故調査や安全管理の基礎資料となります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機の運航者は、飛行ごとに飛行記録を作成し、法令で定められた期間（通常3年間）保存することが義務付けられており、事故調査や安全管理の基礎資料となります。",
       "reference": "教則3章 飛行記録保持義務",
       "difficulty": "intermediate",
       "image": null
@@ -3155,8 +3155,8 @@
         "事故後の対応策を重視する考え方",
         "保険による事後補償を重視する考え方"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 予防安全は、事故が発生する前に潜在的な危険要因を特定・除去し、システム的に安全性を事前に確保する考え方であり、現代の無人航空機法制度の基本理念となっています。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 予防安全は、事故が発生する前に潜在的な危険要因を特定・除去し、システム的に安全性を事前に確保する考え方であり、現代の無人航空機法制度の基本理念となっています。",
       "reference": "教則3章 予防安全の理念",
       "difficulty": "advanced",
       "image": null
@@ -3171,8 +3171,8 @@
         "一度制定した法制度は変更しない",
         "海外の制度をそのまま採用する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機分野は技術進歩が急速であり、社会での利用形態も多様化しているため、これらの変化に応じて法制度を適時見直し・改善していく継続的改善のアプローチが重要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 無人航空機分野は技術進歩が急速であり、社会での利用形態も多様化しているため、これらの変化に応じて法制度を適時見直し・改善していく継続的改善のアプローチが重要です。",
       "reference": "教則3章 法制度の継続的改善",
       "difficulty": "advanced",
       "image": null
@@ -3203,8 +3203,8 @@
         "単純に飛行を禁止・制限するための制度",
         "技術開発企業の利益のみを重視する制度"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の法制度は、飛行安全性の確保、技術革新の促進、社会受容性の向上を統合的に実現し、無人航空機の健全な発展と社会実装を支える体系的で包括的な制度として理解すべきです。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機の法制度は、飛行安全性の確保、技術革新の促進、社会受容性の向上を統合的に実現し、無人航空機の健全な発展と社会実装を支える体系的で包括的な制度として理解すべきです。",
       "reference": "教則3章 法制度の総合的理解",
       "difficulty": "advanced",
       "image": null

@@ -37,8 +37,8 @@
         "垂直離着陸が可能",
         "低速飛行が得意"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 飛行機型無人航空機は、固定翼による効率的な飛行により、マルチローター型と比べて長時間・長距離飛行に適しています。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 飛行機型無人航空機は、固定翼による効率的な飛行により、マルチローター型と比べて長時間・長距離飛行に適しています。",
       "reference": "教則4章 4.1.2 飛行機型の特徴",
       "difficulty": "basic",
       "image": null
@@ -54,8 +54,8 @@
         "最も安価",
         "操縦が最も簡単"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ヘリコプター型無人航空機は、メインローターとテールローターの構成により大型化が可能で、重量物の運搬に適しています。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c ヘリコプター型無人航空機は、メインローターとテールローターの構成により大型化が可能で、重量物の運搬に適しています。",
       "reference": "教則4章 4.1.3 ヘリコプター型の特徴",
       "difficulty": "basic",
       "image": null
@@ -88,8 +88,8 @@
         "自動操縦のみで飛行する方法",
         "補助者が目視確認する飛行方法"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 目視内飛行（VLOS: Visual Line of Sight）は、操縦者が肉眼で無人航空機を直接目視し、その位置、姿勢、周辺状況を確認しながら飛行する方法です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 目視内飛行（VLOS: Visual Line of Sight）は、操縦者が肉眼で無人航空機を直接目視し、その位置、姿勢、周辺状況を確認しながら飛行する方法です。",
       "reference": "教則4章 4.2.1 目視内飛行",
       "difficulty": "basic",
       "image": null
@@ -105,8 +105,8 @@
         "高度な操縦技能があれば実施可能",
         "カメラが搭載されていれば実施可能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 目視外飛行を安全に実施するには、補助者による監視、機体監視システム、又は飛行経路の安全確保などの追加的な安全措置が必要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 目視外飛行を安全に実施するには、補助者による監視、機体監視システム、又は飛行経路の安全確保などの追加的な安全措置が必要です。",
       "reference": "教則4章 4.2.2 目視外飛行",
       "difficulty": "intermediate",
       "image": null
@@ -139,8 +139,8 @@
         "重力に対する反作用",
         "プロペラの回転による吸引力"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 揚力は、翼の形状により上面と下面で気流速度に差が生じ、ベルヌーイの定理に基づく圧力差によって発生します。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 揚力は、翼の形状により上面と下面で気流速度に差が生じ、ベルヌーイの定理に基づく圧力差によって発生します。",
       "reference": "教則4章 4.3.1 揚力の原理",
       "difficulty": "intermediate",
       "image": null
@@ -156,8 +156,8 @@
         "機体を安定させる力",
         "機体を制動させる力"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 推力は、プロペラやジェットエンジンなどにより機体を前進方向に押し進める力です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 推力は、プロペラやジェットエンジンなどにより機体を前進方向に押し進める力です。",
       "reference": "教則4章 4.3.2 推力",
       "difficulty": "basic",
       "image": null
@@ -190,8 +190,8 @@
         "重量が軽ければ重心位置は関係ない",
         "重心は常に機体の中央にある"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 重心位置は機体の安定性、操縦性、飛行特性に大きく影響するため、適切な範囲内に維持することが重要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 重心位置は機体の安定性、操縦性、飛行特性に大きく影響するため、適切な範囲内に維持することが重要です。",
       "reference": "教則4章 4.3.4 重量と重心",
       "difficulty": "intermediate",
       "image": null
@@ -207,8 +207,8 @@
         "燃料が不足する状態",
         "通信が途絶える状態"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 失速は、迎え角が臨界迎え角を超えることで翼面の気流が剥離し、揚力が急激に減少する空力現象です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 失速は、迎え角が臨界迎え角を超えることで翼面の気流が剥離し、揚力が急激に減少する空力現象です。",
       "reference": "教則4章 4.3.5 失速",
       "difficulty": "intermediate",
       "image": null
@@ -241,8 +241,8 @@
         "燃料の重量",
         "操縦装置の重量"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ペイロードは、カメラ、センサー、運搬物など、任務遂行のために搭載する有用な荷重を指します。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b ペイロードは、カメラ、センサー、運搬物など、任務遂行のために搭載する有用な荷重を指します。",
       "reference": "教則4章 4.4.2 ペイロード",
       "difficulty": "basic",
       "image": null
@@ -258,8 +258,8 @@
         "1回の任務にかかる時間",
         "充電に必要な時間"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 航続時間は、満タンの燃料（バッテリー）で連続して飛行可能な最大時間を指します。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 航続時間は、満タンの燃料（バッテリー）で連続して飛行可能な最大時間を指します。",
       "reference": "教則4章 4.4.3 航続時間",
       "difficulty": "basic",
       "image": null
@@ -292,8 +292,8 @@
         "通信可能な最大高度",
         "目視可能な最大高度"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 実用上昇限度は、機体の性能上、実用的に飛行可能な最大高度であり、エンジン性能や空気密度の影響を受けます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 実用上昇限度は、機体の性能上、実用的に飛行可能な最大高度であり、エンジン性能や空気密度の影響を受けます。",
       "reference": "教則4章 4.4.5 実用上昇限度",
       "difficulty": "intermediate",
       "image": null
@@ -309,8 +309,8 @@
         "電子機器を収納するケース",
         "通信アンテナを固定する部品"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a フレームは機体の基本構造であり、すべての構成部品を支える骨格として機能し、飛行時の各種応力に耐える必要があります。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c フレームは機体の基本構造であり、すべての構成部品を支える骨格として機能し、飛行時の各種応力に耐える必要があります。",
       "reference": "教則4章 4.5.1 フレーム",
       "difficulty": "basic",
       "image": null
@@ -343,8 +343,8 @@
         "通信信号を送受信する",
         "位置情報を取得する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a モーターは電気エネルギー（バッテリーからの電力）を機械的な回転力に変換し、プロペラを駆動させます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b モーターは電気エネルギー（バッテリーからの電力）を機械的な回転力に変換し、プロペラを駆動させます。",
       "reference": "教則4章 4.5.3 モーター",
       "difficulty": "basic",
       "image": null
@@ -360,8 +360,8 @@
         "カメラの映像を送信する",
         "バッテリーの電圧を監視する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ESC（Electronic Speed Controller）は、フライトコントローラーからの制御信号を受けて、各モーターの回転数を精密に制御します。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c ESC（Electronic Speed Controller）は、フライトコントローラーからの制御信号を受けて、各モーターの回転数を精密に制御します。",
       "reference": "教則4章 4.5.4 ESC",
       "difficulty": "intermediate",
       "image": null
@@ -394,8 +394,8 @@
         "高度を測定する",
         "風速を測定する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ジャイロスコープは、機体のピッチ、ロール、ヨー軸周りの角速度を検出し、姿勢制御に重要な情報を提供します。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b ジャイロスコープは、機体のピッチ、ロール、ヨー軸周りの角速度を検出し、姿勢制御に重要な情報を提供します。",
       "reference": "教則4章 4.5.6 ジャイロスコープ",
       "difficulty": "intermediate",
       "image": null
@@ -411,8 +411,8 @@
         "磁方位を測定する",
         "気圧を測定する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 加速度センサーは、機体にかかる加速度と重力ベクトルを検出し、機体の傾きや移動状態の把握に使用されます。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 加速度センサーは、機体にかかる加速度と重力ベクトルを検出し、機体の傾きや移動状態の把握に使用されます。",
       "reference": "教則4章 4.5.7 加速度センサー",
       "difficulty": "intermediate",
       "image": null
@@ -445,8 +445,8 @@
         "温度を測定する",
         "湿度を測定する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 気圧センサーは大気圧の変化を測定することで、機体の高度情報を取得します。高度が上がると大気圧は下がります。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 気圧センサーは大気圧の変化を測定することで、機体の高度情報を取得します。高度が上がると大気圧は下がります。",
       "reference": "教則4章 4.5.9 気圧センサー",
       "difficulty": "basic",
       "image": null
@@ -462,8 +462,8 @@
         "通信を行う",
         "映像を撮影する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a GPSは複数の衛星からの信号を受信して機体の緯度、経度、高度を正確に特定し、自動飛行や位置保持に使用されます。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c GPSは複数の衛星からの信号を受信して機体の緯度、経度、高度を正確に特定し、自動飛行や位置保持に使用されます。",
       "reference": "教則4章 4.5.10 GPS",
       "difficulty": "basic",
       "image": null
@@ -496,8 +496,8 @@
         "電圧降下は性能に影響しない",
         "電圧は使用とともに上昇する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a バッテリーの使用に伴う電圧降下は、モーター出力の低下や制御性能の悪化を招くため、監視が重要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b バッテリーの使用に伴う電圧降下は、モーター出力の低下や制御性能の悪化を招くため、監視が重要です。",
       "reference": "教則4章 4.6.2 電圧降下",
       "difficulty": "intermediate",
       "image": null
@@ -513,8 +513,8 @@
         "通信信号を管理する",
         "映像品質を向上させる"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a BMSはバッテリーセルの電圧バランス、過充電・過放電防止、温度監視などを行い、バッテリーの安全使用を確保します。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c BMSはバッテリーセルの電圧バランス、過充電・過放電防止、温度監視などを行い、バッテリーの安全使用を確保します。",
       "reference": "教則4章 4.6.3 BMS",
       "difficulty": "intermediate",
       "image": null
@@ -547,8 +547,8 @@
         "GPS信号を受信する",
         "バッテリーを管理する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 受信機は送信機からの制御信号を受信し、フライトコントローラーが理解できる形式に変換して伝達します。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 受信機は送信機からの制御信号を受信し、フライトコントローラーが理解できる形式に変換して伝達します。",
       "reference": "教則4章 4.7.2 受信機",
       "difficulty": "basic",
       "image": null
@@ -564,8 +564,8 @@
         "自動飛行を行う機能",
         "障害物を回避する機能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a テレメトリ機能は、機体のバッテリー電圧、高度、速度、GPS情報などを送信機に送り返し、リアルタイムで監視できる機能です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c テレメトリ機能は、機体のバッテリー電圧、高度、速度、GPS情報などを送信機に送り返し、リアルタイムで監視できる機能です。",
       "reference": "教則4章 4.7.3 テレメトリ",
       "difficulty": "intermediate",
       "image": null
@@ -598,8 +598,8 @@
         "通信を強化する装置",
         "電力を供給する装置"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ジンバルは3軸（ピッチ、ロール、ヨー）でカメラを安定して保持し、機体の振動や動きに関係なく滑らかな映像撮影を可能にします。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b ジンバルは3軸（ピッチ、ロール、ヨー）でカメラを安定して保持し、機体の振動や動きに関係なく滑らかな映像撮影を可能にします。",
       "reference": "教則4章 4.8.1 ジンバル",
       "difficulty": "basic",
       "image": null
@@ -615,8 +615,8 @@
         "自動飛行を制御する",
         "バッテリー残量を表示する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a FPVシステムは機体に搭載されたカメラの映像を無線でリアルタイム送信し、操縦者がパイロット視点で飛行状況を確認できます。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c FPVシステムは機体に搭載されたカメラの映像を無線でリアルタイム送信し、操縦者がパイロット視点で飛行状況を確認できます。",
       "reference": "教則4章 4.8.2 FPVシステム",
       "difficulty": "basic",
       "image": null
@@ -649,8 +649,8 @@
         "カメラのピントを合わせる機能",
         "通信範囲を拡大する機能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a RTH機能は、GPS情報を基に記録された離陸地点（ホームポイント）に機体が自動的に帰還する安全機能です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b RTH機能は、GPS情報を基に記録された離陸地点（ホームポイント）に機体が自動的に帰還する安全機能です。",
       "reference": "教則4章 4.8.4 RTH機能",
       "difficulty": "basic",
       "image": null
@@ -666,8 +666,8 @@
         "外観に問題なければ整備は不要",
         "年1回の点検で十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 予防保全の観点から、飛行前後の日常点検と定期的なメンテナンスを実施することが、安全運航の基本です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 予防保全の観点から、飛行前後の日常点検と定期的なメンテナンスを実施することが、安全運航の基本です。",
       "reference": "教則4章 4.9.1 整備の基本",
       "difficulty": "basic",
       "image": null
@@ -700,8 +700,8 @@
         "重量のみ",
         "音の確認のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a プロペラ点検では、亀裂や変形の有無、取り付け状態の確認、回転バランスの確認が重要です。損傷があると振動や効率低下を招きます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b プロペラ点検では、亀裂や変形の有無、取り付け状態の確認、回転バランスの確認が重要です。損傷があると振動や効率低下を招きます。",
       "reference": "教則4章 4.9.3 プロペラ点検",
       "difficulty": "intermediate",
       "image": null
@@ -717,8 +717,8 @@
         "外観確認のみで十分",
         "重量確認のみで十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a バッテリー管理では、電圧レベル、温度、膨張や損傷の外観確認、充放電サイクル数の記録など、総合的な管理が必要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c バッテリー管理では、電圧レベル、温度、膨張や損傷の外観確認、充放電サイクル数の記録など、総合的な管理が必要です。",
       "reference": "教則4章 4.9.4 バッテリー管理",
       "difficulty": "intermediate",
       "image": null
@@ -751,8 +751,8 @@
         "記録は不要",
         "年間飛行時間のみ記録"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 機体の総飛行時間、整備・交換履歴、異常事象やトラブルの記録は、予防保全と安全運航のために重要な情報です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 機体の総飛行時間、整備・交換履歴、異常事象やトラブルの記録は、予防保全と安全運航のために重要な情報です。",
       "reference": "教則4章 4.9.6 記録管理",
       "difficulty": "basic",
       "image": null
@@ -768,8 +768,8 @@
         "音の確認のみ",
         "重量の確認のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a モーター点検では、異音の有無、異常な発熱、手回しによる回転のスムーズさ、軸受けの状態などを確認します。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c モーター点検では、異音の有無、異常な発熱、手回しによる回転のスムーズさ、軸受けの状態などを確認します。",
       "reference": "教則4章 4.9.7 モーター点検",
       "difficulty": "intermediate",
       "image": null
@@ -802,8 +802,8 @@
         "更新すると性能が低下する",
         "更新は危険なので避けるべき"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ファームウェアの更新により、機能改善、バグ修正、セキュリティ強化が図られるため、メーカーの推奨に従って定期的な更新が重要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b ファームウェアの更新により、機能改善、バグ修正、セキュリティ強化が図られるため、メーカーの推奨に従って定期的な更新が重要です。",
       "reference": "教則4章 4.9.9 ファームウェア更新",
       "difficulty": "basic",
       "image": null
@@ -819,8 +819,8 @@
         "部品管理は不要",
         "最安価な部品を使用する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 安全性と性能を確保するため、純正品または認定された部品を使用し、必要な交換部品の在庫管理を適切に行うことが重要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 安全性と性能を確保するため、純正品または認定された部品を使用し、必要な交換部品の在庫管理を適切に行うことが重要です。",
       "reference": "教則4章 4.9.10 部品管理",
       "difficulty": "basic",
       "image": null
@@ -853,8 +853,8 @@
         "有人航空機に置き換わる",
         "用途は限定的になる"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a AI技術、IoT、5G通信、センサー技術の進歩により、無人航空機の自律性向上と応用分野の拡大が期待されています。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b AI技術、IoT、5G通信、センサー技術の進歩により、無人航空機の自律性向上と応用分野の拡大が期待されています。",
       "reference": "教則4章 4.11 将来展望",
       "difficulty": "basic",
       "image": null

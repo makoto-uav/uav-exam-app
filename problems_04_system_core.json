@@ -35,8 +35,8 @@
         "ホバリングが得意",
         "垂直離着陸が可能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 飛行機型無人航空機は、固定翼による効率的な飛行により、マルチローター型と比べて長時間・長距離飛行に適しています。揚力を翼で得るため、エネルギー効率が良いのが特徴です。（出典：chapter04_page40_aircraft_systems.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 飛行機型無人航空機は、固定翼による効率的な飛行により、マルチローター型と比べて長時間・長距離飛行に適しています。揚力を翼で得るため、エネルギー効率が良いのが特徴です。（出典：chapter04_page40_aircraft_systems.png）",
       "reference": "教則4章 4.1.2 飛行機型の特徴",
       "difficulty": "basic",
       "image": null
@@ -51,8 +51,8 @@
         "構造が最も単純",
         "操縦が最も簡単"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ヘリコプター型無人航空機は、メインローターとテールローターの構成により大型化が可能で、重量物の運搬に適しています。単一の大型ローターにより強い揚力を得られます。（出典：chapter04_page41_aircraft_systems.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c ヘリコプター型無人航空機は、メインローターとテールローターの構成により大型化が可能で、重量物の運搬に適しています。単一の大型ローターにより強い揚力を得られます。（出典：chapter04_page41_aircraft_systems.png）",
       "reference": "教則4章 4.1.3 ヘリコプター型の特徴",
       "difficulty": "basic",
       "image": null
@@ -83,8 +83,8 @@
         "ガソリンエンジン",
         "ジェットエンジン"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 小型無人航空機では電動モーターが最も一般的です。構造が簡単で、メンテナンスが容易、騒音が少ない、精密な制御が可能などの利点があります。（出典：chapter04_page43_aircraft_systems.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 小型無人航空機では電動モーターが最も一般的です。構造が簡単で、メンテナンスが容易、騒音が少ない、精密な制御が可能などの利点があります。（出典：chapter04_page43_aircraft_systems.png）",
       "reference": "教則4章 4.2.1 推進システム",
       "difficulty": "basic",
       "image": null
@@ -99,8 +99,8 @@
         "常に満充電で保管する",
         "低温環境でのみ使用する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a LiPoバッテリーは、過充電・過放電・物理的損傷により発火や爆発の危険があるため、適切な充電器の使用、電圧管理、物理的保護が最も重要です。（出典：chapter04_page44_aircraft_systems.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c LiPoバッテリーは、過充電・過放電・物理的損傷により発火や爆発の危険があるため、適切な充電器の使用、電圧管理、物理的保護が最も重要です。（出典：chapter04_page44_aircraft_systems.png）",
       "reference": "教則4章 4.2.2 バッテリーシステム",
       "difficulty": "intermediate",
       "image": null
@@ -131,8 +131,8 @@
         "GPS受信機、カメラ、マイク",
         "温度計、湿度計、気圧計"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a IMUは、ジャイロスコープ（角速度）、加速度計（加速度）、磁気コンパス（方位）を組み合わせたセンサーで、機体の姿勢と動きを検出します。（出典：chapter04_page46_aircraft_systems.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b IMUは、ジャイロスコープ（角速度）、加速度計（加速度）、磁気コンパス（方位）を組み合わせたセンサーで、機体の姿勢と動きを検出します。（出典：chapter04_page46_aircraft_systems.png）",
       "reference": "教則4章 4.3.2 IMU",
       "difficulty": "intermediate",
       "image": null
@@ -147,8 +147,8 @@
         "機体の姿勢制御",
         "バッテリー残量の管理"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a GPSは、複数の衛星からの信号を受信して機体の位置情報（緯度・経度・高度）を取得し、自動飛行やホームポイントへの帰還等の基準となります。（出典：chapter04_page47_aircraft_systems.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c GPSは、複数の衛星からの信号を受信して機体の位置情報（緯度・経度・高度）を取得し、自動飛行やホームポイントへの帰還等の基準となります。（出典：chapter04_page47_aircraft_systems.png）",
       "reference": "教則4章 4.3.3 GPS",
       "difficulty": "basic",
       "image": null
@@ -179,8 +179,8 @@
         "機体の映像を録画・保存",
         "バッテリーを充電"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a プロポ（送信機）は、操縦者のスティック操作等を無線信号として機体に送信し、機体の動作を制御する装置です。機体との通信の起点となります。（出典：chapter04_page49_aircraft_systems.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b プロポ（送信機）は、操縦者のスティック操作等を無線信号として機体に送信し、機体の動作を制御する装置です。機体との通信の起点となります。（出典：chapter04_page49_aircraft_systems.png）",
       "reference": "教則4章 4.4.2 プロポ",
       "difficulty": "basic",
       "image": null
@@ -195,8 +195,8 @@
         "バッテリー残量を表示する機能",
         "映像を自動で編集する機能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a フェイルセーフ機能は、プロポとの通信が途絶した場合に、機体を自動的に安全な状態（ホームポイントへの帰還、着陸等）に移行させる重要な安全機能です。（出典：chapter04_page50_aircraft_systems.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c フェイルセーフ機能は、プロポとの通信が途絶した場合に、機体を自動的に安全な状態（ホームポイントへの帰還、着陸等）に移行させる重要な安全機能です。（出典：chapter04_page50_aircraft_systems.png）",
       "reference": "教則4章 4.4.3 フェイルセーフ",
       "difficulty": "intermediate",
       "image": null
@@ -227,8 +227,8 @@
         "温度センサー、湿度センサー、圧力センサー",
         "音響センサー、振動センサー、磁気センサー"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 障害物検知には、超音波センサー（音波の反射）、赤外線センサー（赤外線の反射）、ビジョンセンサー（画像解析）等が使用され、機体の安全飛行を支援します。（出典：chapter04_page52_aircraft_systems.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 障害物検知には、超音波センサー（音波の反射）、赤外線センサー（赤外線の反射）、ビジョンセンサー（画像解析）等が使用され、機体の安全飛行を支援します。（出典：chapter04_page52_aircraft_systems.png）",
       "reference": "教則4章 4.5.2 障害物検知",
       "difficulty": "intermediate",
       "image": null
@@ -243,8 +243,8 @@
         "障害物を自動的に回避する機能",
         "常に一定高度を維持する機能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ウェイポイント飛行は、地図上で事前に設定した複数の地点（ウェイポイント）を順番に自動飛行する機能で、測量や点検等の業務に活用されます。（出典：chapter04_page53_aircraft_systems.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c ウェイポイント飛行は、地図上で事前に設定した複数の地点（ウェイポイント）を順番に自動飛行する機能で、測量や点検等の業務に活用されます。（出典：chapter04_page53_aircraft_systems.png）",
       "reference": "教則4章 4.6.1 自動操縦機能",
       "difficulty": "basic",
       "image": null
@@ -275,8 +275,8 @@
         "機体の外観清掃のみ",
         "ソフトウェアのアップデートのみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 安全な飛行のためには、毎回の飛行前点検と定期的な詳細点検が最も重要です。機械的な異常やバッテリー状態、ソフトウェアの状態等を総合的に確認する必要があります。（出典：chapter04_page55_aircraft_systems.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 安全な飛行のためには、毎回の飛行前点検と定期的な詳細点検が最も重要です。機械的な異常やバッテリー状態、ソフトウェアの状態等を総合的に確認する必要があります。（出典：chapter04_page55_aircraft_systems.png）",
       "reference": "教則4章 4.7.1 メンテナンス",
       "difficulty": "basic",
       "image": null
@@ -291,8 +291,8 @@
         "色の変化のみ",
         "重量の測定のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a プロペラは高速回転するため、亀裂、欠け、変形があると破損や機体の墜落につながる危険があります。また、バランスの悪化は振動の原因となるため、これらの点検が最重要です。（出典：chapter04_page56_aircraft_systems.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c プロペラは高速回転するため、亀裂、欠け、変形があると破損や機体の墜落につながる危険があります。また、バランスの悪化は振動の原因となるため、これらの点検が最重要です。（出典：chapter04_page56_aircraft_systems.png）",
       "reference": "教則4章 4.7.2 プロペラ点検",
       "difficulty": "intermediate",
       "image": null
@@ -323,8 +323,8 @@
         "一度設定すれば変更不要",
         "性能が低下するため実施しない"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ファームウェアアップデートは、安全性の向上、バグ修正、新機能の追加等を目的として製造者から提供されるため、定期的に実施することで機体の性能と安全性を維持できます。（出典：chapter04_page58_aircraft_systems.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b ファームウェアアップデートは、安全性の向上、バグ修正、新機能の追加等を目的として製造者から提供されるため、定期的に実施することで機体の性能と安全性を維持できます。（出典：chapter04_page58_aircraft_systems.png）",
       "reference": "教則4章 4.7.4 ファームウェア管理",
       "difficulty": "basic",
       "image": null
@@ -339,8 +339,8 @@
         "飛行速度が向上する",
         "バッテリー消費が減少する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a プロペラの動的バランスが悪いと、高速回転時に振動が発生し、機体の飛行性能低下、機体の疲労損傷、操縦性の悪化等の悪影響を与えます。（出典：chapter04_page56_aircraft_systems.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c プロペラの動的バランスが悪いと、高速回転時に振動が発生し、機体の飛行性能低下、機体の疲労損傷、操縦性の悪化等の悪影響を与えます。（出典：chapter04_page56_aircraft_systems.png）",
       "reference": "教則4章 4.7.2 プロペラ点検",
       "difficulty": "intermediate",
       "image": null
@@ -371,8 +371,8 @@
         "高速モード、低速モード、停止モード",
         "明るさモード、暗さモード、自動モード"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 一般的なフライトモードには、マニュアルモード（手動操縦）、アティチュードモード（姿勢安定）、GPSモード（位置保持）等があり、飛行状況や操縦者の技能に応じて選択します。（出典：chapter04_page45_aircraft_systems.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 一般的なフライトモードには、マニュアルモード（手動操縦）、アティチュードモード（姿勢安定）、GPSモード（位置保持）等があり、飛行状況や操縦者の技能に応じて選択します。（出典：chapter04_page45_aircraft_systems.png）",
       "reference": "教則4章 4.3.1 フライトコントローラー",
       "difficulty": "basic",
       "image": null
@@ -387,8 +387,8 @@
         "バッテリーの重量を調整すること",
         "バッテリーの温度を一定に保つこと"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a セルバランスは、バッテリーパック内の各セルの電圧を均等に保つことで、バッテリーの性能を最大化し、安全性を維持し、寿命を延ばす重要な機能です。（出典：chapter04_page44_aircraft_systems.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c セルバランスは、バッテリーパック内の各セルの電圧を均等に保つことで、バッテリーの性能を最大化し、安全性を維持し、寿命を延ばす重要な機能です。（出典：chapter04_page44_aircraft_systems.png）",
       "reference": "教則4章 4.2.2 バッテリーシステム",
       "difficulty": "intermediate",
       "image": null
@@ -419,8 +419,8 @@
         "機体の飛行速度を測定",
         "機体の方位を測定"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 加速度計は、機体にかかる加速度を検出し、重力加速度や動的加速度を測定します。この情報は機体の傾きや動きを把握するために使用されます。（出典：chapter04_page46_aircraft_systems.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 加速度計は、機体にかかる加速度を検出し、重力加速度や動的加速度を測定します。この情報は機体の傾きや動きを把握するために使用されます。（出典：chapter04_page46_aircraft_systems.png）",
       "reference": "教則4章 4.3.2 IMU",
       "difficulty": "basic",
       "image": null
@@ -435,8 +435,8 @@
         "機体の高度を測定",
         "機体の速度を測定"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a コンパス（磁気コンパス）は、地球の磁場を検出して機体の方位（方角）を測定します。この情報は自動操縦や目標方向への飛行に不可欠です。（出典：chapter04_page46_aircraft_systems.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c コンパス（磁気コンパス）は、地球の磁場を検出して機体の方位（方角）を測定します。この情報は自動操縦や目標方向への飛行に不可欠です。（出典：chapter04_page46_aircraft_systems.png）",
       "reference": "教則4章 4.3.2 IMU",
       "difficulty": "basic",
       "image": null
@@ -467,8 +467,8 @@
         "2.4GHz帯のみが使用可能",
         "どちらも同じ性能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 2.4GHz帯は伝搬距離が長く障害物を回り込みやすい特性があり制御信号に適し、5.8GHz帯は帯域幅が幅で高データレートの通信が可能で映像传送に適しています。（出典：chapter04_page48_aircraft_systems.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 2.4GHz帯は伝搬距離が長く障害物を回り込みやすい特性があり制御信号に適し、5.8GHz帯は帯域幅が幅で高データレートの通信が可能で映像传送に適しています。（出典：chapter04_page48_aircraft_systems.png）",
       "reference": "教則4章 4.4.1 通信システム",
       "difficulty": "intermediate",
       "image": null
@@ -483,8 +483,8 @@
         "バッテリー電圧のみ",
         "モーター温度のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a テレメトリーデータには、バッテリー電圧、GPS位置情報、飛行モード、機体姿勢、高度、速度、方位等、飛行状態を把握するための各種情報が含まれます。（出典：chapter04_page48_aircraft_systems.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c テレメトリーデータには、バッテリー電圧、GPS位置情報、飛行モード、機体姿勢、高度、速度、方位等、飛行状態を把握するための各種情報が含まれます。（出典：chapter04_page48_aircraft_systems.png）",
       "reference": "教則4章 4.4.1 通信システム",
       "difficulty": "basic",
       "image": null
@@ -515,8 +515,8 @@
         "アップデート中でも飛行可能",
         "電源を一度切って再起動が必要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ファームウェアアップデート中は、電源を切らない、通信を途絶させない、機体を操作しないことが重要です。これらを違反するとアップデートが失敗し、機体が使用不能になる可能性があります。（出典：chapter04_page58_aircraft_systems.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b ファームウェアアップデート中は、電源を切らない、通信を途絶させない、機体を操作しないことが重要です。これらを違反するとアップデートが失敗し、機体が使用不能になる可能性があります。（出典：chapter04_page58_aircraft_systems.png）",
       "reference": "教則4章 4.7.4 ファームウェア管理",
       "difficulty": "intermediate",
       "image": null
@@ -531,8 +531,8 @@
         "金属製よりも重い",
         "柔軟性が高く曲がりやすい"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a カーボンファイバー製プロペラは軽量で強度が高い特徴がありますが、衝撃に弱く欠けやクラックが発生しやすいため、取り扱いや点検に注意が必要です。破損時は突然破壊する特性があります。（出典：chapter04_page56_aircraft_systems.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c カーボンファイバー製プロペラは軽量で強度が高い特徴がありますが、衝撃に弱く欠けやクラックが発生しやすいため、取り扱いや点検に注意が必要です。破損時は突然破壊する特性があります。（出典：chapter04_page56_aircraft_systems.png）",
       "reference": "教則4章 4.7.2 プロペラ点検",
       "difficulty": "intermediate",
       "image": null
@@ -563,8 +563,8 @@
         "手動モードのみ使用可能",
         "どちらも同じ機能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 手動モードでは操縦者がカメラの向きや角度を直接制御し、自動モード（スタビライズモード）では機体の姿勢変化をジンバルが自動的に補正してカメラを安定させます。（出典：chapter04_page51_aircraft_systems.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 手動モードでは操縦者がカメラの向きや角度を直接制御し、自動モード（スタビライズモード）では機体の姿勢変化をジンバルが自動的に補正してカメラを安定させます。（出典：chapter04_page51_aircraft_systems.png）",
       "reference": "教則4章 4.5.1 ジンバル",
       "difficulty": "basic",
       "image": null
@@ -579,8 +579,8 @@
         "音波の反射を利用",
         "磁気の変化を検知"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ビジョンセンサーは、カメラで撮影した画像をコンピューターで解析し、障害物の形状、大きさ、距離等を識別します。高度な画像処理技術とAIを組み合わせたシステムです。（出典：chapter04_page52_aircraft_systems.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c ビジョンセンサーは、カメラで撮影した画像をコンピューターで解析し、障害物の形状、大きさ、距離等を識別します。高度な画像処理技術とAIを組み合わせたシステムです。（出典：chapter04_page52_aircraft_systems.png）",
       "reference": "教則4章 4.5.2 障害物検知",
       "difficulty": "intermediate",
       "image": null
@@ -611,8 +611,8 @@
         "どこでも設定可能",
         "飛行中でも変更可能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ホームポイントは、GPS信号が十分に受信でき、機体が安全に着陸できる平坦で障害物のない場所に設定する必要があります。緊急帰還時の安全性に直結します。（出典：chapter04_page54_aircraft_systems.png）",
+      "correctAnswer": 1,
+      "explanation": "（正答）b ホームポイントは、GPS信号が十分に受信でき、機体が安全に着陸できる平坦で障害物のない場所に設定する必要があります。緊急帰還時の安全性に直結します。（出典：chapter04_page54_aircraft_systems.png）",
       "reference": "教則4章 4.6.2 RTH機能",
       "difficulty": "basic",
       "image": null
@@ -627,8 +627,8 @@
         "口頭での報告のみで十分",
         "故障時のみ記録すれば十分"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a メンテナンス記録は、点検日時、点検内容、発見した異常の有無、交換した部品、作業者等を詳細に記録し保存することで、機体の状態を把握し適切な整備計画を立てることができます。（出典：chapter04_page55_aircraft_systems.png）",
+      "correctAnswer": 2,
+      "explanation": "（正答）c メンテナンス記録は、点検日時、点検内容、発見した異常の有無、交換した部品、作業者等を詳細に記録し保存することで、機体の状態を把握し適切な整備計画を立てることができます。（出典：chapter04_page55_aircraft_systems.png）",
       "reference": "教則4章 4.7.1 メンテナンス",
       "difficulty": "basic",
       "image": null
@@ -659,8 +659,8 @@
         "全てのローターが同じ方向に回転する",
         "前後のローターのみ同じ方向に回転する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a マルチローターでは、隣接するローターを逆方向に回転させることで、各ローターが発生する反トルクを相殺し、機体の安定性を保っています。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b マルチローターでは、隣接するローターを逆方向に回転させることで、各ローターが発生する反トルクを相殺し、機体の安定性を保っています。",
       "reference": "教則4章 マルチローターシステム",
       "difficulty": "intermediate",
       "image": null
@@ -675,8 +675,8 @@
         "カーボンファイバー",
         "プラスチック（ABS樹脂）"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 鉛は重量が重く、ローターブレードの材質としては不適切です。軽量で強度の高いカーボンファイバーやプラスチックが一般的に使用されます。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 鉛は重量が重く、ローターブレードの材質としては不適切です。軽量で強度の高いカーボンファイバーやプラスチックが一般的に使用されます。",
       "reference": "教則4章 ローターシステム",
       "difficulty": "basic",
       "image": null
@@ -707,8 +707,8 @@
         "ブラシ付きモーターより安価",
         "制御が簡単で電子回路が不要"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ブラシレスモーターは、ブラシがないためメンテナンスが少なく、摩擦損失が小さいため効率が高く、機械的な摩耗部品がないため寿命が長いという特徴があります。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b ブラシレスモーターは、ブラシがないためメンテナンスが少なく、摩擦損失が小さいため効率が高く、機械的な摩耗部品がないため寿命が長いという特徴があります。",
       "reference": "教則4章 推進システム",
       "difficulty": "intermediate",
       "image": null
@@ -723,8 +723,8 @@
         "常温で保管すること",
         "専用充電器を使用すること"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a LiPoバッテリーは過充電や物理的な損傷により発火や爆発の危険があります。適切な充電器の使用と物理的保護が重要です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c LiPoバッテリーは過充電や物理的な損傷により発火や爆発の危険があります。適切な充電器の使用と物理的保護が重要です。",
       "reference": "教則4章 電源システム",
       "difficulty": "basic",
       "image": null
@@ -755,8 +755,8 @@
         "GPS受信機、温度センサー、気圧センサー",
         "カメラ、マイク、スピーカー"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a IMUは、慣性計測装置としてジャイロスコープ（角速度検知）、加速度センサー（加速度検知）、地磁気センサー（方位検知）を組み合わせたセンサーユニットです。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b IMUは、慣性計測装置としてジャイロスコープ（角速度検知）、加速度センサー（加速度検知）、地磁気センサー（方位検知）を組み合わせたセンサーユニットです。",
       "reference": "教則4章 センサーシステム",
       "difficulty": "intermediate",
       "image": null
@@ -771,8 +771,8 @@
         "機体の絶対位置を測定し、ナビゲーションを行う",
         "大気圧を測定して高度を算出する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ジャイロスコープは、機体の3軸回りの角速度（ピッチ、ロール、ヨー）を検知し、姿勢制御システムが機体の安定性を維持するために必要な情報を提供します。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c ジャイロスコープは、機体の3軸回りの角速度（ピッチ、ロール、ヨー）を検知し、姿勢制御システムが機体の安定性を維持するために必要な情報を提供します。",
       "reference": "教則4章 姿勢センサー",
       "difficulty": "intermediate",
       "image": null
@@ -803,8 +803,8 @@
         "機体の高度を測定する",
         "機体の速度を測定する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 地磁気センサーは、地球の磁界を基準として機体の方位（ヨー角、方位角）を測定し、ナビゲーションや方位保持に必要な情報を提供します。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 地磁気センサーは、地球の磁界を基準として機体の方位（ヨー角、方位角）を測定し、ナビゲーションや方位保持に必要な情報を提供します。",
       "reference": "教則4章 方位センサー",
       "difficulty": "intermediate",
       "image": null
@@ -819,8 +819,8 @@
         "機体の色と形状のみ",
         "バッテリーの残量のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a GPSの精度には、衛星の空中配置、大気中の電離層の影響、建物や地形によるマルチパス（反射波の影響）など、様々な環境要因が影響します。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c GPSの精度には、衛星の空中配置、大気中の電離層の影響、建物や地形によるマルチパス（反射波の影響）など、様々な環境要因が影響します。",
       "reference": "教則4章 GPSシステム",
       "difficulty": "intermediate",
       "image": null
@@ -851,8 +851,8 @@
         "機体の方位を測定する",
         "バッテリーの残量を測定する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 超音波センサーは、超音波の反射を利用して地上からの正確な高度（寸法）を測定し、特に着陸時の精密な高度制御や安全な着陸のために使用されます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 超音波センサーは、超音波の反射を利用して地上からの正確な高度（寸法）を測定し、特に着陸時の精密な高度制御や安全な着陸のために使用されます。",
       "reference": "教則4章 近接センサー",
       "difficulty": "intermediate",
       "image": null
@@ -867,8 +867,8 @@
         "カメラの映像を記録する",
         "バッテリーを充電する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a フライトコントローラーは、IMU、GPS、気圧センサーなど各種センサーからの情報を統合し、機体の姿勢制御や飛行制御をリアルタイムで実行する中枢装置です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c フライトコントローラーは、IMU、GPS、気圧センサーなど各種センサーからの情報を統合し、機体の姿勢制御や飛行制御をリアルタイムで実行する中枢装置です。",
       "reference": "教則4章 飛行制御システム",
       "difficulty": "intermediate",
       "image": null
@@ -899,8 +899,8 @@
         "バッテリーの充電状態を監視する",
         "モーターの回転数を制御する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a カルマンフィルタは、GPS、IMU、気圧センサーなど複数のセンサーからの情報を最適に統合し、ノイズや誤差を減らして、精度の高い機体の状態推定を行うアルゴリズムです。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b カルマンフィルタは、GPS、IMU、気圧センサーなど複数のセンサーからの情報を最適に統合し、ノイズや誤差を減らして、精度の高い機体の状態推定を行うアルゴリズムです。",
       "reference": "教則4章 センサーフュージョン",
       "difficulty": "advanced",
       "image": null
@@ -915,8 +915,8 @@
         "X、Y、Z座標",
         "緊度、緯度、高度"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 機体の姿勢はオイラー角で表現され、ピッチ（機首の上下、前後の傾き）、ロール（機体の左右の傾き）、ヨー（機首の左右方向、方位角）の3軸で構成されます。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 機体の姿勢はオイラー角で表現され、ピッチ（機首の上下、前後の傾き）、ロール（機体の左右の傾き）、ヨー（機首の左右方向、方位角）の3軸で構成されます。",
       "reference": "教則4章 機体姿勢制御",
       "difficulty": "intermediate",
       "image": null
@@ -947,8 +947,8 @@
         "全てのローターの回転数を上げる",
         "一部のローターを停止する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a マルチローターのヨー制御は、時計回りと反時計回りのローターグループの回転数に差をつけることで、反トルクのバランスを崩して機体を方向転換させます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b マルチローターのヨー制御は、時計回りと反時計回りのローターグループの回転数に差をつけることで、反トルクのバランスを崩して機体を方向転換させます。",
       "reference": "教則4章 ヨー制御メカニズム",
       "difficulty": "advanced",
       "image": null
@@ -963,8 +963,8 @@
         "機体の高度を制御する",
         "バッテリーの消費を減らす"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ジンバルシステムは、機体の振動や僾き、突然の動きを機械的または電子的に補正し、カメラやセンサーの姿勢を安定化させ、高品質な映像やデータ収集を可能にします。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c ジンバルシステムは、機体の振動や僾き、突然の動きを機械的または電子的に補正し、カメラやセンサーの姿勢を安定化させ、高品質な映像やデータ収集を可能にします。",
       "reference": "教則4章 ジンバルシステム",
       "difficulty": "intermediate",
       "image": null
@@ -995,8 +995,8 @@
         "ファイルサイズが小さくなる",
         "バッテリーの消費が減る"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 高画素カメラは、高解像度で詳細な情報を収集でき、後の拡大処理や細かい解析作業において、高品質な結果を得ることができます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 高画素カメラは、高解像度で詳細な情報を収集でき、後の拡大処理や細かい解析作業において、高品質な結果を得ることができます。",
       "reference": "教則4章 カメラシステム",
       "difficulty": "basic",
       "image": null
@@ -1011,8 +1011,8 @@
         "機体の温度を測定する",
         "機体の速度を制御する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ライダー（LiDAR）システムは、レーザー光を放射し、その反射光を測定することで、物体までの距離や形状、地形を高精度に測定するセンサーです。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c ライダー（LiDAR）システムは、レーザー光を放射し、その反射光を測定することで、物体までの距離や形状、地形を高精度に測定するセンサーです。",
       "reference": "教則4章 LiDARシステム",
       "difficulty": "intermediate",
       "image": null
@@ -1043,8 +1043,8 @@
         "AMラジオの周波数帯",
         "FMラジオの周波数帯"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 無人航空機の無線通信には、一般的に2.4GHz帯や5.8GHz帯などの特定小電力無線局用の周波数帯が使用され、適切な免許や登録の下で運用されます。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 無人航空機の無線通信には、一般的に2.4GHz帯や5.8GHz帯などの特定小電力無線局用の周波数帯が使用され、適切な免許や登録の下で運用されます。",
       "reference": "教則4章 無線周波数管理",
       "difficulty": "intermediate",
       "image": null
@@ -1059,8 +1059,8 @@
         "飛行速度を向上させる",
         "バッテリーの充電時間を短縮する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a フェイルセーフシステムは、システムの故障や異常が発生した際に、機体を安全な状態に移行させ、自動的に緊急着陸やホームリターンを実行して安全性を確保します。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c フェイルセーフシステムは、システムの故障や異常が発生した際に、機体を安全な状態に移行させ、自動的に緊急着陸やホームリターンを実行して安全性を確保します。",
       "reference": "教則4章 フェイルセーフシステム",
       "difficulty": "intermediate",
       "image": null
@@ -1091,8 +1091,8 @@
         "機体の速度を自動調整する",
         "カメラのズーム機能を制御する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a ジオフェンシング機能は、GPS情報を使って事前に設定した仮想的な境界線を作成し、機体がその範囲を超えた場合に自動的に安全地帯に引き戻す機能です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b ジオフェンシング機能は、GPS情報を使って事前に設定した仮想的な境界線を作成し、機体がその範囲を超えた場合に自動的に安全地帯に引き戻す機能です。",
       "reference": "教則4章 ジオフェンシング機能",
       "difficulty": "intermediate",
       "image": null
@@ -1107,8 +1107,8 @@
         "電力の供給のみ",
         "機械的な支持構造のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a フライトコントローラーのCPUは、各種センサーからのデータを処理し、姿勢制御や飛行制御のアルゴリズムを実行し、モーターやESCへの制御信号を生成する中枢的な役割を担います。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c フライトコントローラーのCPUは、各種センサーからのデータを処理し、姿勢制御や飛行制御のアルゴリズムを実行し、モーターやESCへの制御信号を生成する中枢的な役割を担います。",
       "reference": "教則4章 フライトコントローラーの概要",
       "difficulty": "intermediate",
       "image": null
@@ -1139,8 +1139,8 @@
         "バッテリーを充電する",
         "モーターの回転数を制御する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a OSDは、リアルタイムで機体の状態情報（高度、速度、バッテリー残量、GPS信号など）や飛行データをカメラ映像に重ねて表示するシステムです。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b OSDは、リアルタイムで機体の状態情報（高度、速度、バッテリー残量、GPS信号など）や飛行データをカメラ映像に重ねて表示するシステムです。",
       "reference": "教則4章 OSDシステム",
       "difficulty": "basic",
       "image": null
@@ -1155,8 +1155,8 @@
         "完全自動飛行モード",
         "高度のみ自動制御するモード"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a Stabilizeモードは、機体の姿勢（ピッチ、ロール）を自動的に安定化するが、位置や高度の保持は行わない手動飛行モードです。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c Stabilizeモードは、機体の姿勢（ピッチ、ロール）を自動的に安定化するが、位置や高度の保持は行わない手動飛行モードです。",
       "reference": "教則4章 フライトモード",
       "difficulty": "intermediate",
       "image": null
@@ -1187,8 +1187,8 @@
         "高度のみ保持するモード",
         "姿勢のみ安定化するモード"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a Loiterモードは、GPS情報と気圧センサーを使用して、機体の3次元位置（緯度、経度、高度）を自動的に保持するモードです。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b Loiterモードは、GPS情報と気圧センサーを使用して、機体の3次元位置（緯度、経度、高度）を自動的に保持するモードです。",
       "reference": "教則4章 位置保持モード",
       "difficulty": "intermediate",
       "image": null
@@ -1203,8 +1203,8 @@
         "一方向の制御信号のみ送信するシステム",
         "機械的な動作のみを制御するシステム"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a フィードバック制御システムは、センサーからの情報を継続的にモニタリングし、目標値との誤差を検知して修正する、無人航空機の安定飛行に不可欠な制御システムです。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c フィードバック制御システムは、センサーからの情報を継続的にモニタリングし、目標値との誤差を検知して修正する、無人航空機の安定飛行に不可欠な制御システムです。",
       "reference": "教則4章 フィードバック制御",
       "difficulty": "advanced",
       "image": null
@@ -1235,8 +1235,8 @@
         "システムを小型化するための設計",
         "システムのコストを削減するための設計"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 余剰性設計は、主要なシステムが故障した場合でも、バックアップシステムや代替機能が動作することで、飛行の安全性を確保する重要な設計思想です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 余剰性設計は、主要なシステムが故障した場合でも、バックアップシステムや代替機能が動作することで、飛行の安全性を確保する重要な設計思想です。",
       "reference": "教則4章 余剰性設計",
       "difficulty": "advanced",
       "image": null
@@ -1251,8 +1251,8 @@
         "機体の外観を美しく保つ",
         "バッテリーの充電時間を短縮する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a システム診断機能は、各サブシステムの状態を常時監視し、異常や故障の兆候を早期発見し、パイロットへの警告や予防保全機能の作動を行います。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c システム診断機能は、各サブシステムの状態を常時監視し、異常や故障の兆候を早期発見し、パイロットへの警告や予防保全機能の作動を行います。",
       "reference": "教則4章 システム診断",
       "difficulty": "intermediate",
       "image": null
@@ -1283,8 +1283,8 @@
         "機体の外観清掃のみ",
         "バッテリーの充電のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a システムメンテナンスでは、定期的な点検と予防保全により故障を未然に防止し、常に安全な飛行状態を維持することが最も重要です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b システムメンテナンスでは、定期的な点検と予防保全により故障を未然に防止し、常に安全な飛行状態を維持することが最も重要です。",
       "reference": "教則4章 システムメンテナンス",
       "difficulty": "basic",
       "image": null
@@ -1299,8 +1299,8 @@
         "システムの重量が増加する",
         "製造コストが大幅に上昇する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a モジュラー設計は、各部品やサブシステムを独立したモジュールとして設計することで、部品交換、アップグレード、メンテナンス作業が容易になり、システムの柔軟性と拡張性が向上します。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c モジュラー設計は、各部品やサブシステムを独立したモジュールとして設計することで、部品交換、アップグレード、メンテナンス作業が容易になり、システムの柔軟性と拡張性が向上します。",
       "reference": "教則4章 モジュラー設計",
       "difficulty": "intermediate",
       "image": null
@@ -1331,8 +1331,8 @@
         "システムの重量を増加させること",
         "システムを小型化することのみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a スケーラビリティは、システムが小型から大型まで、または異なる用途やミッション要求に応じて、柔軟に適応や拡張が可能な設計特性です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b スケーラビリティは、システムが小型から大型まで、または異なる用途やミッション要求に応じて、柔軟に適応や拡張が可能な設計特性です。",
       "reference": "教則4章 システム拡張性",
       "difficulty": "advanced",
       "image": null
@@ -1347,8 +1347,8 @@
         "システムの処理速度を遅くすること",
         "システムの電力消費を減らすこと"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a リアルタイム性は、システムが入力やイベントに対して、決められた時間制約内に必要な処理を完了し、適切な応答を行う能力であり、飛行制御に不可欠な特性です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c リアルタイム性は、システムが入力やイベントに対して、決められた時間制約内に必要な処理を完了し、適切な応答を行う能力であり、飛行制御に不可欠な特性です。",
       "reference": "教則4章 リアルタイムシステム",
       "difficulty": "advanced",
       "image": null
@@ -1379,8 +1379,8 @@
         "システムの処理速度を向上させる",
         "システムのコストを削減する"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a セキュリティ要件は、無人航空機システムを不正アクセス、サイバー攻撃、悪意ある乾渉から保護し、飛行データやシステム情報の機密性と完全性を保持することです。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b セキュリティ要件は、無人航空機システムを不正アクセス、サイバー攻撃、悪意ある乾渉から保護し、飛行データやシステム情報の機密性と完全性を保持することです。",
       "reference": "教則4章 システムセキュリティ",
       "difficulty": "advanced",
       "image": null
@@ -1395,8 +1395,8 @@
         "同じメーカーの製品のみで構成する設計",
         "システムのサイズを小型化する設計"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 相互運用性は、異なるメーカーやシステム間でも、標準化されたインターフェースやプロトコルを通じて適切に連携し、データ交換や協調動作が可能な設計特性です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 相互運用性は、異なるメーカーやシステム間でも、標準化されたインターフェースやプロトコルを通じて適切に連携し、データ交換や協調動作が可能な設計特性です。",
       "reference": "教則4章 システム相互運用性",
       "difficulty": "advanced",
       "image": null
@@ -1427,8 +1427,8 @@
         "システムの外観を美しく保つ設計",
         "システムの重量を増加させる設計"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 保守性は、システムの点検、修理、アップグレード作業が容易で効率的に実行でき、メンテナンスに要する時間、コスト、人的資源を最小限に抑制できる設計特性です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b 保守性は、システムの点検、修理、アップグレード作業が容易で効率的に実行でき、メンテナンスに要する時間、コスト、人的資源を最小限に抑制できる設計特性です。",
       "reference": "教則4章 システム保守性",
       "difficulty": "advanced",
       "image": null
@@ -1443,8 +1443,8 @@
         "システムの重量を軽くすることのみ",
         "システムの外観をコンパクトにすることのみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a 可搬性は、システムやソフトウェアが異なるハードウェアプラットフォーム、オペレーティングシステム、または異なる機体タイプでも適切に動作する能力を意味します。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c 可搬性は、システムやソフトウェアが異なるハードウェアプラットフォーム、オペレーティングシステム、または異なる機体タイプでも適切に動作する能力を意味します。",
       "reference": "教則4章 システム可搬性",
       "difficulty": "advanced",
       "image": null
@@ -1475,8 +1475,8 @@
         "システムの外観を美しくする設計",
         "システムの重量を増加させる設計"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a テスタビリティは、システムの機能や性能、安全性を体系的かつ網羅的に検証でき、欠陥やバグ、予期せぬ動作を効率的に発見・修正できる設計特性です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b テスタビリティは、システムの機能や性能、安全性を体系的かつ網羅的に検証でき、欠陥やバグ、予期せぬ動作を効率的に発見・修正できる設計特性です。",
       "reference": "教則4章 システムテスタビリティ",
       "difficulty": "advanced",
       "image": null
@@ -1491,8 +1491,8 @@
         "個々の部品の外観検査のみ",
         "バッテリーの充電時間の測定のみ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a システム統合テストは、各サブシステム（推進、制御、センサー、通信など）が連携して動作し、全体システムとして期待される性能を発揮できるかを検証する重要なテストです。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c システム統合テストは、各サブシステム（推進、制御、センサー、通信など）が連携して動作し、全体システムとして期待される性能を発揮できるかを検証する重要なテストです。",
       "reference": "教則4章 システム統合テスト",
       "difficulty": "advanced",
       "image": null
@@ -1523,8 +1523,8 @@
         "システムの外観のみを最適化するアプローチ",
         "システムのコストのみを最適化するアプローチ"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a パフォーマンス最適化は、システムの効率性、応答性、精度、リソース利用率、エネルギー消費などの複数の性能指標をバランスよく総合的に最適化するアプローチです。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b パフォーマンス最適化は、システムの効率性、応答性、精度、リソース利用率、エネルギー消費などの複数の性能指標をバランスよく総合的に最適化するアプローチです。",
       "reference": "教則4章 システムパフォーマンス最適化",
       "difficulty": "advanced",
       "image": null
@@ -1539,8 +1539,8 @@
         "エラーを無視して動作を継続する機能",
         "エラー発生時にシステムを即座停止する機能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a エラーハンドリングは、システムの異常やエラーを適切に検知・分類し、安全な回復処理や代替動作、緊急停止などの適切な対応を自動的に実行する重要な機能です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c エラーハンドリングは、システムの異常やエラーを適切に検知・分類し、安全な回復処理や代替動作、緊急停止などの適切な対応を自動的に実行する重要な機能です。",
       "reference": "教則4章 エラーハンドリング",
       "difficulty": "intermediate",
       "image": null
@@ -1571,8 +1571,8 @@
         "機体の物理的な修理を遠隔で行う機能",
         "バッテリーを遠隔で交換する機能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a リモートアップデート機能は、無線通信を通じて遠隔からフライトコントローラーのファームウェアやアプリケーションソフトウェアの更新、機能改善、バグ修正を安全に実行できる機能です。",
+      "correctAnswer": 1,
+      "explanation": "（正答）b リモートアップデート機能は、無線通信を通じて遠隔からフライトコントローラーのファームウェアやアプリケーションソフトウェアの更新、機能改善、バグ修正を安全に実行できる機能です。",
       "reference": "教則4章 リモートアップデート",
       "difficulty": "intermediate",
       "image": null
@@ -1587,8 +1587,8 @@
         "データを完全に削除する機能",
         "システムの動作を停止する機能"
       ],
-      "correctAnswer": 0,
-      "explanation": "（正答）a バックアップと復旧機能は、飛行データ、ミッション設定、システム設定などの重要な情報を定期的にバックアップし、システム障害やデータ消失時に迅速に復旧できる機能です。",
+      "correctAnswer": 2,
+      "explanation": "（正答）c バックアップと復旧機能は、飛行データ、ミッション設定、システム設定などの重要な情報を定期的にバックアップし、システム障害やデータ消失時に迅速に復旧できる機能です。",
       "reference": "教則4章 バックアップと復旧",
       "difficulty": "intermediate",
       "image": null
