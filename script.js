@@ -192,8 +192,7 @@ async function loadMistakes(userId) {
         console.error('❌ 苦手問題データ読み込みエラー:', error);
         userMistakes = [];
         
-        // ネットワークエラーでもアプリは継続
-        showNotification('ネットワーク接続を確認してください。オフラインモードで開始します。', 'warning');
+        // ローカルアプリのため、エラーがあっても継続（メッセージなし）
     }
 }
 
@@ -228,7 +227,7 @@ async function saveMistakes() {
         
     } catch (error) {
         console.error('❌ 苦手問題データ保存エラー:', error);
-        showNotification('データ保存に失敗しました。ネットワーク接続を確認してください。', 'error');
+        // ローカルアプリのため、エラーがあっても継続（メッセージなし）
     }
 }
 
